@@ -1,53 +1,64 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Inicializar el formulario al cargar la página
-    inicializarFormulario();
+    // Aquí puedes realizar acciones iniciales, como cargar opciones dinámicamente si es necesario.
 });
 
-function inicializarFormulario() {
-    // Aquí podrías hacer una solicitud al servidor para obtener las opciones disponibles
-    // y luego dinámicamente llenar las opciones de los selectores de cultivo y país.
-    // Por ahora, las opciones ya están definidas en el HTML.
-}
-
+// Función para simular la búsqueda de datos basada en los filtros seleccionados por el usuario.
 function buscarDatos() {
-    // Aquí deberías realizar una solicitud al servidor para obtener los datos filtrados.
-    // Como no podemos hacer eso directamente, simularemos la carga de datos.
-    
-    console.log("Buscando datos...");
-    
-    // Simular la obtención de datos
-    setTimeout(function() {
-        // Simula la respuesta del servidor
-        const datosFicticios = [
-            { id: 1, cultivo: 'Frijol', país: 'Colombia', comentario: '', fechaConsulta: obtenerFechaHoraActual() },
-            // Agrega más objetos según necesites para simular los datos
-        ];
+    const cultivoSeleccionado = document.getElementById('crop').value;
+    const paisSeleccionado = document.getElementById('pais').value;
+    const usuarioSeleccionado = document.getElementById('usuario').value;
 
-        mostrarResultados(datosFicticios);
-    }, 1000); // Retraso ficticio de 1 segundo
+    // Simula mostrar la fecha y hora de consulta
+    const contenedorFechaHora = document.getElementById('fechaHora');
+    contenedorFechaHora.innerHTML = 'Fecha y Hora de Consulta: ' + obtenerFechaHoraActual();
+
+    // Aquí asumiremos que tienes un endpoint en tu backend que puede acceder a los datos.
+    // Como no podemos realizar peticiones reales a un servidor sin detalles específicos, este es un ejemplo conceptual.
+    // Reemplaza '/api/buscar' con tu endpoint real.
+    const url = `/api/buscar?cultivo=${encodeURIComponent(cultivoSeleccionado)}&pais=${encodeURIComponent(paisSeleccionado)}`;
+
+    fetch(url)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Respuesta de red no fue ok.');
+            }
+            return response.json();
+        })
+        .then(datos => {
+            mostrarResultados(datos, usuarioSeleccionado);
+        })
+        .catch(error => {
+            console.error('Error al realizar la petición:', error);
+        });
 }
 
-function obtenerFechaHoraActual() {
-    const ahora = new Date();
-    return ahora.toLocaleString(); // Formato de fecha y hora local
-}
-
-function mostrarResultados(datos) {
+// Función para mostrar los resultados obtenidos del servidor
+function mostrarResultados(datos, usuario) {
     const contenedorResultados = document.getElementById('resultados');
     contenedorResultados.innerHTML = ''; // Limpiar resultados anteriores
 
-    // Crear y agregar los elementos HTML para mostrar los datos
     datos.forEach(dato => {
         const elemento = document.createElement('div');
         elemento.classList.add('resultado');
         elemento.innerHTML = `
-            <p>Cultivo: ${dato.cultivo}, País: ${dato.país}</p>
-            <p>Fecha y Hora de Consulta: ${dato.fechaConsulta}</p>
-            <textarea rows="4" cols="50">${dato.comentario}</textarea>
+            <p>Usuario: ${usuario}</p>
+            <p>ID: ${dato.id}, Cultivo: ${dato.cultivo}, País: ${dato.pais}</p>
+            <img src="${dato.urlImagen}" alt="Imagen del Cultivo" style="width: 100px; height: auto;">
+            <p>Fecha y Hora de Consulta: ${obtenerFechaHoraActual()}</p>
+            <textarea rows="4" cols="50">${dato.comentario || ''}</textarea>
         `;
         contenedorResultados.appendChild(elemento);
     });
 }
 
-// Función para ser llamada cuando se haga clic en el botón de buscar
-document.querySelector('button').addEventListener('click', buscarDatos);
+// Función para obtener la fecha y hora actual en formato local
+function obtenerFechaHoraActual() {
+    const ahora = new Date();
+    return ahora.toLocaleString();
+}
+
+// Agregar el listener al botón de buscar para iniciar la búsqueda cuando se haga clic
+document.querySelector('button').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevenir la recarga de la página
+    buscarDatos();
+});
