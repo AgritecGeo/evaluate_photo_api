@@ -2,38 +2,45 @@ document.addEventListener('DOMContentLoaded', function() {
     cargarImagenesDesdeCSV();
 });
 
-// Función para cargar y mostrar imágenes desde datos CSV
+// URL del archivo CSV en GitHub
+const csvURL = 'https://raw.githubusercontent.com/agritecgeo/evaluate_photo_api/main/tabla_documentacion.csv';
+
+// Función para cargar y procesar el archivo CSV
 function cargarImagenesDesdeCSV() {
-    fetch('https://filedn.com/lRAMUKU4tN3HUnQqI5npg4H/Plantix/tabla_documentacion.csv')
+    fetch(csvURL)
         .then(response => response.text())
         .then(csvText => {
-            const imagenes = parseCSV(csvText);
-            window.imagenes = imagenes; // Hacer global para uso en filtrarImagenes
-            mostrarImagenes(imagenes);
+            // Procesar el contenido del CSV
+            procesarCSV(csvText);
         })
-        .catch(err => console.error('Error al cargar y parsear el CSV:', err));
+        .catch(error => {
+            console.error('Error al cargar el archivo CSV:', error);
+        });
 }
 
-// Función para parsear texto CSV y convertirlo a objetos de JavaScript
-function parseCSV(csvText) {
-    const lines = csvText.trim().split('\n');
-    const headers = lines.shift().split(',');
+// Función para procesar el contenido del CSV
+function procesarCSV(csvText) {
+    const lineas = csvText.trim().split('\n');
+    const cabeceras = lineas.shift().split(',');
 
-    return lines.map(line => {
-        const data = line.split(',');
-        return headers.reduce((obj, nextKey, index) => {
-            obj[nextKey] = data[index];
+    const datos = lineas.map(linea => {
+        const campos = linea.split(',');
+        return cabeceras.reduce((obj, clave, index) => {
+            obj[clave] = campos[index];
             return obj;
         }, {});
     });
+
+    // Mostrar las imágenes en la página
+    mostrarImagenes(datos);
 }
 
-// Función para mostrar imágenes en la página
-function mostrarImagenes(data) {
+// Función para mostrar las imágenes en la página
+function mostrarImagenes(datos) {
     const imgContainer = document.getElementById('img-container');
-    imgContainer.innerHTML = ''; // Limpia el contenedor antes de añadir nuevas imágenes
+    imgContainer.innerHTML = '';
 
-    data.forEach(imagen => {
+    datos.forEach(imagen => {
         const imgDiv = document.createElement('div');
         imgDiv.classList.add('img-box');
         imgDiv.innerHTML = `
