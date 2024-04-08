@@ -8,6 +8,7 @@ function cargarImagenesDesdeCSV() {
         .then(response => response.text())
         .then(csvText => {
             const imagenes = parseCSV(csvText);
+            window.imagenes = imagenes; // Hacer global para uso en filtrarImagenes
             mostrarImagenes(imagenes);
         })
         .catch(err => console.error('Error al cargar y parsear el CSV:', err));
@@ -43,8 +44,10 @@ function mostrarImagenes(data) {
     });
 }
 
+// Añade evento de clic al botón "Filtrar"
 document.getElementById('accion').addEventListener('click', filtrarImagenes);
 
+// Añade evento de clic al botón "Guardar"
 document.getElementById('guardar').addEventListener('click', function() {
     const comentarios = [];
     document.querySelectorAll('.img-box').forEach(box => {
@@ -56,9 +59,26 @@ document.getElementById('guardar').addEventListener('click', function() {
         if (comentario) {
             comentarios.push({nombreImagen, fecha, usuario, comentario});
         }
+    });
+
+    // Simula enviar los comentarios al "servidor"
+    console.log("Comentarios para guardar:", comentarios);
+    alert('Comentarios preparados para guardar (revisa la consola)');
+
+    // Refresca la página
+    location.reload();
 });
 
+// Función para filtrar imágenes basado en selecciones de país o cultivo
 function filtrarImagenes() {
-    // Implementa la lógica de filtrado basado en los valores seleccionados para país o cultivo
-    // Esta función necesitaría ajustarse para trabajar con los datos actuales del CSV y las selecciones del usuario
+    const paisSeleccionado = document.getElementById('pais').value;
+    const cultivoSeleccionado = document.getElementById('cultivo').value; // Asegúrate de que este ID esté presente en tu HTML.
+
+    const imagenesFiltradas = window.imagenes.filter(imagen => {
+        const filtraPorPais = paisSeleccionado === 'default' || imagen.pais === paisSeleccionado;
+        const filtraPorCultivo = cultivoSeleccionado === 'default' || imagen.cultivo === cultivoSeleccionado;
+        return filtraPorPais && filtraPorCultivo;
+    });
+
+    mostrarImagenes(imagenesFiltradas);
 }
