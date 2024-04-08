@@ -2,66 +2,43 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visualizador de Cultivos</title>
-    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Visualizador de Evaluación de Cultivos</h1>
-    <br>
-    <div id="usuarioSeleccion">
-        <label for="usuario">Usuario:</label>
-        <select id="usuario">
-            <option value="usuario1">Usuario 1</option>
-            <option value="usuario2">Usuario 2</option>
-            <option value="usuario3">Usuario 3</option>
-        </select>
+    <div class="container">
+        <h1>Visualizador de Cultivos</h1>
+        <div>
+            <label for="usuario">Usuario:</label>
+            <select id="usuario">
+                <option value="Juan Carlos Toledo">Juan Carlos Toledo</option>
+                <option value="Ovidio del Cid">Ovidio del Cid</option>
+                <option value="Juan Pablo García">Juan Pablo García</option>
+            </select>
+
+            <label for="pais">País:</label>
+            <select id="pais">
+                <option value="default">Seleccione un País</option>
+                <option value="Colombia">Colombia</option>
+                <option value="CostaRica">Costa Rica</option>
+                <option value="ElSalvador">El Salvador</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Honduras">Honduras</option>
+                <option value="Nicaragua">Nicaragua</option>
+                <option value="Panama">Panamá</option>
+            </select>
+
+            <button id="accion">Filtrar</button>
+        </div>
+
+        <div id="img-container" class="img-container">
+            <!-- Las imágenes se cargarán aquí dinámicamente -->
+        </div>
+
+        <button id="guardar" style="display: none;">Guardar</button>
     </div>
 
-    <div id="selector">
-        <label for="crop">Cultivo:</label>
-        <select id="crop" name="cropSelect">
-            <option value="default">Seleccione un Cultivo</option>
-            <option value="bean">Frijol</option>
-            <option value="carrot">Zanahoria</option>
-            <option value="cabbage">Repollo</option>
-            <option value="cauliflower">Coliflor</option>
-            <option value="cucumber">Pepino</option>
-            <option value="eggplant">Berenjena</option>
-            <option value="pepper">Pimiento</option>
-            <option value="onion">Cebolla</option>
-            <option value="potato">Papa</option>
-            <option value="sweetpotato">Camote</option>
-            <option value="tomato">Tomate</option>
-            <option value="zucchini">Zucchini</option>
-            <option value="coffee">Café</option>
-            <option value="maize">Maíz</option>
-            <option value="rice">Arroz</option>
-        </select>
-        
-        <label for="pais">País:</label>
-        <select id="pais">
-            <option value="default">Seleccione un País</option>
-            <option value="Colombia">Colombia</option>
-            <option value="CostaRica">Costa Rica</option>
-            <option value="ElSalvador">El Salvador</option>
-            <option value="Guatemala">Guatemala</option>
-            <option value="Honduras">Honduras</option>
-            <option value="Nicaragua">Nicaragua</option>
-            <option value="Panama">Panamá</option>
-        </select>
-        
-        <button onclick="buscarDatos()">Buscar</button>
-    </div>
-    
-    <div id="fechaHora">
-        <!-- La fecha y hora se mostrarán aquí -->
-    </div>
-    
-    <div id="resultados">
-        <!-- Los resultados se cargarán aquí -->
-    </div>
-    
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
