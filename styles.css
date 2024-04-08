@@ -33,6 +33,12 @@ select, button {
     border: 1px solid #ddd;
     background-color: #fafafa;
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave para el fondo */
+}
+
+select:focus, button:focus, textarea:focus {
+    outline: none;
+    border-color: #007bff;
 }
 
 button {
@@ -76,6 +82,7 @@ textarea {
     border: 1px solid #ddd;
     resize: vertical;
     margin-top: 10px;
+    transition: border-color 0.3s ease; /* Transición suave para el borde */
 }
 
 /* Responsive Design */
