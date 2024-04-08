@@ -15,11 +15,12 @@ function cargarImagenesDesdeCSV() {
 
 function parseCSV(csvText) {
     const lines = csvText.trim().split('\n');
-    const headers = lines.shift().split(',');
+    const headers = lines.shift().split(',').map(header => header.trim()); // Asegura que los encabezados estén limpios
     return lines.map(line => {
         const data = line.split(',');
         return headers.reduce((obj, nextKey, index) => {
-            obj[nextKey] = data[index].trim();
+            // Solo usa trim si el valor no es undefined
+            obj[nextKey] = data[index] ? data[index].trim() : '';
             return obj;
         }, {});
     });
@@ -33,7 +34,7 @@ function mostrarImagenes(data) {
         if (imagen.nombre && imagen.cultivo) { // Asegura que el nombre y cultivo existan
             const imgDiv = document.createElement('div');
             imgDiv.classList.add('img-box');
-            
+
             const imageURL = `https://filedn.com/lRAMUKU4tN3HUnQqI5npg4H/Plantix/Imagenes/${encodeURIComponent(imagen.nombre)}`;
             imgDiv.innerHTML = `
                 <a href="${imageURL}" target="_blank">Ver imagen de ${imagen.cultivo}</a>
@@ -61,7 +62,7 @@ document.getElementById('guardar').addEventListener('click', function() {
 
     console.log("Comentarios para guardar:", comentarios);
     alert('Comentarios preparados para guardar (revisa la consola)');
-    // Aquí podrías implementar una función para enviar estos datos a un servidor o API
+    // En un caso real, aquí podrías enviar estos datos a un servidor o API.
 });
 
 function filtrarImagenes() {
