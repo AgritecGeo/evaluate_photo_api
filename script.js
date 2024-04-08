@@ -2,12 +2,14 @@ document.addEventListener('DOMContentLoaded', function() {
     cargarImagenesDesdeCSV();
 });
 
+window.imagenes = []; // Inicialización inicial para asegurar que es un array
+
 function cargarImagenesDesdeCSV() {
     fetch('https://raw.githubusercontent.com/agritecgeo/evaluate_photo_api/main/tabla_documentacion.csv')
         .then(response => response.text())
         .then(csvText => {
             const imagenes = parseCSV(csvText);
-            window.imagenes = imagenes; // Hacer global para uso en filtrarImagenes
+            window.imagenes = imagenes; // Actualiza el array global con los datos parseados
             mostrarImagenes(imagenes);
         })
         .catch(err => console.error('Error al cargar y parsear el CSV:', err));
@@ -15,12 +17,11 @@ function cargarImagenesDesdeCSV() {
 
 function parseCSV(csvText) {
     const lines = csvText.trim().split('\n');
-    const headers = lines.shift().split(',').map(header => header.trim()); // Asegura que los encabezados estén limpios
+    const headers = lines.shift().split(',').map(header => header.trim());
     return lines.map(line => {
-        const data = line.split(',');
-        return headers.reduce((obj, nextKey, index) => {
-            // Solo usa trim si el valor no es undefined
-            obj[nextKey] = data[index] ? data[index].trim() : '';
+        const data = line.split(',').map(cell => cell.trim()); // Asegura que cada celda se trim() antes de procesar
+        return headers.reduce((obj, header, index) => {
+            obj[header] = data[index] || ''; // Asigna una cadena vacía si el dato es undefined
             return obj;
         }, {});
     });
@@ -62,10 +63,15 @@ document.getElementById('guardar').addEventListener('click', function() {
 
     console.log("Comentarios para guardar:", comentarios);
     alert('Comentarios preparados para guardar (revisa la consola)');
-    // En un caso real, aquí podrías enviar estos datos a un servidor o API.
+    // Aquí se podría implementar la lógica para enviar estos datos a un servidor o API.
 });
 
 function filtrarImagenes() {
+    if (!Array.isArray(window.imagenes) || window.imagenes.length === 0) {
+        console.error('Intento de filtrar antes de que las imágenes estén cargadas');
+        return; // Salir de la función si imagenes no está listo o es vacío
+    }
+
     const paisSeleccionado = document.getElementById('pais').value;
     const cultivoSeleccionado = document.getElementById('cultivo').value;
 
