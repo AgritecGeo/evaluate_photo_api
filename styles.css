@@ -6,75 +6,80 @@ body {
     background-color: #f0f0f0;
 }
 
-/* Contenedor centrado para el contenido */
 .container {
-    max-width: 1200px;
-    margin: auto;
+    max-width: 800px;
+    margin: 0 auto;
     background-color: #fff;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* Estilo para los menús desplegables y botones */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Estilos para formularios y botones */
+label {
+    margin-right: 10px;
+}
+
 select, button {
-    padding: 10px;
     margin-top: 10px;
     margin-right: 10px;
-    border: 1px solid #ddd;
+    padding: 10px;
     border-radius: 4px;
-    font-size: 16px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    cursor: pointer;
 }
 
 button {
     background-color: #007bff;
     color: white;
-    cursor: pointer;
+    border: none;
 }
 
 button:hover {
     background-color: #0056b3;
 }
 
-/* Estilo para las imágenes */
+/* Contenedor para las imágenes y estilos de las cajas de imagen */
 .img-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
     margin-top: 20px;
 }
 
 .img-box {
-    width: calc(33.333% - 20px);
+    width: calc(50% - 10px);
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 4px;
     background-color: #f9f9f9;
+    text-align: center;
 }
 
 .img-box img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    border-radius: 4px;
+    margin-bottom: 10px;
 }
 
-/* Estilo para las casillas de texto */
 textarea {
     width: 100%;
-    margin-top: 10px;
     padding: 10px;
-    border: 1px solid #ddd;
     border-radius: 4px;
+    border: 1px solid #ddd;
     resize: vertical;
+    margin-top: 10px;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .img-box {
-        width: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 480px) {
     .img-box {
         width: 100%;
     }
