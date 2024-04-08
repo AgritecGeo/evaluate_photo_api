@@ -2,90 +2,43 @@ document.addEventListener('DOMContentLoaded', function() {
     cargarImagenesDesdeCSV();
 });
 
-// URL del archivo CSV en GitHub
-const csvURL = 'https://raw.githubusercontent.com/agritecgeo/evaluate_photo_api/main/tabla_documentacion.csv';
-
-// Función para cargar y procesar el archivo CSV
+// Función para cargar y mostrar imágenes desde datos CSV
 function cargarImagenesDesdeCSV() {
-    fetch(csvURL)
+    fetch('tabla_documentacion.csv')
         .then(response => response.text())
         .then(csvText => {
-            // Procesar el contenido del CSV
-            procesarCSV(csvText);
+            const imagenes = parseCSV(csvText);
+            mostrarImagenes(imagenes);
         })
-        .catch(error => {
-            console.error('Error al cargar el archivo CSV:', error);
-        });
+        .catch(err => console.error('Error al cargar y parsear el CSV:', err));
 }
 
-// Función para procesar el contenido del CSV
-function procesarCSV(csvText) {
-    const lineas = csvText.trim().split('\n');
-    const cabeceras = lineas.shift().split(',');
+// Función para parsear texto CSV y convertirlo a objetos de JavaScript
+function parseCSV(csvText) {
+    const lines = csvText.trim().split('\n');
+    const headers = lines.shift().split(',');
 
-    const datos = lineas.map(linea => {
-        const campos = linea.split(',');
-        return cabeceras.reduce((obj, clave, index) => {
-            obj[clave] = campos[index];
+    return lines.map(line => {
+        const data = line.split(',');
+        return headers.reduce((obj, nextKey, index) => {
+            obj[nextKey] = data[index];
             return obj;
         }, {});
     });
-
-    // Mostrar las imágenes en la página
-    mostrarImagenes(datos);
 }
 
-// Función para mostrar las imágenes en la página
-function mostrarImagenes(datos) {
+// Función para mostrar imágenes en la página
+function mostrarImagenes(data) {
     const imgContainer = document.getElementById('img-container');
-    imgContainer.innerHTML = '';
+    imgContainer.innerHTML = ''; // Limpia el contenedor antes de añadir nuevas imágenes
 
-    datos.forEach(imagen => {
+    data.forEach(imagen => {
         const imgDiv = document.createElement('div');
         imgDiv.classList.add('img-box');
         imgDiv.innerHTML = `
-            <img src="https://filedn.com/lRAMUKU4tN3HUnQqI5npg4H/Plantix/Imagenes/${imagen['nombre']}" alt="${imagen['cultivo']}" class="image">
+            <img src="https://filedn.com/lRAMUKU4tN3HUnQqI5npg4H/Plantix/Imagenes/imagen_${imagen['ID_1707337378022']}.png" alt="${imagen['cultivo']}" class="image">
             <textarea placeholder="Añade un comentario..."></textarea>
         `;
         imgContainer.appendChild(imgDiv);
     });
-}
-
-// Añade evento de clic al botón "Filtrar"
-document.getElementById('accion').addEventListener('click', filtrarImagenes);
-
-// Añade evento de clic al botón "Guardar"
-document.getElementById('guardar').addEventListener('click', function() {
-    const comentarios = [];
-    document.querySelectorAll('.img-box').forEach(box => {
-        const nombreImagen = box.querySelector('img').src.split('/').pop();
-        const comentario = box.querySelector('textarea').value;
-        const usuario = document.getElementById('usuario').value;
-        const fecha = new Date().toISOString();
-
-        if (comentario) {
-            comentarios.push({nombreImagen, fecha, usuario, comentario});
-        }
-    });
-
-    // Simula enviar los comentarios al "servidor"
-    console.log("Comentarios para guardar:", comentarios);
-    alert('Comentarios preparados para guardar (revisa la consola)');
-
-    // Refresca la página
-    location.reload();
-});
-
-// Función para filtrar imágenes basado en selecciones de país o cultivo
-function filtrarImagenes() {
-    const paisSeleccionado = document.getElementById('pais').value;
-    const cultivoSeleccionado = document.getElementById('cultivo').value; // Asegúrate de que este ID esté presente en tu HTML.
-
-    const imagenesFiltradas = window.imagenes.filter(imagen => {
-        const filtraPorPais = paisSeleccionado === 'default' || imagen.pais === paisSeleccionado;
-        const filtraPorCultivo = cultivoSeleccionado === 'default' || imagen.cultivo === cultivoSeleccionado;
-        return filtraPorPais && filtraPorCultivo;
-    });
-
-    mostrarImagenes(imagenesFiltradas);
 }
