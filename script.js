@@ -1,64 +1,52 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Aquí puedes realizar acciones iniciales, como cargar opciones dinámicamente si es necesario.
+    cargarImagenes();
 });
 
-// Función para simular la búsqueda de datos basada en los filtros seleccionados por el usuario.
-function buscarDatos() {
-    const cultivoSeleccionado = document.getElementById('crop').value;
-    const paisSeleccionado = document.getElementById('pais').value;
-    const usuarioSeleccionado = document.getElementById('usuario').value;
+function cargarImagenes() {
+    const urlCSV = 'https://filedn.com/lRAMUKU4tN3HUnQqI5npg4H/Plantix/tabla_documentacion.csv';
 
-    // Simula mostrar la fecha y hora de consulta
-    const contenedorFechaHora = document.getElementById('fechaHora');
-    contenedorFechaHora.innerHTML = 'Fecha y Hora de Consulta: ' + obtenerFechaHoraActual();
-
-    // Aquí asumiremos que tienes un endpoint en tu backend que puede acceder a los datos.
-    // Como no podemos realizar peticiones reales a un servidor sin detalles específicos, este es un ejemplo conceptual.
-    // Reemplaza '/api/buscar' con tu endpoint real.
-    const url = `/api/buscar?cultivo=${encodeURIComponent(cultivoSeleccionado)}&pais=${encodeURIComponent(paisSeleccionado)}`;
-
-    fetch(url)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Respuesta de red no fue ok.');
-            }
-            return response.json();
+    fetch(urlCSV)
+        .then(response => response.text())
+        .then(data => {
+            const imagenes = procesarCSV(data);
+            mostrarImagenes(imagenes);
         })
-        .then(datos => {
-            mostrarResultados(datos, usuarioSeleccionado);
-        })
-        .catch(error => {
-            console.error('Error al realizar la petición:', error);
-        });
+        .catch(error => console.error('Error al cargar el archivo CSV:', error));
 }
 
-// Función para mostrar los resultados obtenidos del servidor
-function mostrarResultados(datos, usuario) {
-    const contenedorResultados = document.getElementById('resultados');
-    contenedorResultados.innerHTML = ''; // Limpiar resultados anteriores
+function procesarCSV(dataCSV) {
+    const lineas = dataCSV.split('\n').slice(1); // Excluye el encabezado del CSV
+    return lineas.map(linea => {
+        const [id, cultivo, nombreImagen] = linea.split(',');
+        return { id, cultivo, nombreImagen: nombreImagen.trim() };
+    }).filter(imagen => imagen.nombreImagen); // Filtra líneas vacías
+}
 
-    datos.forEach(dato => {
-        const elemento = document.createElement('div');
-        elemento.classList.add('resultado');
-        elemento.innerHTML = `
-            <p>Usuario: ${usuario}</p>
-            <p>ID: ${dato.id}, Cultivo: ${dato.cultivo}, País: ${dato.pais}</p>
-            <img src="${dato.urlImagen}" alt="Imagen del Cultivo" style="width: 100px; height: auto;">
-            <p>Fecha y Hora de Consulta: ${obtenerFechaHoraActual()}</p>
-            <textarea rows="4" cols="50">${dato.comentario || ''}</textarea>
+function mostrarImagenes(imagenes) {
+    const contenedor = document.getElementById('resultados');
+    contenedor.innerHTML = ''; // Limpiar resultados anteriores
+
+    imagenes.forEach(imagen => {
+        const elementoImagen = document.createElement('div');
+        elementoImagen.setAttribute('data-id', imagen.id);
+        elementoImagen.innerHTML = `
+            <img src="https://filedn.com/lRAMUKU4tN3HUnQqI5npg4H/Plantix/Imagenes/${imagen.nombreImagen}" alt="${imagen.cultivo}">
+            <textarea rows="4" cols="50" placeholder="Añade un comentario..."></textarea>
+            <button onclick="guardarComentario('${imagen.id}', '${imagen.nombreImagen}')">Guardar Comentario</button>
         `;
-        contenedorResultados.appendChild(elemento);
+        contenedor.appendChild(elementoImagen);
     });
 }
 
-// Función para obtener la fecha y hora actual en formato local
-function obtenerFechaHoraActual() {
-    const ahora = new Date();
-    return ahora.toLocaleString();
-}
+function guardarComentario(idImagen, nombreImagen) {
+    const contenedorImagen = document.querySelector(`div[data-id="${idImagen}"]`);
+    const comentario = contenedorImagen.querySelector('textarea').value;
+    const fecha = new Date().toISOString();
 
-// Agregar el listener al botón de buscar para iniciar la búsqueda cuando se haga clic
-document.querySelector('button').addEventListener('click', function(event) {
-    event.preventDefault(); // Prevenir la recarga de la página
-    buscarDatos();
-});
+    // Aquí se debería implementar la lógica para enviar el comentario a tu servidor,
+    // incluyendo el ID de la imagen, el nombre de la imagen, y el comentario.
+    console.log(`Datos a guardar: ID: ${idImagen}, Nombre de la imagen: ${nombreImagen}, Comentario: ${comentario}, Fecha: ${fecha}`);
+
+    // Simulación: Mostrar un mensaje de éxito
+    alert('Comentario guardado (simulado). En una implementación real, este comentario se enviaría a tu servidor para su procesamiento.');
+}
