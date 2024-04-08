@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     cargarImagenesDesdeCSV();
 });
 
-// Función para cargar y mostrar imágenes desde datos CSV
+// Función para cargar y mostrar imágenes (como enlaces) desde datos CSV
 function cargarImagenesDesdeCSV() {
     fetch('https://raw.githubusercontent.com/agritecgeo/evaluate_photo_api/main/tabla_documentacion.csv')
         .then(response => response.text())
@@ -21,26 +21,25 @@ function parseCSV(csvText) {
     return lines.map(line => {
         const data = line.split(',');
         return headers.reduce((obj, nextKey, index) => {
-            obj[nextKey] = data[index];
+            obj[nextKey] = data[index].trim();
             return obj;
         }, {});
     });
 }
 
-// Función para mostrar imágenes en la página
+// Función para mostrar enlaces a imágenes en la página
 function mostrarImagenes(data) {
     const imgContainer = document.getElementById('img-container');
-    imgContainer.innerHTML = ''; // Limpia el contenedor antes de añadir nuevas imágenes
+    imgContainer.innerHTML = ''; // Limpia el contenedor antes de añadir nuevos elementos
 
     data.forEach(imagen => {
         if (imagen.nombre && imagen.cultivo) { // Asegura que el nombre y cultivo existan
             const imgDiv = document.createElement('div');
             imgDiv.classList.add('img-box');
 
-            // Ajuste de URL para compatibilidad con la estructura de directorios de imágenes
-            const imageURL = `https://filedn.com/lRAMUKU4tN3HUnQqI5npg4H/Plantix/Imagenes/${encodeURIComponent(imagen.nombre.trim())}`;
+            const imageURL = `https://filedn.com/lRAMUKU4tN3HUnQqI5npg4H/Plantix/Imagenes/${encodeURIComponent(imagen.nombre)}`;
             imgDiv.innerHTML = `
-                <img src="${imageURL}" alt="Imagen de ${imagen.cultivo}" class="image">
+                <a href="${imageURL}" target="_blank">Ver imagen de ${imagen.cultivo}</a>
                 <textarea placeholder="Añade un comentario..."></textarea>
             `;
             imgContainer.appendChild(imgDiv);
@@ -55,13 +54,13 @@ document.getElementById('accion').addEventListener('click', filtrarImagenes);
 document.getElementById('guardar').addEventListener('click', function() {
     const comentarios = [];
     document.querySelectorAll('.img-box').forEach(box => {
-        const nombreImagen = box.querySelector('img').src.split('/').pop();
+        const enlaceImagen = box.querySelector('a').href;
         const comentario = box.querySelector('textarea').value.trim();
         const usuario = document.getElementById('usuario').value.trim();
         const fecha = new Date().toISOString();
 
         if (comentario) {
-            comentarios.push({nombreImagen, fecha, usuario, comentario});
+            comentarios.push({enlaceImagen, fecha, usuario, comentario});
         }
     });
 
