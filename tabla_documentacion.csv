@@ -1,620 +1,613 @@
-id,fechaHora,latitud,longitud,correlativo,cliente,pais,persona,cultivo,severidad,tiempo_consulta,observaciones
-ID_1706886541043,"2/2/2024, 10:01:13",6.166939,-75.585361,"Foto_1_222024,_100113",Lote papa 3 meses,Colombia,Víctor Ochoa,potato,Temprano,3.618485689,Brote por comienzo de lluvias después de periodo seco
-ID_1706905924273,"2/2/2024, 3:21:30",6.166809,-75.585171,"Foto_1_222024,_32130_p. m.",Ipiales ,Colombia,Burbano Rojas Mónica Georgina,potato,Intermedio,2.615381241,Se increemntoel daño o presencia por periodo seco 
-ID_1706906519353,"2/2/2024, 3:39:50",6.166808,-75.585157,"Foto_1_222024,_33950_p. m.",San Pedro de los Milagros ,Colombia,Víctor Ochoa,potato,Intermedio,2.087865829,Comienzo del brote de gota por preencia de lluvias esa semana
-ID_1706906585880,"2/2/2024, 3:39:50",6.166808,-75.585157,"Foto_1_222024,_33950_p. m.",San Pedro de los Milagros ,Colombia,Víctor Ochoa,potato,Intermedio,2.087865829,Comienzo del brote de gota por preencia de lluvias esa semana
-ID_1706907994076,"2/2/2024, 3:39:50",6.166808,-75.585157,"Foto_1_222024,_33950_p. m.",San Pedro de los Milagros ,Colombia,Víctor Ochoa,potato,Intermedio,2.087865829,Comienzo del brote de gota por preencia de lluvias esa semana
-ID_1707167291988,"5/2/2024, 2:59:22",,,"Foto_1_252024,_25922_PM",,Honduras,Milton Peña,bean,Intermedio,2.361359596,frijol afectado por virus del mosaico
-ID_1707167766933,"5/2/2024, 15:14:27",,,"Foto_1_522024,_151427",,Honduras,Milton Peña,bean,Intermedio,3.042328596,
-ID_1707216803822,6/2/2024 5:52,5.545768,-73.365766,Foto_1_622024_055224,,Colombia,Luis Ayala Jorge Antonio,potato,default,2.35115099,Gota
-ID_1707216885757,6/2/2024 5:53,5.545768,-73.365766,Foto_1_622024_055350,Samaca ,Colombia,Luis Ayala Jorge Antonio,onion,Temprano,2.648386002,
-ID_1707216990465,6/2/2024 5:55,5.545748,-73.365774,Foto_1_622024_055542,Ventaquemada ,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,2.471179962,Toston
-ID_1707217669995,6/2/2024 6:07,5.545741,-73.365784,Foto_1_622024_060704,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,2.666688204,Toston
-ID_1707337378022,"7/2/2024, 14:22:10",,,"Foto_1_722024,_142210",,Honduras,Milton Peña,tomato,Intermedio,4.181305647,Planta sana 
-ID_1707341020081,"7/2/2024, 3:20:26",,,"Foto_1_272024,_32026_PM",La ceibita Campamento Olancho ,Honduras,Ronel Zuniga,coffee,Temprano,2.084487677,Cultivo de Cafe Plantilla Afectado con Antracnosis 
-ID_1707413124340,8/2/2024 12:24,,,Foto_1_822024_122431,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,2.156462193,
-ID_1707413601871,8/2/2024 12:32,5.545763,-73.365803,Foto_1_822024_123242,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,2.034749269,
-ID_1707413701629,8/2/2024 12:34,5.545754,-73.365788,Foto_1_822024_123419,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,2.053213835,
-ID_1707413751241,8/2/2024 12:35,5.545754,-73.365788,Foto_1_822024_123517,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,2.389323235,
-ID_1707413920931,8/2/2024 12:38,5.54576,-73.365795,Foto_1_822024_123817,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,2.041966438,
-ID_1707414435887,8/2/2024 12:46,5.545762,-73.365796,Foto_1_822024_124645,,Colombia,Luis Ayala Jorge Antonio,tomato,Temprano,2.615632772,
-ID_1707414816827,8/2/2024 12:53,5.545764,-73.365786,Foto_1_822024_125314,,Colombia,Luis Ayala Jorge Antonio,onion,Intermedio,2.782030821,
-ID_1707442674510,"8/2/2024, 20:12:59",8.173974,-76.059367,"Foto_1_822024,_201259",,Colombia,Herrera Yanez Rafael Eduardo,maize,Avanzado,3.49390316,"Se realiza recorrido por cultivo de Maíz en estado de llenado de Mazorca, el lote se encuentra ubicado en la Finca EL TOPO vereda LAS PARCELAS municipio de TIERRALTA departamento de CORDOBA,se observo una sintomatologia en las hojas definidas como manchas necróticas de formas elipticas y alargadas de color grisaceas."
-ID_1707442766280,"8/2/2024, 20:12:59",8.173974,-76.059367,"Foto_1_822024,_201259",,Colombia,Herrera Yanez Rafael Eduardo,maize,Avanzado,3.49390316,"Se realiza recorrido por cultivo de Maíz en estado de llenado de Mazorca, el lote se encuentra ubicado en la Finca EL TOPO vereda LAS PARCELAS municipio de TIERRALTA departamento de CORDOBA,se observo una sintomatologia en las hojas definidas como manchas necróticas de formas elipticas y alargadas de color grisaceas."
-ID_1707446428968,"8/2/2024, 21:23:45",8.173983,-76.059366,"Foto_1_822024,_212345","Este muestreo se realizo en la finca EL TOPO vereda LAS PARCELAS municipio de TIERRALTA departamento de CÓRDOBA, este agricultor es cliente de nuestro Distribuidor sembrador AGRO Y CONCENTRADOS TIERRALTA, este muestreo se realiza en un lote de 5ha.",Colombia,Herrera Yanez Rafael Eduardo,maize,Avanzado,3.102134466,"Se observo una sintomatologia en las mazorcas un bajo porcentaje de plantas, definida de la siguiente manera:
-Deformación de la mazorca formación de tumores globosos e irregulares de color blancos, gris oscuros y negros.
-"
-ID_1707494912671,"9/2/2024, 10:55:50",1.214185,-77.274193,"Foto_1_922024,_105550_a. m.","Vereda La Honda, San Lorenzo, Nariño",Colombia,Burbano Rojas Mónica Georgina,coffee,Intermedio,2.15620327,"Broca parazitada por B. bassiana.
-FOTO: 1.531813, -77.232386"
-ID_1707495315474,"9/2/2024, 10:55:50",1.214185,-77.274193,"Foto_1_922024,_105550_a. m.","Vereda La Honda, San Lorenzo, Nariño",Colombia,Burbano Rojas Mónica Georgina,coffee,Intermedio,2.15620327,"Broca parazitada por B. bassiana.
-FOTO: 1.531813, -77.232386"
-ID_1707495516825,"9/2/2024, 11:15:41",1.21786,-77.272305,"Foto_1_922024,_111541_a. m.","VEREDA SAN FRANCISCO, CUJACA, PASTO, NARIÑO",Colombia,Burbano Rojas Mónica Georgina,potato,Avanzado,2.594433308,Tecia solanivora o Polilla Guatemanteca afectando tubérculo de papa.
-ID_1707503099922,9/2/2024 13:24,5.545753,-73.365802,Foto_1_922024_132419,,Colombia,Luis Ayala Jorge Antonio,tomato,Intermedio,2.393642426,
-ID_1707529700369,9/2/2024 20:47,5.545749,-73.365815,Foto_1_922024_204738,,Colombia,Luis Ayala Jorge Antonio,tomato,Intermedio,2.516159058,
-ID_1707529772899,9/2/2024 20:49,5.54576,-73.365808,Foto_1_922024_204908,,Colombia,Luis Ayala Jorge Antonio,tomato,Intermedio,2.080976725,
-ID_1707529870811,9/2/2024 20:50,5.54576,-73.365799,Foto_1_922024_205039,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,2.372309446,
-ID_1707575590884,10/2/2024 9:32,5.545836,-73.365732,Foto_1_1022024_093216,,Colombia,Luis Ayala Jorge Antonio,tomato,Intermedio,2.105797768,Deficiencias de mg
-ID_1707576095541,10/2/2024 9:41,5.545865,-73.365881,Foto_1_1022024_094106,,Colombia,Luis Ayala Jorge Antonio,tomato,Avanzado,2.32451272,
-ID_1707576159792,10/2/2024 9:41,5.546074,-73.365686,Foto_1_1022024_094157,,Colombia,Luis Ayala Jorge Antonio,tomato,Intermedio,1.863906384,
-ID_1707576451722,10/2/2024 9:47,5.545717,-73.365964,Foto_1_1022024_094706,,Colombia,Luis Ayala Jorge Antonio,default,Intermedio,2.11391592,
-ID_1707741909539,12/2/2024 7:42,5.299342,-75.880435,Foto_1_1222024_74254,Vereda bellavista ,Colombia,Gallego Diosa Kelin Tatiana,coffee,Avanzado,4.115020275,"Cultivo de café en etapa productiva, de unos 4 años con ataque severo por roya"
-ID_1707747270968,"2/12/2024, 9:11:49 AM",,,"Foto_1_2122024,_91149_AM",vereda bellavista-finca samaria,Colombia,Gallego Diosa Kelin Tatiana,coffee,Avanzado,2.511554956,"cultivo de café variedad cenicafe 1 con ataque de roya, en estado avanzado "
-ID_1707747556038,"2/12/2024, 9:11:49 AM",,,"Foto_1_2122024,_91149_AM",vereda bellavista-finca samaria,Colombia,Gallego Diosa Kelin Tatiana,coffee,Avanzado,2.511554956,"cultivo de café variedad cenicafe 1 con ataque de roya, en estado avanzado "
-ID_1707752855102,"12/2/2024, 10:34:11",8.755961,-76.53006,"Foto_1_1222024,_103411","Este diagnóstico se realizó el 11 enero en la vereda Los Platanales zona de la Doctrina Departamento de Córdoba, en lotes de cultivo de berenjenas de propiedad del señor Agustín Blanco Pájaro, cliente de nuestro Distribuidor Londoño Hernan Dario AGROPECUARIA LA MEJOR en Lorica",Colombia,Herrera Yanez Rafael Eduardo,eggplant,Avanzado,3.334050894,"Se realizo recorrido por cultivo de berenjenas en estado de producción, en el monitoreo que se realizó en cuanto a presencia de plagas y enfermedades se encontró alta presencia del insecto Mosca Blanca Bemisia tabaco y la planta presentaba amarilla miento generalizado."
-ID_1707757725797,"12/2/2024, 12:04:19",,,"Foto_1_1222024,_120419",,Colombia,Fique Jiménez Daniel Alfonso,potato,Intermedio,3.60858202,Gota
-ID_1707779015043,"12/2/2024, 18:01:58",4.935999,-74.020713,"Foto_1_1222024,_180158",,Colombia,Mesa Piracoca Cristian Yesid,potato,Intermedio,2.165669918,Envés de la hoja con afectacion por gota en la parte apical.
-ID_1707779862232,"12/2/2024, 18:16:44",4.936241,-74.020916,"Foto_1_1222024,_181644",,Colombia,Mesa Piracoca Cristian Yesid,onion,Intermedio,2.041265488,Roya.
-ID_1707780110116,"12/2/2024, 18:20:03",4.936001,-74.020714,"Foto_1_1222024,_182003",,Colombia,Mesa Piracoca Cristian Yesid,potato,Intermedio,2.316188097,Perforaciones en Las hojas de toda la planta causadas por pilgilla
-ID_1707781160763,12/2/2024 18:38,5.520391,-73.357189,Foto_1_1222024_183824,,Colombia,Luis Ayala Jorge Antonio,onion,Temprano,2.909255981,
-ID_1707781491833,12/2/2024 18:43,5.523391,-73.360888,Foto_1_1222024_184357,,Colombia,Luis Ayala Jorge Antonio,potato,Avanzado,2.540924072,
-ID_1707792827045,"2/12/2024, 8:53:27 PM",14.463181,-90.443162,"Foto_1_2122024,_85327_PM",test,Costa Rica,Julián Araya,onion,Temprano,2.54789257,test
-ID_1707827088702,"13/2/2024, 07:23:10",8.181492,-72.41521,"Foto_1_1322024,_072310",,Colombia,Ramírez Celís Jesús Fernando,maize,Avanzado,3.721797466,Presencia de Ustilago Maidis
-ID_1707827406497,"13/2/2024, 07:23:10",8.181492,-72.41521,"Foto_1_1322024,_072310",,Colombia,Ramírez Celís Jesús Fernando,maize,Avanzado,3.721797466,Presencia de Ustilago Maidis
-ID_1707832573926,13/2/2024 08:54:59,5.577977,-73.367655,Foto_1_1322024_085459,,Colombia,Luis Ayala Jorge Antonio,potato,Temprano,3.689147949,
-ID_1707832844783,13/2/2024 08:57:08,5.577363,-73.367456,Foto_1_1322024_085708,,Colombia,Luis Ayala Jorge Antonio,potato,Temprano,3.467658758,
-ID_1707837403712,"13/2/2024, 9:16:21",14.598144,-90.554368,"Foto_1_2132024,_91621_AM",test,Guatemala,Amilcar Baltazar Chaman Tot,potato,Temprano,1.891043425,test
-ID_1707837856536,13/2/2024 10:23:45,,,Foto_1_1322024_102345,,Colombia,Luis Ayala Jorge Antonio,potato,Temprano,3.468343496,
-ID_1707838081790,13/2/2024 10:26:29,,,Foto_1_1322024_102629,,Colombia,Luis Ayala Jorge Antonio,potato,Temprano,4.117547035,
-ID_1707838223118,13/2/2024 10:28:53,,,Foto_1_1322024_102853,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,3.892965078,
-ID_1707838311789,13/2/2024 10:30:53,,,Foto_1_1322024_103053,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,3.491870403,
-ID_1707838454346,13/2/2024 10:32:51,,,Foto_1_1322024_103251,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,3.778545856,
-ID_1707838522491,13/2/2024 10:34:51,,,Foto_1_1322024_103451,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,3.573989153,
-ID_1707838748332,13/2/2024 10:38:36,,,Foto_1_1322024_103836,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,3.924850941,
-ID_1707838894656,13/2/2024 10:40:58,,,Foto_1_1322024_104058,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,3.488322973,
-ID_1707841173467,"13/2/2024, 11:12:02",6.475057,-72.969862,"Foto_1_1322024,_111202",Agricultor Alirio Galeano - vereda Cuchiquira,Colombia,Castillo Ariza Eliana María,coffee,Temprano,3.856449127,"Plantas de café con una edad de 6 meses de edad, con plantas de muy buen vigor con aplicaciones de NITRO XTEND Foliar, con manchas en area foliar por Alternaria."
-ID_1707841490254,"13/2/2024, 11:12:02",6.475057,-72.969862,"Foto_1_1322024,_111202",Agricultor Alirio Galeano - vereda Cuchiquira,Colombia,Castillo Ariza Eliana María,coffee,Temprano,3.856449127,"Plantas de café con una edad de 6 meses de edad, con plantas de muy buen vigor con aplicaciones de NITRO XTEND Foliar, con manchas en area foliar por Alternaria."
-ID_1707846193756,"13/2/2024, 12:41:04",5.336628,-72.383722,"Foto_1_1322024,_124104",,Colombia,Pinto Ortiz Yeferson David,maize,Temprano,2.343185663,Presencia de ataque de gusano cogollero en etapa v3 del cultivo.
-ID_1707856487938,"13/2/2024, 15:31:50",6.055237,-75.326853,"Foto_1_1322024,_153150",4,Colombia,Narváez Quiceno Cristian Eduardo,tomato,Intermedio,3.580430746,Alternaria
-ID_1707856487938,"13/2/2024, 15:33:12",6.055209,-75.326752,"Foto_1_1322024,_153312",4,Colombia,Narváez Quiceno Cristian Eduardo,tomato,Intermedio,3.580430746,Alternaria
-ID_1707870564019,"13/2/2024, 7:22:59",7.892634,-72.470638,"Foto_1_1322024,_72259_p. m.",,Colombia,Ramírez Celís Jesús Fernando,maize,Intermedio,2.792489529,Sintomas iniciales de mancha de asfalto
-ID_1707887294864,"14/2/2024, 00:04:31",2.937081,-75.244176,"Foto_1_1422024,_000431",,Colombia,Hoyos Rodríguez Jaime Andrés,maize,Avanzado,2.585134268,Diplodia
-ID_1707918954695,"14/2/2024, 08:54:38",4.996768,-73.878158,"Foto_1_1422024,_085438",Subachoque,Colombia,John Alejandro Bernal,potato,Avanzado,1.997592211,Afección de rhizoctonia solani en tubérculo 
-ID_1707919040669,"14/2/2024, 08:56:44",4.996788,-73.878125,"Foto_1_1422024,_085644",,Colombia,John Alejandro Bernal,potato,Intermedio,2.189606905,Gota de la papa 
-ID_1707919179909,"14/2/2024, 08:58:10",4.996788,-73.878125,"Foto_1_1422024,_085810",Guachucal,Colombia,John Alejandro Bernal,potato,Intermedio,2.403285742,
-ID_1707919263671,"14/2/2024, 08:59:59",4.996788,-73.878125,"Foto_1_1422024,_085959",Ipiales,Colombia,John Alejandro Bernal,potato,Temprano,2.134469271,
-ID_1707919396748,"14/2/2024, 09:02:41",4.996788,-73.878125,"Foto_1_1422024,_090241",Murillo,Colombia,John Alejandro Bernal,potato,Temprano,2.369923592,
-ID_1707920059338,"14/2/2024, 09:12:48",4.996788,-73.878125,"Foto_1_1422024,_091248",Villapinzon,Colombia,John Alejandro Bernal,potato,Temprano,3.32982254,
-ID_1707924483877,"14/2/2024, 10:26:11",5.080458,-73.60685,"Foto_1_1422024,_102611",,Colombia,Mesa Piracoca Cristian Yesid,coffee,default,2.143599749,Pustulas en el envés de las hojas.
-ID_1707926896702,"14/2/2024, 10:59:37",4.040407,-74.87152,"Foto_1_1422024,_105937",,Colombia,Peralta Ramírez Deiby Yamit,maize,Avanzado,3.392531633,
-ID_1707927143842,"14/2/2024, 11:09:13",4.040408,-74.87145,"Foto_1_1422024,_110913",,Colombia,Triana Quintero Juan Camilo,maize,Avanzado,2.818499804,Spodoptera frugiperda en sus estados iniciales 
-ID_1707927254373,"14/2/2024, 11:09:10",,,"Foto_1_1422024,_110910",,Colombia,Carvajal Moreno Juan Guillermo,maize,Avanzado,3.472166061,Mancha de asfalto 
-ID_1707928335099,"14/2/2024, 11:16:45",4.03689,-74.87246,"Foto_1_1422024,_111645",,Colombia,Carvajal Moreno Juan Guillermo,maize,Avanzado,3.456659079,
-ID_1707928434002,"14/2/2024, 11:33:14",4.03689,-74.87246,"Foto_1_1422024,_113314",,Colombia,Carvajal Moreno Juan Guillermo,maize,Avanzado,2.368501663,
-ID_1707928727525,"14/2/2024, 11:35:36",4.040408,-74.87145,"Foto_1_1422024,_113536",,Colombia,Triana Quintero Juan Camilo,maize,Avanzado,3.809636593,Spodoptera frugiperda 
-ID_1707928799550,"14/2/2024, 11:38:31",4.818683,-74.356405,"Foto_1_1422024,_113831",,Colombia,Fique Jiménez Daniel Alfonso,potato,Intermedio,3.291089773,Gota
-ID_1707933085338,"14/2/2024, 12:50:17",4.149519,-74.886033,"Foto_1_1422024,_125017",,Colombia,Peralta Ramírez Deiby Yamit,maize,Avanzado,3.628176928,Insecto. Plaga 
-ID_1707935269208,"14/2/2024, 12:24:25",15.19794,-87.958802,"Foto_1_1422024,_122425","Subirana, Yoro ",Honduras,Carlos Amador,coffee,Avanzado,2.066176414,Antracnosis 
-ID_1707935339869,"14/2/2024, 12:23:28",14.280675,-87.499657,"Foto_1_1422024,_122328","El Salto, productor, Buchi Salinas",Honduras,Franklin Meza,tomato,Intermedio,4.079915762,Adultos de paratrioza 
-ID_1707935451672,"14/2/2024, 13:28:28",4.149557,-74.885975,"Foto_1_1422024,_132828",,Colombia,Carvajal Moreno Juan Guillermo,maize,Intermedio,2.327712774,"Enfermedad, mancha de asfalto"
-ID_1707935627310,14/2/2024 12:32:11,14.412224,-88.954561,Foto_1_1422024_123211,,Honduras,Neri Reyes,pepper,Intermedio,3.959287167,
-ID_1707936355882,14/2/2024 12:43:56,14.41225,-88.954553,Foto_1_1422024_124356,,Honduras,Neri Reyes,potato,Intermedio,3.802331209,
-ID_1707940262052,14/2/2024 13:33:58,14.413046,-88.946534,Foto_1_1422024_133358,,Honduras,Neri Reyes,coffee,Temprano,3.78546381,
-ID_1707941098471,"14/2/2024, 14:59:14",,,"Foto_1_1422024,_145914",,Colombia,Nope Molano Viviana Katherine,potato,Intermedio,2.03088522,Pulgilla
-ID_1707941686519,"14/2/2024, 3:13:03",3.55119,-73.712267,"Foto_1_1422024,_31303_p. m.",Papaya cacayal ,Colombia,Quevedo Trujillo Jessica Paola,default,Avanzado,2.043121815,Presencia de Acaros en el enves de la lamina foliar
-ID_1707941856489,"14/2/2024, 3:16:42",3.551304,-73.712251,"Foto_1_1422024,_31642_p. m.",Arroz,Colombia,Quevedo Trujillo Jessica Paola,default,Avanzado,2.145629883,Carbon del Arroz
-ID_1707942227325,"14/2/2024, 15:20:35",,,"Foto_1_1422024,_152035",,Colombia,Nope Molano Viviana Katherine,potato,Avanzado,1.737888098,Sarna 
-ID_1707942333428,"14/2/2024, 3:24:14",3.551361,-73.71227,"Foto_1_1422024,_32414_p. m.",platano,Colombia,Quevedo Trujillo Jessica Paola,default,Temprano,2.328538895,Sigatoka en platano
-ID_1707942870667,"14/2/2024, 14:21:39",14.290116,-87.41648,"Foto_1_1422024,_142139","El Salto, productor, Milton Almendarez",Honduras,Franklin Meza,tomato,Intermedio,3.93929553,Mosca blanca.
-ID_1707943074521,"14/2/2024, 3:35:30",3.551372,-73.712274,"Foto_1_1422024,_33530_p. m.",Maiz puerto lleras meta,Colombia,Quevedo Trujillo Jessica Paola,maize,Avanzado,2.314785004,Mancha de asfalto maiz
-ID_1707943146403,"14/2/2024, 3:38:25",3.551299,-73.712288,"Foto_1_1422024,_33825_p. m.",Aguacate lejanias meta,Colombia,Quevedo Trujillo Jessica Paola,default,Avanzado,2.110733509,Acaros y pulgones en cultivo de aguacate
-ID_1707948149858,"14/2/2024, 15:55:50",,,"Foto_1_1422024,_155550","Arauli, Danli el paraiso",Honduras,Raul Amador,pepper,Intermedio,4.167149544,Síntomas de virus di trip
-ID_1707949601900,"14/2/2024, 17:24:39",8.441025,-82.478456,"Foto_1_1422024,_172439",,Panamá,Rosmel Bosque,maize,Temprano,3.569024324,Cogollero en face inicial L1
-ID_1707949905845,"14/2/2024, 17:26:07",6.064897,-75.330382,"Foto_1_1422024,_172607",1,Colombia,Narváez Quiceno Cristian Eduardo,tomato,Avanzado,3.301895142,Enfermedad gota o Phytophthora infestans. O tizón tardío
-ID_1707971410088,"14/2/2024, 22:28:03",14.596949,-87.879578,"Foto_1_1422024,_222803",Comayagua ,Honduras,Marcial Valeriano,tomato,Intermedio,4.322265387,Exudado de mosca blanca 
-ID_1707971699437,"14/2/2024, 22:33:40",14.596945,-87.879585,"Foto_1_1422024,_223340",Amarateca,Honduras,Franklin Meza,tomato,Avanzado,3.355216503,Acaros
-ID_1708002247071,"15/2/2024, 07:47:59",8.769681,-75.880385,"Foto_1_1522024,_074759","Este diagnóstico se realizó el 25 de noviembre en la vereda Sarandelo zona de la Doctrina Departamento de Córdoba, en lotes de cultivo de berenjenas de propiedad del señor Antonio Espitia , cliente de nuestro Distribuidor AGROSOL en Lorica",Colombia,Herrera Yanez Rafael Eduardo,eggplant,Intermedio,3.468139887,En el recorrido por el lote se evidenció perforaciones en el follaje ocasionado por la alimentación de Spodoptera 
-ID_1708002466035,"15/2/2024, 07:47:59",8.769681,-75.880385,"Foto_1_1522024,_074759","Este diagnóstico se realizó el 25 de noviembre en la vereda Sarandelo zona de la Doctrina Departamento de Córdoba, en lotes de cultivo de berenjenas de propiedad del señor Antonio Espitia , cliente de nuestro Distribuidor AGROSOL en Lorica",Colombia,Herrera Yanez Rafael Eduardo,eggplant,Intermedio,3.468139887,En el recorrido por el lote se evidenció perforaciones en el follaje ocasionado por la alimentación de Spodoptera 
-ID_1708002670043,"15/2/2024, 7:01:53",14.683425,-90.964988,"Foto_1_2152024,_70153_AM",,Guatemala,Marlon Agustin Xicay Salomon,tomato,Intermedio,2.98074317,Mosca blanca (Bemisia tabaci)
-ID_1708006770361,"15/2/2024, 09:18:37",4.150352,-74.892237,"Foto_1_1522024,_091837",,Colombia,Peralta Ramírez Deiby Yamit,maize,Avanzado,3.523500681,"Plaga, gusano "
-ID_1708006904814,"15/2/2024, 09:19:56",4.150362,-74.892095,"Foto_1_1522024,_091956",,Colombia,Peralta Ramírez Deiby Yamit,maize,Avanzado,3.336752653,"Hongo, en grano"
-ID_1708007311807,"15/2/2024, 09:27:46",4.150464,-74.892019,"Foto_1_1522024,_092746",,Colombia,Peralta Ramírez Deiby Yamit,maize,Avanzado,3.485603333,Plaga
-ID_1708007899499,"15/2/2024, 8:34:58",14.666864,-90.952354,"Foto_1_2152024,_83458_AM",Patzicia Chimaltenago ,Guatemala,Marlon Agustin Xicay Salomon,onion,Intermedio,2.873954773,Quemazón de la punta (Alternaria spp)
-ID_1708009287393,"15/02/2024, 09:01:27",14.538263,-90.392177,"Foto_1_15022024,_090127",test,Guatemala,Bernardo Gregorio Toc,onion,Temprano,2.81610322,test
-ID_1708039674622,"15/02/2024, 17:27:54",,,"Foto_1_15022024,_172754","Amatillo, Ipala, Chiquimula.",Guatemala,José Carlos Ramírez Ortega,maize,Intermedio,3.476404905,Spodoptera frugiperda
-ID_1708039845684,"15/02/2024, 17:30:45",13.307356,-87.18631,"Foto_1_15022024,_173045",,Honduras,Jorge Abastida,bean,Intermedio,2.271202564,Virosis
-ID_1708039784222,"15/02/2024, 17:29:44",15.419752,-90.353855,"Foto_1_15022024,_172944","Aldea Chio San Juan chamelco, Alta Verapaz",Guatemala,Rudy Amilcar Xol Ico,potato,Temprano,2.349196434,Phytophtora infestans
-ID_1708039784222,"15/02/2024, 17:29:44",15.419752,-90.353855,"Foto_1_15022024,_172944","Aldea Chio San Juan chamelco, Alta Verapaz",Guatemala,Rudy Amilcar Xol Ico,potato,Temprano,2.349196434,Phytophtora infestans
-ID_1708040470211,"15/02/2024, 17:41:10",15.419752,-90.353855,"Foto_1_15022024,_174110","Aldea Chio, San Juan Chamelco, Alta Verapaz",Guatemala,Rudy Amilcar Xol Ico,potato,Intermedio,2.799077511,Alternaria Solani 
-ID_1708040662675,"15/02/2024, 17:44:22",15.419966,-90.353893,"Foto_1_15022024,_174422","Aldea Chio, San Juan Chamelco, Alta Verapaz",Guatemala,Rudy Amilcar Xol Ico,cabbage,Temprano,3.729445457,Xanthomonas campestris 
-ID_1708040778038,"15/02/2024, 17:46:18",13.307345,-87.18632,"Foto_1_15022024,_174618",Guaimaca Francisco Morazan ,Honduras,Jorge Abastida,pepper,Intermedio,4.016258717,Daño spodoptera
-ID_1708040778038,"15/02/2024, 17:46:18",13.307345,-87.18632,"Foto_1_15022024,_174618",Guaimaca Francisco Morazan ,Honduras,Jorge Abastida,pepper,Intermedio,4.016258717,Daño spodoptera
-ID_1708040876878,"15/02/2024, 17:47:56",,,"Foto_1_15022024,_174756","Obraje, Ipala, Chiquimula. ",Guatemala,José Carlos Ramírez Ortega,tomato,Intermedio,3.797708035,Tuta absoluta 
-ID_1708042014656,"15/02/2024, 18:06:54",,,"Foto_1_15022024,_180654","Obraje, Ipala, Chiquimula ",Guatemala,José Carlos Ramírez Ortega,tomato,Avanzado,3.316191673,Bemisa tabaci
-ID_1708042523323,"15/02/2024, 18:15:23",,,"Foto_1_15022024,_181523","Obraje, Ipala, Chiquimula.",Guatemala,José Carlos Ramírez Ortega,tomato,Intermedio,3.467573881,Bemisa tabaci
-ID_1708042755772,"15/02/2024, 18:19:15",,,"Foto_1_15022024,_181915","Ipala, Chiquimula.",Guatemala,José Carlos Ramírez Ortega,tomato,Intermedio,4.930635452,Spodoptera exigua
-ID_1708043842866,"15/02/2024, 18:37:22",,,"Foto_1_15022024,_183722",,Honduras,Eduard Barahona,pepper,Intermedio,2.807390928,
-ID_1708044311872,"15/02/2024, 18:45:11",14.283695,-89.888824,"Foto_1_15022024,_184511",,Guatemala,Cristian Waldemar Zuñiga Zuñiga,maize,Temprano,3.846785069,Gusano cogollero
-ID_1708044505140,"15/02/2024, 18:48:25",14.283695,-89.888824,"Foto_1_15022024,_184825","Monjas, Jalapa",Guatemala,Cristian Waldemar Zuñiga Zuñiga,tomato,Avanzado,2.603673935,"Tizon tardío (phythphora infestans)
-"
-ID_1708044626356,"15/02/2024, 18:50:26",14.283695,-89.888824,"Foto_1_15022024,_185026",,Guatemala,Cristian Waldemar Zuñiga Zuñiga,pepper,default,2.58684206,Spodoptera exigua
-ID_1708044719144,"15/02/2024, 18:51:59",14.283695,-89.888824,"Foto_1_15022024,_185159","Monjas, Jalapa",Guatemala,Bernardo Gregorio Toc,tomato,Avanzado,2.062756777,Minador de la hoja
-ID_1708045203388,"15/02/2024, 19:00:03",14.283695,-89.888824,"Foto_1_15022024,_190003","Monjas, Jalapa",Guatemala,Cristian Waldemar Zuñiga Zuñiga,tomato,Intermedio,2.675107718,Gusano alfiler
-ID_1708045347191,"15/02/2024, 19:02:27",14.283695,-89.888824,"Foto_1_15022024,_190227","Monjas, Jalapa",Guatemala,Cristian Waldemar Zuñiga Zuñiga,pepper,Intermedio,2.871953487,Phythphtophora capsici
-ID_1708045626735,"15/02/2024, 19:07:06",14.283695,-89.888824,"Foto_1_15022024,_190706",,Guatemala,Cristian Waldemar Zuñiga Zuñiga,pepper,Intermedio,2.877980709,Mancha bacteriana
-ID_1708045561666,"15/02/2024, 19:06:01",8.427363,-82.501137,"Foto_1_15022024,_190601","Boquete, Agroquímicos Caballero ",Panamá,Nayesli Mendez,pepper,Avanzado,2.068870068,Afectación de trips en flor de pimentón 
-ID_1708045901244,"15/02/2024, 19:11:41",14.283695,-89.888824,"Foto_1_15022024,_191141","Monjas, Jalapa",Guatemala,Cristian Waldemar Zuñiga Zuñiga,tomato,Avanzado,2.461928129,Blossom end root
-ID_1708045861012,"15/02/2024, 19:11:01",8.427363,-82.501137,"Foto_1_15022024,_191101","Volcan, Carlos Wing ",Panamá,Nayesli Mendez,tomato,Avanzado,2.017739296,Alta infestación de mosca blanca en plantas de tomate 
-ID_1708046330546,"15/02/2024, 19:18:50",8.427426,-82.501174,"Foto_1_15022024,_191850","Volcan, Maria de Agroquimica Caballero ",Panamá,Nayesli Mendez,onion,Avanzado,2.332432747,Afectación de Alternaria en cebolla
-ID_1708046581389,"15/02/2024, 19:23:01",14.283695,-89.888824,"Foto_1_15022024,_192301","Monjas, Jalapa",Guatemala,Cristian Waldemar Zuñiga Zuñiga,pepper,Intermedio,2.555562973,Botrytis
-ID_1708046468578,"15/02/2024, 19:21:08",8.778701,-75.807784,"Foto_1_15022024,_192108","Esta evaluación se realizó en el municipio de Tierralta Córdoba, agricultor cliente de nuestro Distribuidor sembrador AGRO Y CONCENTRADO TIERRALTA.",Colombia,Herrera Yanez Rafael Eduardo,cucumber,Avanzado,2.078565598,"Se evidenció ataque de pulgones en diferentes estados fonológicos y mosca blanca, asociado a un amarillamiento general de la planta."
-ID_1708047199679,"15/02/2024, 19:33:19",8.778719,-75.807744,"Foto_1_15022024,_193319",Este diagnóstico se registro en la zona rural del municipio de cerete departamento de Córdoba cliente de nuestro Distribuidor AGROVET DE LA COSTA.,Colombia,Herrera Yanez Rafael Eduardo,maize,Intermedio,2.088716984,Se registro gran población de pulgones en las hojas más jóvenes y se evidencia un amarillamiento generalizado y poco desarrollado vegetativo.
-ID_1708048615222,"15/02/2024, 19:56:55",8.778772,-75.807709,"Foto_1_15022024,_195655","Este diagnóstico se realizó en la zona de la Doctrina municipio de Lorica departamento de Córdoba, agricultor cliente de nuestro Distribuidor Hernan Dario Londoño AGROPEQUARIA LA MEJOR.",Colombia,Herrera Yanez Rafael Eduardo,eggplant,Avanzado,2.430525303,"Se observo insecto conocido como aráñita roja, ubicada en el envés de la hoja alta población de esta plaga, se asocia a aparición de manchas amarillentas y encrespamiento de brotes nuevos."
-ID_1708050115006,"15/02/2024, 20:21:55",8.778708,-75.80775,"Foto_1_15022024,_202155",Este diagnóstico se reporto en el municipio de Tierralta Córdoba agricultor cliente de nuestro Distribuidor sembrador AGRO Y CONCENTRADO TIERRALTA ,Colombia,Herrera Yanez Rafael Eduardo,maize,Avanzado,2.320584059,"Afecta principalmente las hojas de la planta desde el tercio inferior. Dos semanas después las manchas se tornan necróticas, de color pajizo y anillos concéntricos. A contraluz se observa un halo clorótico de apariencia aceitosa. Las manchas se distribuyen en toda la lámina foliar y bajo condiciones de alta humedad, lluvias frecuentes y temperaturas entre 18 y 27 º C coalescen, cubriendo gran parte de la hoja y secándola prematuramente. Las lesiones causadas pueden afectar gran parte del área foliar, disminuyendo la capacidad fotosintética de la planta, especialmente cuando la infección ocurre en los primeros estados de desarrollo de la planta."
-ID_1708050970412,"15/02/2024, 20:36:10",8.778755,-75.807702,"Foto_1_15022024,_203610","Esta evaluación se realizó en el municipio de Tierralta Córdoba,  con agricultor cliente de nuestro Distribuidor Agro y concentrado tierralta ",Colombia,Herrera Yanez Rafael Eduardo,maize,Avanzado,3.39893651,"Se evidenció achaparramiento en plantas de maíz, asociado a daños por Dalbulus maydis"
-ID_1708051275516,"15/02/2024, 20:41:15",6.251198,-75.5937,"Foto_1_15022024,_204115",,Colombia,Muñoz Boris Nicolas,coffee,Intermedio,3.368571281,
-ID_1708051539737,"15/02/2024, 20:45:39",,,"Foto_1_15022024,_204539","Andes, Finca Javier Agudelo",Colombia,Muñoz Boris Nicolas,coffee,Avanzado,2.078518152,
-ID_1708052727354,"15/02/2024, 21:05:27",,,"Foto_1_15022024,_210527",,Honduras,Eduard Barahona,pepper,Avanzado,3.047473431,
-ID_1708053124123,"15/02/2024, 21:12:04",13.307366,-87.18631,"Foto_1_15022024,_211204",,Honduras,Jorge Abastida,tomato,Intermedio,3.777471066,Mosca blanca
-ID_1708053298660,"15/02/2024, 21:14:58",,,"Foto_1_15022024,_211458",,Honduras,Eduard Barahona,pepper,Avanzado,3.052220345,
-ID_1708053463027,"15/02/2024, 21:17:43",,,"Foto_1_15022024,_211743",,Honduras,Eduard Barahona,tomato,Avanzado,3.135102749,
-ID_1708053775776,"15/02/2024, 21:22:55",,,"Foto_1_15022024,_212255",,Honduras,Eduard Barahona,tomato,Intermedio,1.973230839,
-ID_1708053883541,"15/02/2024, 21:24:43",,,"Foto_1_15022024,_212443",,Honduras,Eduard Barahona,tomato,Avanzado,3.753345013,
-ID_1708054094358,"15/02/2024, 21:28:14",,,"Foto_1_15022024,_212814",,Honduras,Eduard Barahona,tomato,Avanzado,3.646742105,
-ID_1708054345671,"15/02/2024, 21:32:25",,,"Foto_1_15022024,_213225",,Honduras,Eduard Barahona,tomato,Avanzado,3.030014038,
-ID_1708054699382,"15/02/2024, 21:38:19",,,"Foto_1_15022024,_213819",,Honduras,Eduard Barahona,pepper,Avanzado,3.005019665,
-ID_1708055944297,"15/02/2024, 21:59:04",,,"Foto_1_15022024,_215904",,Honduras,Eduard Barahona,pepper,Avanzado,3.289988041,
-ID_1708079629529,"16/02/2024, 04:33:49",14.597391,-90.656348,"Foto_1_16022024,_043349",Aldea La Paz Salamá Baja Verapaz ,Guatemala,Juan Jose Contreras Meza,tomato,Intermedio,3.318247318,Se evidenció presencia de mosca blanca (Bemisa Tabaco) en cultivo de tomate. 
-ID_1708080039202,"16/02/2024, 04:40:39",14.597391,-90.656348,"Foto_1_16022024,_044039","Aldea San Nicolás, Salamá Baja Verapaz ",Guatemala,Juan Jose Contreras Meza,tomato,Intermedio,3.39862752,Spodoptera exigua en cultivo de tomate 
-ID_1708080039202,"16/02/2024, 04:40:39",14.597391,-90.656348,"Foto_1_16022024,_044039","Aldea San Nicolás, Salamá Baja Verapaz ",Guatemala,Juan Jose Contreras Meza,tomato,Intermedio,3.39862752,Spodoptera exigua en cultivo de tomate 
-ID_1708080621925,"16/02/2024, 04:50:21",14.597285,-90.656149,"Foto_1_16022024,_045021","Aldea Los Limones, Salamá Baja Verapaz ",Guatemala,Juan Jose Contreras Meza,tomato,Temprano,3.352713585,Botrytis Cinerea en cultivo de tomate 
-ID_1708081471009,"16/02/2024, 05:04:31",14.597324,-90.656196,"Foto_1_16022024,_050431","Aldea Chilasco, Baja Verapaz ",Guatemala,Juan Jose Contreras Meza,potato,Temprano,4.033488035,
-ID_1708082445895,"16/02/2024, 05:20:45",14.601963,-90.648702,"Foto_1_16022024,_052045","Aldea El Rincón, Salamá Baja Verapaz ",Guatemala,Juan Jose Contreras Meza,tomato,Temprano,3.644762039,Presencia de pseudomonas syringae 
-ID_1708081471009,"16/02/2024, 05:04:31",14.597324,-90.656196,"Foto_1_16022024,_050431","Aldea Chilasco, Baja Verapaz ",Guatemala,Juan Jose Contreras Meza,potato,Temprano,4.033488035,
-ID_1708082945447,"16/02/2024, 05:29:05",14.601963,-90.648702,"Foto_1_16022024,_052905","Aldea San Francisco, Salamá Baja Verapaz. ",Guatemala,Juan Jose Contreras Meza,tomato,Intermedio,3.618017197,Alternaria Solani en tomate 
-ID_1708083467438,"16/02/2024, 05:37:47",14.601963,-90.648702,"Foto_1_16022024,_053747","Aldea La Cruz Blanca, Salamá Baja Verapaz ",Guatemala,Juan Jose Contreras Meza,cucumber,Temprano,3.430416107,Botrytis Cinerea en cultivo de pepino 
-ID_1708082445895,"16/02/2024, 05:20:45",14.601963,-90.648702,"Foto_1_16022024,_052045","Aldea El Rincón, Salamá Baja Verapaz ",Guatemala,Juan Jose Contreras Meza,tomato,Temprano,3.644762039,Presencia de pseudomonas syringae 
-ID_1708087992409,16/02/2024 06:53:12,,,Foto_1_16022024_065312,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,3.518054724,Virus 
-ID_1708088062601,16/02/2024 06:54:22,,,Foto_1_16022024_065422,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,3.769855976,
-ID_1708088185801,16/02/2024 06:56:25,,,Foto_1_16022024_065625,,Colombia,Luis Ayala Jorge Antonio,potato,Intermedio,3.707518816,
-ID_1708088641129,"16/02/2024, 07:04:01",,,"Foto_1_16022024,_070401",,Honduras,Eduard Barahona,tomato,Avanzado,3.137171984,
-ID_1708088825398,"16/02/2024, 07:07:05",,,"Foto_1_16022024,_070705","Aldea Santo Tomás Chajaneb. San Juan Chamelco, A.V.",Guatemala,Rudy Amilcar Xol Ico,bean,Temprano,2.122802019,Bemisa tabaci 
-ID_1708091904545,"16/02/2024, 07:58:24",15.434032,-90.291364,"Foto_1_16022024,_075824","Nuevo Horizonte, San Juan chamelco, A.V.",Guatemala,Rudy Amilcar Xol Ico,coffee,Intermedio,3.40700531,Hemileia vastatrix 
-ID_1708094045858,"16/02/2024, 08:34:05",15.431061,-90.326767,"Foto_1_16022024,_083405","Sacaniha, San Pedro Carcha",Guatemala,Rudy Amilcar Xol Ico,tomato,Intermedio,2.60864687,Phytophthora infestans 
-ID_1708094760935,"16/02/2024, 08:46:00",14.774775,-91.176856,"Foto_1_16022024,_084600",En haz de la hoja,Guatemala,Edwin Aroldo Matzar Vicente,potato,Intermedio,3.639315844,Papa infectado de pecas bacterianas
-ID_1708095286741,"16/02/2024, 08:54:46",8.33762,-80.518072,"Foto_1_16022024,_085446",,Panamá,Miguel Martinez,onion,Intermedio,3.40175581,"Mancha foliar concentrica, con borde necrotico."
-ID_1708095816341,"16/02/2024, 09:03:36",14.774775,-91.176856,"Foto_1_16022024,_090336",En el envez de la hoja,Guatemala,Edwin Aroldo Matzar Vicente,tomato,Intermedio,2.094336987,Se detecto Tizon tatdio en tomate
-ID_1708096788427,"16/02/2024, 09:19:48",14.621082,-90.524877,"Foto_1_16022024,_091948",PRUEBA DE CARGA,Guatemala,Elias Antonio Godinez Chacón,maize,Avanzado,2.307514191,IMG_11
-ID_1708096946999,"16/02/2024, 09:22:27",14.630339,-90.569579,"Foto_1_16022024,_092227",PRUEBA DE CARGA,Guatemala,Elias Antonio Godinez Chacón,maize,default,2.858726263,IMG_10
-ID_1708096799395,"16/02/2024, 09:19:59",14.774775,-91.176856,"Foto_1_16022024,_091959",En el haz de la hoja ,Guatemala,Edwin Aroldo Matzar Vicente,cabbage,Intermedio,3.245954752,Se encontro pudricion negra en el repollo
-ID_1708097465824,"16/02/2024, 09:31:05",,,"Foto_1_16022024,_093105","Xucaneb, Coban A. V.",Guatemala,Rudy Amilcar Xol Ico,cauliflower,Avanzado,3.581007242,Botrytis cinerea 
-ID_1708097696729,"16/02/2024, 09:34:56",14.792793,-91.221694,"Foto_1_16022024,_093456",En el envez de la hoja,Guatemala,Edwin Aroldo Matzar Vicente,tomato,Intermedio,2.321876049,Se encontro mosca blanca en el tomate 
-ID_1708098129233,"16/02/2024, 09:42:09",14.993305,-90.759668,"Foto_1_16022024,_094209",En la hoja,Guatemala,Pedro Roberto Guarcas Morales,tomato,Intermedio,3.920053959,Planta afectada por Alternaria solani
-ID_1708098447844,"16/02/2024, 09:47:27",14.774775,-91.176856,"Foto_1_16022024,_094727",En el haz de la hoja ,Guatemala,Edwin Aroldo Matzar Vicente,tomato,Intermedio,2.668878317,Se encontro Alternaria en el cultivo de tomate 
-ID_1708098809792,"16/02/2024, 09:53:29",,,"Foto_1_16022024,_095329",,Guatemala,Jorge Alberto Quintana Coronado,maize,Intermedio,2.307013988,Tortuguilla (Diabrotica spp)
-ID_1708098961445,"16/02/2024, 09:56:01",13.733503,-89.666393,"Foto_1_16022024,_095601",A1,El Salvador,Ivonne Corado,cucumber,Intermedio,2.405733824,Botrytis cinerea
-ID_1708099281602,"16/02/2024, 10:01:21",,,"Foto_1_16022024,_100121",,Guatemala,Jorge Alberto Quintana Coronado,maize,Intermedio,1.85143137,Spodoptera frugiperda
-ID_1708099207588,"16/02/2024, 10:00:07",14.792793,-91.165787,"Foto_1_16022024,_100007",En la hoja ,Guatemala,Edwin Aroldo Matzar Vicente,onion,Intermedio,2.036687136,Se encontro trips en el cultivo de cebolla 
-ID_1708099731950,"16/02/2024, 10:08:51",,,"Foto_1_16022024,_100851",,Guatemala,Jorge Alberto Quintana Coronado,onion,Avanzado,1.784191608,trips (Thrips tabaci)
-ID_1708099780441,"16/02/2024, 10:09:40",15.335986,-91.131141,"Foto_1_16022024,_100940",En hojas ,Guatemala,Vidal Francisco Ramírez Ceto,onion,Intermedio,3.433296919,Cebolla infectada de Thysanoptera
-ID_1708099896309,"16/02/2024, 10:11:36",14.792793,-91.165787,"Foto_1_16022024,_101136",En el envez de la hoja ,Guatemala,Edwin Aroldo Matzar Vicente,potato,Intermedio,2.366960049,Se encontro Paratrioza en el cultivo de papa
-ID_1708100207411,"16/02/2024, 10:16:47",,,"Foto_1_16022024,_101647",,Guatemala,Jorge Alberto Quintana Coronado,coffee,Temprano,1.82564044,Roya del café (Hemileia vastatrix)
-ID_1708100564077,"16/02/2024, 10:22:44",,,"Foto_1_16022024,_102244","Asunción Mita, Jutiapa",Guatemala,Jorge Alberto Quintana Coronado,onion,Intermedio,1.854267836,Trips (Thrips tabaci)
-ID_1708100671298,"16/02/2024, 10:24:31",,,"Foto_1_16022024,_102431","Atescatempa, Jutiapa",Guatemala,Jorge Alberto Quintana Coronado,coffee,Intermedio,1.861140013,Roya del café 
-ID_1708100397474,"16/02/2024, 10:19:57",,,"Foto_1_16022024,_101957","Aldea Sotzil, Chamelco, A. V.",Guatemala,Rudy Amilcar Xol Ico,tomato,Avanzado,2.878077984,Rizoctonia Solani
-ID_1708100750587,"16/02/2024, 10:25:50",12.874609,-86.127629,"Foto_1_16022024,_102550","Finca La Tajona - Cliente Victor Torres  - Chaguitillo, Sebaco",Nicaragua,Boanerges Ismael Cardoza Ballesteros,maize,Temprano,4.371085882,Planta afectada por Spodoptora
-ID_1708101043534,"16/02/2024, 10:30:43",15.335709,-91.129456,"Foto_1_16022024,_103043",En hojas ,Guatemala,Vidal Francisco Ramírez Ceto,onion,Intermedio,4.230164051,Cebolla infectada con Botrytis 
-ID_1708100122830,"16/02/2024, 10:15:22",14.273142,-90.308164,"Foto_1_16022024,_101522","Cuilapa, Santa Rosa",Guatemala,Jorge Alberto Mejicanos Donis,tomato,Intermedio,3.59381628,Peca bacteriana
-ID_1708100898960,"16/02/2024, 10:28:18",14.792793,-91.221694,"Foto_1_16022024,_102818",En las hojas ,Guatemala,Edwin Aroldo Matzar Vicente,onion,Intermedio,2.582234144,Se encontro Alternaria en el cultivo de cebolla 
-ID_1708101236260,"16/02/2024, 10:33:56",14.997656,-90.757203,"Foto_1_16022024,_103356",Envés de la hoja ,Guatemala,Pedro Roberto Guarcas Morales,tomato,Intermedio,2.962298632,Planta con presencia de mosca blanca Aleyrodidae 
-ID_1708101594460,"16/02/2024, 10:39:54",,,"Foto_1_16022024,_103954","Quesada, Jutiapa",Guatemala,Jorge Alberto Quintana Coronado,tomato,Avanzado,2.413180113,Phytophthora infestans
-ID_1708101801990,"16/02/2024, 10:43:21",15.335249,-91.127373,"Foto_1_16022024,_104321",En hojas ,Guatemala,Vidal Francisco Ramírez Ceto,maize,Temprano,3.533926249,Maíz infectada de gusano cogollero Spodoptera frugiperda
-ID_1708101952955,"16/02/2024, 10:45:52",14.810811,-91.229275,"Foto_1_16022024,_104552",En el cogollo de la planta ,Guatemala,Edwin Aroldo Matzar Vicente,maize,Intermedio,2.071302891,Se encontro gusano cogollero en el cultivo de maiz
-ID_1708102175608,"16/02/2024, 10:49:35",14.997583,-90.757236,"Foto_1_16022024,_104935",Envés de la hoja ,Guatemala,Pedro Roberto Guarcas Morales,maize,Intermedio,3.762682199,Planta con roya del maíz Puccinia sorghi.
-ID_1708102953209,"16/02/2024, 11:02:33",,,"Foto_1_16022024,_110233","Jutiapa, Jutiapa",Guatemala,Jorge Alberto Quintana Coronado,maize,Intermedio,2.082231045,Spodoptera frugiperda
-ID_1708103702179,"16/02/2024, 11:15:02",14.992563,-90.761345,"Foto_1_16022024,_111502",,Guatemala,Pedro Roberto Guarcas Morales,tomato,Intermedio,11.64877605,Planta con presencia de gusano minador.
-ID_1708104155003,"16/02/2024, 11:22:35",14.992113,-90.788498,"Foto_1_16022024,_112235",En el cogollo de la planta,Guatemala,Pedro Roberto Guarcas Morales,maize,Intermedio,2.040012598,Planta con presencia de gusano cogollero.
-ID_1708104453253,"16/02/2024, 11:27:33",15.336402,-91.129992,"Foto_1_16022024,_112733",En la hoja ,Guatemala,Vidal Francisco Ramírez Ceto,tomato,Intermedio,1.78465414,Tomate infectada con Alternaria 
-ID_1708104458188,"16/02/2024, 11:27:38",14.774775,-91.176856,"Foto_1_16022024,_112738",En el haz de la hoja ,Guatemala,Edwin Aroldo Matzar Vicente,tomato,Intermedio,2.239267588,Se encontro mosca miandora en el cultivo de tomate 
-ID_1708105951898,"16/02/2024, 11:52:31",15.336402,-91.129992,"Foto_1_16022024,_115231",En la hoja ,Guatemala,Vidal Francisco Ramírez Ceto,tomato,Intermedio,2.252755642,To ate infectada con mosca blanca
-ID_1708106329451,"16/02/2024, 11:58:49",14.989334,-90.7998,"Foto_1_16022024,_115849",,Guatemala,Pedro Roberto Guarcas Morales,coffee,Avanzado,2.36255002,Planta con roya del cafe Hemileia vastatrix.
-ID_1708106498428,"16/02/2024, 12:01:38",14.621082,-90.524877,"Foto_1_16022024,_120138",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Temprano,2.377151966,Cercospora oryzae
-ID_1708106835820,"16/02/2024, 12:07:15",14.989334,-90.7998,"Foto_1_16022024,_120715",,Guatemala,Pedro Roberto Guarcas Morales,tomato,default,2.119625568,Planta de tomate con presencia de trips Frankliniella occidentalis
-ID_1708107636610,"16/02/2024, 12:20:36",14.621082,-90.524877,"Foto_1_16022024,_122036",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Intermedio,2.414644003,Cercospora oryzae
-ID_1708107758902,"16/02/2024, 12:22:38",14.621082,-90.524877,"Foto_1_16022024,_122238",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Intermedio,2.51224184,Gaeummanomyces graminis
-ID_1708107846512,"16/02/2024, 12:24:06",14.621082,-90.524877,"Foto_1_16022024,_122406",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Intermedio,2.606136322,Phytophthora porri
-ID_1708108185665,"16/02/2024, 12:29:45",14.621082,-90.524877,"Foto_1_16022024,_122945",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Intermedio,2.410745382,Phytophthora porri
-ID_1708108339924,"16/02/2024, 12:32:19",14.621082,-90.524877,"Foto_1_16022024,_123219",PRUEBA DE CARGA,Nicaragua,Byron Gutierrez Montenegro,rice,Temprano,2.359962702,Phytophthora porri
-ID_1708108992346,"16/02/2024, 12:43:12",14.629953,-90.5697,"Foto_1_16022024,_124312",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Temprano,2.053421974,Oebalus insularis
-ID_1708109066853,"16/02/2024, 12:44:26",14.629953,-90.5697,"Foto_1_16022024,_124426",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Intermedio,2.100938559,Bemisia tabaci
-ID_1708109202347,"16/02/2024, 12:46:42",14.621082,-90.524877,"Foto_1_16022024,_124642",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Temprano,1.992914677,Bemisia tabaci
-ID_1708109162195,"16/02/2024, 12:46:02",14.774775,-91.158222,"Foto_1_16022024,_124602",En el haz de la hoja ,Guatemala,Edwin Aroldo Matzar Vicente,maize,Avanzado,2.062910318,Se encontro mancha de asfalto en el cultivo de maiz
-ID_1708109254556,"16/02/2024, 12:47:34",14.621082,-90.524877,"Foto_1_16022024,_124734",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Intermedio,2.609719992,Burkholderia glumae
-ID_1708109337964,"16/02/2024, 12:48:57",14.621082,-90.524877,"Foto_1_16022024,_124857",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Intermedio,2.587198973,Burkholderia glumae
-ID_1708109408088,"16/02/2024, 12:50:08",,,"Foto_1_16022024,_125008","Aldea Navajoa, Morales, Izabal",Guatemala,Elias Antonio Godinez Chacón,maize,Intermedio,2.324112415,Spodoptera frugiperda
-ID_1708109542079,"16/02/2024, 12:52:22",14.621082,-90.524877,"Foto_1_16022024,_125222",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Avanzado,2.169903278,Gaeumannomyces graminis
-ID_1708109639030,"16/02/2024, 12:53:59",14.629953,-90.5697,"Foto_1_16022024,_125359",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Temprano,1.814635754,Gaeumannomyces graminis
-ID_1708109684042,"16/02/2024, 12:54:44",14.621082,-90.524877,"Foto_1_16022024,_125444",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Avanzado,2.066425085,Pyricularia oryzae
-ID_1708109771415,"16/02/2024, 12:56:11",14.621082,-90.524877,"Foto_1_16022024,_125611",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Intermedio,2.434580564,Pyricularia oryzae
-ID_1708109841470,"16/02/2024, 12:57:21",14.621082,-90.524877,"Foto_1_16022024,_125721",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Temprano,2.112992764,Rupela albina
-ID_1708109916996,"16/02/2024, 12:58:36",14.621082,-90.524877,"Foto_1_16022024,_125836",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Temprano,2.048222303,Spodoptera exigua
-ID_1708109628106,"16/02/2024, 12:53:48",,,"Foto_1_16022024,_125348","Aldea Navajoa, Morales, Izabal",Guatemala,Elias Antonio Godinez Chacón,maize,Temprano,2.541489363,presencia de phyllachora maydis
-ID_1708110065524,"16/02/2024, 13:01:05",14.621082,-90.524877,"Foto_1_16022024,_130105",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Temprano,1.942139149,Spodoptera frugiperda
-ID_1708110189069,"16/02/2024, 13:03:09",14.630143,-90.569669,"Foto_1_16022024,_130309",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Temprano,2.400483131,Spodoptera frugiperda
-ID_1708110273269,"16/02/2024, 13:04:33",14.630143,-90.569669,"Foto_1_16022024,_130433",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Intermedio,2.314471722,Spodoptera frugiperda
-ID_1708110407823,"16/02/2024, 13:06:47",14.621082,-90.524877,"Foto_1_16022024,_130647",PRUEBA DE CARGA,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Intermedio,2.263818264,Spodoptera frugiperda
-ID_1708110485408,"16/02/2024, 13:08:05",14.621082,-90.524877,"Foto_1_16022024,_130805",PRUEBA DE CARGA,Guatemala,Bernardo Gregorio Toc,default,Avanzado,2.494526386,"No especifica promotor, cultivo ni diagnóstico."
-ID_1708111856076,"16/02/2024, 13:30:56",14.621082,-90.524877,"Foto_1_16022024,_133056",PRUEBA DE CARGA,Guatemala,Bernardo Gregorio Toc,default,default,2.285675526,"No especifica promotor, cultivo ni diagnóstico."
-ID_1708111974706,"16/02/2024, 13:32:54",14.630131,-90.569673,"Foto_1_16022024,_133254",PRUEBA DE CARGA,Guatemala,Bernardo Gregorio Toc,default,default,2.278244972,"No especifica promotor, cultivo ni diagnóstico."
-ID_1708112075315,"16/02/2024, 13:34:35",13.782678,-89.397197,"Foto_1_16022024,_133435",Finca Santa Ana 1 muestra 2,El Salvador,Luis Mario Ascencio,coffee,Temprano,4.275406599,Antracnosis
-ID_1708112256424,"16/02/2024, 13:37:36",13.790027,-89.389988,"Foto_1_16022024,_133736",Zapotitan 1 ENA,El Salvador,Luis Mario Ascencio,maize,Intermedio,3.207219124,Complejo de macha de asfalto
-ID_1708112354138,"16/02/2024, 13:39:14",13.790031,-89.389983,"Foto_1_16022024,_133914",Zapotitan 2 ENA,El Salvador,Luis Mario Ascencio,maize,Intermedio,3.156228781,Roya del maíz (Puccinia sorghi)
-ID_1708112540324,"16/02/2024, 13:42:20",13.195541,-86.167351,"Foto_1_16022024,_134220",Productor Elvin Antonio Herrera Valdivia Coyolito La Concordia,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,1.828138351,Alternaria Solani
-ID_1708113943288,"16/02/2024, 14:05:43",13.19534,-86.167287,"Foto_1_16022024,_140543",Productor Fanor Efren Zelaya Valdivia Comunidad La Guanábana ,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,1.99359107,Tizón Tardío Phytophthora Infestan
-ID_1708114496875,"16/02/2024, 14:14:56",13.730592,-89.359617,"Foto_1_16022024,_141456",Maíz Zapotitan ENA roya,El Salvador,Luis Mario Ascencio,maize,Avanzado,3.531046152,Roya del maíz 
-ID_1708114582813,"16/02/2024, 14:16:22",13.918259,-86.12371,"Foto_1_16022024,_141622",,Nicaragua,Liuxmilia Jaxari Rivera Umanzor,tomato,default,2.286802053,Cercospora en tomate
-ID_1708114809824,"16/02/2024, 14:20:09",13.918281,-86.12372,"Foto_1_16022024,_142009",,Nicaragua,Liuxmilia Jaxari Rivera Umanzor,tomato,Temprano,2.094117165,Virosis en tomate
-ID_1708114774199,"16/02/2024, 14:19:34",13.19547,-86.167282,"Foto_1_16022024,_141934",Productor Fanor Efren Zelaya Valdivia Comunidad La Guanábana ,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,2.038618088,"Mancha Bacteriana,Peca Bacteriana"
-ID_1708115034464,"16/02/2024, 14:23:54",,,"Foto_1_16022024,_142354","Aldea kaqiximche, San Juan chamelco, A. V.",Guatemala,Rudy Amilcar Xol Ico,maize,Temprano,2.083599806,phyllachora maydis
-ID_1708114917950,"16/02/2024, 14:21:57",14.792793,-91.221694,"Foto_1_16022024,_142157",En el haz de la hoja,Guatemala,Edwin Aroldo Matzar Vicente,cabbage,Intermedio,1.764073849,Se encontro gusano en el cultivo de repollo
-ID_1708115108042,"16/02/2024, 14:25:08",12.8523,-86.097907,"Foto_1_16022024,_142508","Finca de cliente Juan Antonio Torres San Francisco Libre, Managua",Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Intermedio,3.884048223,Planta afectada por Cercospora oryzae
-ID_1708116182125,"16/02/2024, 14:43:02",13.195636,-86.167374,"Foto_1_16022024,_144302",Productor Eddy Jarquin Isiqui Esteli,Nicaragua,Yader Augusto Rizo Rivera,onion,Intermedio,1.759358883,Tizón Foliar Pleospora Allii
-ID_1708116530262,"16/02/2024, 14:48:50",14.275552,-90.310006,"Foto_1_16022024,_144850",Santa María Ixhuatan,Guatemala,Jorge Alberto Mejicanos Donis,coffee,Avanzado,3.437488317,Roya en café
-ID_1708116907029,"16/02/2024, 14:55:07",14.272541,-90.309265,"Foto_1_16022024,_145507","Oratorio, Santa Rosa.",Guatemala,Jorge Alberto Mejicanos Donis,maize,Intermedio,3.483200788,Gusano cogollero
-ID_1708116907029,"16/02/2024, 14:55:07",14.272541,-90.309265,"Foto_1_16022024,_145507","Oratorio, Santa Rosa.",Guatemala,Jorge Alberto Mejicanos Donis,maize,Intermedio,3.483200788,Gusano cogollero
-ID_1708117189709,"16/02/2024, 14:59:49",14.925628,-90.664559,"Foto_1_16022024,_145949",En el fruto de tomate.,Guatemala,Pedro Roberto Guarcas Morales,default,Avanzado,2.320737362,Presencia de gusano del fruto Heliotis  en tomate.
-ID_1708117557431,"16/02/2024, 15:05:57",14.774775,-91.19549,"Foto_1_16022024,_150557",En el haz de la hoja ,Guatemala,Edwin Aroldo Matzar Vicente,potato,Intermedio,2.317891598,Se encontro Tizon temprano 
-ID_1708118727861,"16/02/2024, 15:25:27",14.275188,-90.310887,"Foto_1_16022024,_152527","Pueblo Nuevo Viñas, Santa Rosa",Guatemala,Jorge Alberto Mejicanos Donis,coffee,Intermedio,3.388938665,Mancha de hierro del café.
-ID_1708118831856,"16/02/2024, 15:27:11",11.539844,-85.698881,"Foto_1_16022024,_152711",Bacteriosis en arroz de secano,Nicaragua,Luis Alfonso Lopez Collado,rice,default,3.287653446,
-ID_1708119585440,"16/02/2024, 15:39:45",14.272928,-90.3091,"Foto_1_16022024,_153945","Santa Cruz, Naranjo",Guatemala,Jorge Alberto Mejicanos Donis,maize,Avanzado,3.460696459,Tizón de la hoja del maíz.
-ID_1708120714571,"16/02/2024, 15:58:34",12.107927,-85.370699,"Foto_1_16022024,_155834",,Nicaragua,Gabriel Alejandro Garcia,coffee,Intermedio,6.714058161,Presencia de antracnosis
-ID_1708120623557,"16/02/2024, 15:57:03",14.774775,-91.19549,"Foto_1_16022024,_155703",En el fruto,Guatemala,Edwin Aroldo Matzar Vicente,tomato,Intermedio,2.971934795,Se encontro el gusano del tomate 
-ID_1708121380947,"16/02/2024, 16:09:40",16.690139,-90.543361,"Foto_1_16022024,_160940",,Guatemala,Maycon Jasmin Montepeque Monterroso,bean,Avanzado,3.777283669,
-ID_1708122907158,"16/02/2024, 16:35:07",16.713304,-90.56287,"Foto_1_16022024,_163507",,Guatemala,Maycon Jasmin Montepeque Monterroso,bean,Avanzado,3.641433954,Mildiun polvoso
-ID_1708122140887,"16/02/2024, 16:22:20",12.107934,-85.370605,"Foto_1_16022024,_162220",Enfermedad en cafe Robusta,Nicaragua,Gabriel Alejandro Garcia,coffee,Intermedio,3.479529619,Mancha de asfalto
-ID_1708123579437,"16/02/2024, 16:46:19",15.346373,-91.087724,"Foto_1_16022024,_164619",En la flor,Guatemala,Vidal Francisco Ramírez Ceto,tomato,Avanzado,3.3242805,Tomate infectada con Botrytis 
-ID_1708123464605,"16/02/2024, 16:44:24",12.852392,-86.09783,"Foto_1_16022024,_164424",Finca El Horno cliente Luis Vidal Espinoza,Nicaragua,Boanerges Ismael Cardoza Ballesteros,rice,Avanzado,3.414819479,Planta afectada por Gauemannomyces graminis 
-ID_1708124780050,"16/02/2024, 17:06:20",7.919987,-72.493447,"Foto_1_16022024,_170620",,Colombia,Ramírez Celís Jesús Fernando,maize,Temprano,2.053137302,Virus del achaparramiento
-ID_1708126954764,"16/02/2024, 17:42:34",14.988235,-90.747192,"Foto_1_16022024,_174234",Hoja de cebolla,Guatemala,Pedro Roberto Guarcas Morales,onion,Intermedio,2.642662764,Hoja con daños por alternaria porri
-ID_1708128387285,"16/02/2024, 18:06:27",13.195199,-86.167314,"Foto_1_16022024,_180627",Productor Nelson Antonio Gonzalez,Nicaragua,Yader Augusto Rizo Rivera,maize,Avanzado,1.797576189,Tizón Foliar en Maíz 
-ID_1708128054094,"16/02/2024, 18:00:54",14.738739,-91.161752,"Foto_1_16022024,_180054",En el haz de la hoja ,Guatemala,Edwin Aroldo Matzar Vicente,tomato,Avanzado,2.24576664,Se encontro pecas bacteriana en el cultivo de tomate 
-ID_1708128054094,"16/02/2024, 18:00:54",14.738739,-91.161752,"Foto_1_16022024,_180054",En el haz de la hoja ,Guatemala,Edwin Aroldo Matzar Vicente,tomato,Avanzado,2.24576664,Se encontro pecas bacteriana en el cultivo de tomate 
-ID_1708129137520,"16/02/2024, 18:18:57",14.990614,-90.7995,"Foto_1_16022024,_181857",Tallo de cebolla,Guatemala,Pedro Roberto Guarcas Morales,onion,Intermedio,1.856207609,Planta de cebolla con precenia de trips tabci
-ID_1708129484420,"16/02/2024, 18:24:44",13.195379,-86.167312,"Foto_1_16022024,_182444",Productor José Salvador Sáhara Olivas Totogalpa,Nicaragua,Yader Augusto Rizo Rivera,tomato,Temprano,2.059397221,Podredumbre de Tallo 
-ID_1708129831456,"16/02/2024, 18:30:31",13.195379,-86.167312,"Foto_1_16022024,_183031",Productor José Francisco Olivas Hernández Casa Blanca ,Nicaragua,Yader Augusto Rizo Rivera,tomato,Avanzado,2.047409773,Afectación de Trip en Tomate
-ID_1708130287439,"16/02/2024, 18:38:07",13.195349,-86.167234,"Foto_1_16022024,_183807",Productor José Antonio Valdivia el Dorado Esteli,Nicaragua,Yader Augusto Rizo Rivera,tomato,Temprano,1.80848527,Mildiu Polvoso en el cultivo de Tomate
-ID_1708131648800,"16/02/2024, 19:00:48",14.989631,-90.799734,"Foto_1_16022024,_190048",En la masorca,Guatemala,Pedro Roberto Guarcas Morales,maize,Avanzado,2.128727674,Planta afectada por ustilago maydis
-ID_1708110991844,"16/02/2024, 13:16:31",,,"Foto_1_16022024,_131631","Gualan, Zacapa",Guatemala,Elias Antonio Godinez Chacón,cucumber,Intermedio,2.580088377,incidencia de mildiu polvoriento
-ID_1708132434072,"16/02/2024, 19:13:54",14.989483,-90.799811,"Foto_1_16022024,_191354",En el haz de la hoja,Guatemala,Pedro Roberto Guarcas Morales,tomato,Avanzado,2.497419834,Planta afectada por Phytophthora infestans.
-ID_1708132663196,"16/02/2024, 19:17:43",,,"Foto_1_16022024,_191743","Aldea Quirigua, Los Amates, Izabal",Guatemala,Elias Antonio Godinez Chacón,maize,Temprano,2.234069824,deficiencia de fosforo
-ID_1708182631885,"17/02/2024, 09:10:31",12.107905,-85.370501,"Foto_1_17022024,_091031",Sandia,Nicaragua,Gabriel Alejandro Garcia,default,Intermedio,3.636413097,
-ID_1708181914403,"17/02/2024, 08:58:34",14.637466,-90.524877,"Foto_1_17022024,_085834","Finca San Miguel, Quisache, Acatenango. ",Guatemala,Josue Daniel Xicay Canú,coffee,Avanzado,2.11284852,"Manchas necróticas irregulares en el fruto, mancha de color café oscuro. Se puede observar también lesiones hundidas de color marrón oscuro a negro. "
-ID_1708183656631,"17/02/2024, 09:27:36",14.637466,-90.524877,"Foto_1_17022024,_092736","Finca La Pampa, Acatenango, Chimaltenango.",Guatemala,Josue Daniel Xicay Canú,coffee,Avanzado,2.275080681,Lesiones de color café oscuro que secan el pericarpio y mesocarpio del grano. 
-ID_1708184619318,"17/02/2024, 09:43:39",13.195269,-86.167273,"Foto_1_17022024,_094339",Productor Bismark de Jesús Gutierrez Comunidad Isiqui Esteli,Nicaragua,Yader Augusto Rizo Rivera,pepper,Intermedio,1.881998539,Ojo se Sapo Cercospospora Capsici en Pimiento
-ID_1708184778747,"17/02/2024, 09:46:18",14.637466,-90.524877,"Foto_1_17022024,_094618",Finca Buena Vita San Martín Jilotepeque,Guatemala,Josue Daniel Xicay Canú,coffee,Avanzado,2.041678905,Lesiones irregulares en el pericarpio y mesocarpio del grano. 
-ID_1708185227847,"17/02/2024, 09:53:47",13.195331,-86.167297,"Foto_1_17022024,_095347",Productor Nelson González Comunidad casa Blanca Pueblo Nuevo Esteli,Nicaragua,Yader Augusto Rizo Rivera,maize,Avanzado,2.285597563,Tizón Foliar
-ID_1708185489202,"17/02/2024, 09:58:09",13.195331,-86.167297,"Foto_1_17022024,_095809",Productor Marvin Jarquin Comunidad Coyolito La Concordia ,Nicaragua,Yader Augusto Rizo Rivera,pepper,Intermedio,1.712357998,Quemadura por el sol
-ID_1708184556868,"17/02/2024, 09:42:36",14.637466,-90.524877,"Foto_1_17022024,_094236","Aldea Bethania, San Pedro Yepocapa. ",Guatemala,Josue Daniel Xicay Canú,coffee,Avanzado,2.313067198,Pequeñas manchas amarillas en el haz de las hojas estas manchas se acompañan de un polvo color naranja en el envés de las hojas. 
-ID_1708185622894,"17/02/2024, 10:00:22",13.195331,-86.167297,"Foto_1_17022024,_100022",Productor Jorge Luis Rodríguez  comunidad Valerio La Concordia,Nicaragua,Yader Augusto Rizo Rivera,pepper,Intermedio,1.86212039,Pudredumbre Apical
-ID_1708185757417,"17/02/2024, 10:02:37",13.195331,-86.167297,"Foto_1_17022024,_100237",Productor Eddy Jarquin Isiqui Esteli,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,2.050030947,Botritys
-ID_1708185960207,"17/02/2024, 10:06:00",13.195351,-86.167271,"Foto_1_17022024,_100600",Productor Antonio Valdivia Dorado Esteli,Nicaragua,Yader Augusto Rizo Rivera,tomato,Avanzado,1.857549191,Culto negro en Tomate
-ID_1708185687137,"17/02/2024, 10:01:27",14.637466,-90.524877,"Foto_1_17022024,_100127","Aldea Las Escobas, San Martín Jilotepeque",Guatemala,Josue Daniel Xicay Canú,coffee,Avanzado,2.315394402,Manchas foliares circulares de color marrón oscuro en el haz de las hojas con halo amarillo al rededor de la lesión.
-ID_1708202960420,"17/02/2024, 14:49:20",14.561822,-89.322844,"Foto_1_17022024,_144920",Aldea san Nicolas esquipulas ,Guatemala,Alfredo Rosa Meda,coffee,Avanzado,2.732998848,
-ID_1708202781671,"17/02/2024, 14:46:21",13.195342,-86.167283,"Foto_1_17022024,_144621",Productor Allan David Cruz Rodríguez Comunidad Wiscanal,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,2.015385389,Pudredumbre de Tallo por Sclerotinia
-ID_1708206122273,"17/02/2024, 15:42:02",13.195413,-86.167284,"Foto_1_17022024,_154202",Productor Marvin Herrera Montenegro Comunidad La Rinconada La Concordia,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,2.176328182,Tizón Tardío en Tallo del Tomate
-ID_1708212967402,"17/02/2024, 17:36:07",13.918265,-86.126947,"Foto_1_17022024,_173607",,Nicaragua,Liuxmilia Jaxari Rivera Umanzor,tomato,Intermedio,2.360439301,Cercospora en tomate
-ID_1708213165892,"17/02/2024, 17:39:25",13.918354,-86.126981,"Foto_1_17022024,_173925",,Nicaragua,Liuxmilia Jaxari Rivera Umanzor,maize,Temprano,3.768387556,Spodopthera frugiperda en Maiz
-ID_1708214985209,"17/02/2024, 18:09:45",,,"Foto_1_17022024,_180945",santa rosa de cabal ,Colombia,Gallego Diosa Kelin Tatiana,coffee,Avanzado,2.091706753,ataque de roya en plantas de café-variedad caturra 
-ID_1708216916075,"17/02/2024, 18:41:56",13.21219,-86.110801,"Foto_1_17022024,_184156",Productor Rafale lagos Miraflor Esteli,Nicaragua,Yader Augusto Rizo Rivera,maize,Intermedio,2.16514492,Tizón en Maiz
-ID_1708217062566,"17/02/2024, 18:44:22",13.212141,-86.11058,"Foto_1_17022024,_184422",Productor Jorge Eduardo Rodríguez Condega Esteli,Nicaragua,Yader Augusto Rizo Rivera,maize,Intermedio,1.839106798,Mancha Bacteriana en Maiz
-ID_1708217248035,"17/02/2024, 18:47:28",13.212141,-86.11058,"Foto_1_17022024,_184728",Productor Mario Herrera Comunidad La Rinconada ,Nicaragua,Yader Augusto Rizo Rivera,tomato,Avanzado,1.804681063,Tizón Tardío en Tomate 
-ID_1708263220819,"18/02/2024, 07:33:40",9.940175,-84.154295,"Foto_1_18022024,_073340","Santa Gertrudis Sur de Grecia, Alajuela ",Costa Rica,Ronald Murillo,pepper,Avanzado,3.538957119,Trips 
-ID_1708263975259,"18/02/2024, 07:46:15",9.940097,-84.154277,"Foto_1_18022024,_074615","Santa Gertrudis Sur, Grecia, Alajuela, ",Costa Rica,Ronald Murillo,tomato,Intermedio,3.670158625,Deficiencia nutricional de magnesio 
-ID_1708264264900,"18/02/2024, 07:51:04",9.940107,-84.154278,"Foto_1_18022024,_075104","Santa Gertrudis Sur, Grecia, Alajuela ",Costa Rica,Ronald Murillo,pepper,Avanzado,4.100522041,Ácaros 
-ID_1708264868690,"18/02/2024, 08:01:08",9.940113,-84.154296,"Foto_1_18022024,_080108","Santa Gertrudis Sur, Grecia, Alajuela ",Costa Rica,Ronald Murillo,pepper,Intermedio,3.941987514,Intoxicación por aplicacion excesiba 
-ID_1708266846204,"18/02/2024, 08:34:06",9.9402,-84.154302,"Foto_1_18022024,_083406",,Costa Rica,Ronald Murillo,coffee,Avanzado,3.99660778,Cochinilla 
-ID_1708290929262,"18/02/2024, 15:15:29",13.19535,-86.167294,"Foto_1_18022024,_151529",Productor Cruz Absañon Gutierrez Comunidad Namanji,Nicaragua,Yader Augusto Rizo Rivera,pepper,Avanzado,2.115538836,Antracnosis en Fruto en Pimiento
-ID_1708291110748,"18/02/2024, 15:18:30",13.195354,-86.167296,"Foto_1_18022024,_151830",Productor  Cruz Absalon Gutierrez Comunidad Namanji,Nicaragua,Yader Augusto Rizo Rivera,pepper,Intermedio,1.803721666,Ojo de Sapo en Pimiento
-ID_1708301659200,"18/02/2024, 18:14:19",8.337795,-80.518091,"Foto_1_18022024,_181419",,Panamá,Miguel Martinez,onion,default,3.257235527,"Necrosis en apise de la hoja, color blanquesino.
-Presencia de galerias bajo la epidermis."
-ID_1708349647417,"19/02/2024, 07:34:07",7.892349,-72.470777,"Foto_1_19022024,_073407",,Colombia,Ramírez Celís Jesús Fernando,maize,Temprano,2.092620134,Daño inicial de Spodoptera.
-ID_1708349786317,"19/02/2024, 07:36:26",7.892421,-72.470757,"Foto_1_19022024,_073626",,Colombia,Ramírez Celís Jesús Fernando,maize,Temprano,1.597736359,Daño de Spodoptera
-ID_1708368426847,"19/02/2024, 12:47:06",14.872355,-87.948058,"Foto_1_19022024,_124706",Sunirana Yoro ,Honduras,Carlos Amador,coffee,Avanzado,2.010003089904785,Roya en cafe 
-ID_1708368490312,"19/02/2024, 12:48:10",14.872297,-87.948079,"Foto_1_19022024,_124810",Ocotepeque ,Honduras,Carlos Amador,potato,Avanzado,2.352657079696656,Phytophthora/ Tizón 
-ID_1708368626476,"19/02/2024, 12:50:26",14.872378,-87.948085,"Foto_1_19022024,_125026",Ocotepeque ,Honduras,Carlos Amador,potato,Avanzado,2.2825098037719727,Tizón tardío 
-ID_1708368706543,"19/02/2024, 12:51:46",14.872777,-87.94814,"Foto_1_19022024,_125146",Santa Barbara ,Honduras,Carlos Amador,onion,Avanzado,2.0592193603515625,
-ID_1708368766036,"19/02/2024, 12:52:46",14.872606,-87.947991,"Foto_1_19022024,_125246",Yoro ,Honduras,Carlos Amador,coffee,Avanzado,2.133251190185547,Roya 
-ID_1708370547909,"19/02/2024, 13:22:27",14.597153,-87.828124,"Foto_1_19022024,_132227","Kevin Meza, Siguatepeque ",Honduras,Franklin Meza,cucumber,Temprano,3.336659669876098,Larva de gusano cogollero
-ID_1708360227973,"19/02/2024, 10:30:27",14.0936,-87.1696,"Foto_1_19022024,_103027",,Honduras,Marcial Valeriano,maize,Temprano,3.136677026748657,Curvularia
-ID_1708377199302,"19/02/2024, 15:13:19",14.0936,-87.1696,"Foto_1_19022024,_151319",,Honduras,Marcial Valeriano,maize,Temprano,1.7685959339141846,Mancha de Asfalto
-ID_1708377252409,"19/02/2024, 15:14:12",14.0936,-87.1696,"Foto_1_19022024,_151412",,Honduras,Marcial Valeriano,maize,Avanzado,3.706660270690918,Spodoptera frugiperda
-ID_1708378414504,"19/02/2024, 15:33:34",14.0936,-87.1696,"Foto_1_19022024,_153334",,Honduras,Marcial Valeriano,maize,Temprano,2.1281278133392334,
-ID_1708378482705,"19/02/2024, 15:34:42",14.092726,-87.167797,"Foto_1_19022024,_153442",,Honduras,Marcial Valeriano,maize,default,2.081271886825561,Maiz Saludable
-ID_1708378695840,"19/02/2024, 15:38:15",14.0936,-87.1696,"Foto_1_19022024,_153815",,Honduras,Marcial Valeriano,maize,Temprano,3.2867798805236816,Saludable
-ID_1708378768861,"19/02/2024, 15:39:28",14.0936,-87.1696,"Foto_1_19022024,_153928",,Honduras,Marcial Valeriano,coffee,Avanzado,2.0968451499938965,Roya
-ID_1708378865457,"19/02/2024, 15:41:05",14.0936,-87.1696,"Foto_1_19022024,_154105",,Honduras,Marcial Valeriano,maize,Temprano,2.0676424503326416,Saludable
-ID_1708378970622,"19/02/2024, 15:42:50",14.09218,-87.167719,"Foto_1_19022024,_154250",,Honduras,Marcial Valeriano,bean,Temprano,2.366688966751098,Saludable
-ID_1708384470419,"19/02/2024, 17:14:30",14.092176,-87.16765,"Foto_1_19022024,_171430",,Honduras,Marcial Valeriano,coffee,Temprano,2.3358194828033447,Saludable
-ID_1708384737976,"19/02/2024, 17:18:57",14.09218,-87.167719,"Foto_1_19022024,_171857",,Honduras,Marcial Valeriano,maize,Temprano,2.348804950714112,Saludable
-ID_1708385215772,"19/02/2024, 17:26:55",14.09222,-87.167607,"Foto_1_19022024,_172655",,Honduras,Marcial Valeriano,maize,Temprano,2.009315252304077,Saludable
-ID_1708385568871,"19/02/2024, 17:32:48",14.09218,-87.167719,"Foto_1_19022024,_173248",,Honduras,Marcial Valeriano,maize,Temprano,2.360396385192871,Saludable
-ID_1708385788109,"19/02/2024, 17:36:28",14.092173,-87.167598,"Foto_1_19022024,_173628",,Honduras,Marcial Valeriano,maize,Temprano,2.080310106277466,Saludable
-ID_1708385896685,"19/02/2024, 17:38:16",14.09218,-87.167719,"Foto_1_19022024,_173816",,Honduras,Marcial Valeriano,maize,Temprano,2.032980442047119,Saludable
-ID_1708396211203,"19/02/2024, 20:30:11",13.084556,-86.004641,"Foto_1_19022024,_203011",,Nicaragua,Luis Jason Jiron,cauliflower,Avanzado,3.383713960647583,Xantomona Campestri
-ID_1708397362868,"19/02/2024, 20:49:22",13.084586,-86.004227,"Foto_1_19022024,_204922",,Nicaragua,Alfredo Salomón Sanchez,potato,Temprano,3.268641233444214,Phytoptora infestan
-ID_1708398196382,"19/02/2024, 21:03:16",13.084586,-86.004227,"Foto_1_19022024,_210316",,Nicaragua,Luis Jason Jiron,default,Intermedio,3.54191255569458,Xsntomonas Campestrix
-ID_1708398341435,"19/02/2024, 21:05:41",13.084586,-86.004227,"Foto_1_19022024,_210541",,Nicaragua,Luis Jason Jiron,potato,Avanzado,3.7463788986206055,Seudomona solanacearun 
-ID_1708439923038,"20/02/2024, 08:38:43",13.206176,-86.18599,"Foto_1_20022024,_083843",Productor Erick Crisantos Zeledon Comunidad Wiscanal La Concordia ,Nicaragua,Yader Augusto Rizo Rivera,tomato,Avanzado,1.8644719123840328,Mirador Mosca Minadora
-ID_1708440373527,"20/02/2024, 08:46:13",13.233428,-86.156894,"Foto_1_20022024,_084613",Productor Erick Crisantos Zeledon Comunidad Wiscanal La Concordia ,Nicaragua,Yader Augusto Rizo Rivera,tomato,Avanzado,1.8927934169769287,Mosca Blanca
-ID_1708443166573,"20/02/2024, 09:32:46",13.187171,-86.221581,"Foto_1_20022024,_093246",Productor Lester Ortiz Comunidad La Rinconada La Concordia,Nicaragua,Yader Augusto Rizo Rivera,maize,Intermedio,3.332669496536255,Cogollero del Maiz
-ID_1708452468054,"20/02/2024, 12:07:48",14.35992,-89.117738,"Foto_1_20022024,_120748","Cantón Las Pilas, San Ignacio ",El Salvador,Benedicto Ramírez,default,Intermedio,2.959200143814087,Problema por bacterias
-ID_1708453327409,"20/02/2024, 12:22:07",13.206372,-86.185473,"Foto_1_20022024,_122207",Productor Erick Crisantos Zeledon Comunidad Wiscanal La Concordia ,Nicaragua,Yader Augusto Rizo Rivera,tomato,Avanzado,1.8148400783538816,Mosca Blanca
-ID_1708456600464,"20/02/2024, 13:16:40",13.195344,-86.16729,"Foto_1_20022024,_131640",Productor Erick Crisantos Zeledon Comunidad Wiscanal La Concordia ,Nicaragua,Yader Augusto Rizo Rivera,tomato,Avanzado,1.8400163650512693,Afectación de Minador en el cultivo deTomate
-ID_1708456895465,"20/02/2024, 13:21:35",13.19534,-86.167287,"Foto_1_20022024,_132135",Productor Lester Ortiz Comunidad La Rinconada La Concordia,Nicaragua,Alfredo Salomón Sanchez,tomato,Avanzado,2.443629503250122,Tizón Tardío en el cultivo de Tomate
-ID_1708458471539,"20/02/2024, 13:47:51",13.195346,-86.167287,"Foto_1_20022024,_134751",Productor Marvin Herrera Montenegro Comunidad La Rinconada La Concordia,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,1.8224341869354248,Moho gris en Tomate
-ID_1708459792162,"20/02/2024, 14:09:52",8.24726,-80.523215,"Foto_1_20022024,_140952",Jose Vasquez,Panamá,Miguel Martinez,onion,Intermedio,3.3263092041015625,Mancha foliar por alternaria 
-ID_1708459597057,"20/02/2024, 14:06:37",,,"Foto_1_20022024,_140637",El Guallabito Catacamas Olancho ,Honduras,Ronel Zuniga,maize,Temprano,3.140685796737671,Daño por gusano cogollero (Espodoctera)
-ID_1708459941563,"20/02/2024, 14:12:21",,,"Foto_1_20022024,_141221",Rio Tinto Catacamas Olancho ,Honduras,Ronel Zuniga,maize,Temprano,2.32705020904541,Daño por hongo Cuvularia 
-ID_1708460320060,"20/02/2024, 14:18:40",,,"Foto_1_20022024,_141840",El Higuerito Juticalpa Olancho ,Honduras,Ronel Zuniga,maize,Temprano,2.54060435295105,Mancha Ocular en Maiz 
-ID_1708460583661,"20/02/2024, 14:23:03",,,"Foto_1_20022024,_142303",Cayo Blanco Juticalpa Olancho ,Honduras,Ronel Zuniga,maize,Temprano,2.323485374450684,Daño de afido en Maiz 
-ID_1708460762467,"20/02/2024, 14:26:02",,,"Foto_1_20022024,_142602",La colonia Agricola Catacamas Olancho ,Honduras,Ronel Zuniga,bean,Temprano,2.590517997741699,Daño por ácaros en Frijol 
-ID_1708460978271,"20/02/2024, 14:29:38",,,"Foto_1_20022024,_142938",Jamasquire Catacamas Olancho ,Honduras,Ronel Zuniga,bean,Temprano,2.512927770614624,Virus del Mosaico en Frijol
-ID_1708461174023,"20/02/2024, 14:32:54",,,"Foto_1_20022024,_143254",San pedro de Catacamas Olancho ,Honduras,Ronel Zuniga,bean,Temprano,2.678378105163574,Virus del Mosaico en Frijol
-ID_1708461174023,"20/02/2024, 14:32:54",,,"Foto_1_20022024,_143254",San pedro de Catacamas Olancho ,Honduras,Ronel Zuniga,bean,Temprano,2.678378105163574,Virus del Mosaico en Frijol
-ID_1708519179078,"21/02/2024, 06:39:39",8.85729,-82.594071,"Foto_1_21022024,_063939",Volcansito boquete,Panamá,Juan Castillo,coffee,Intermedio,3.49764084815979,Preaencia de esporas de roya 
-ID_1708527832848,"21/02/2024, 09:03:52",8.334779,-80.507472,"Foto_1_21022024,_090352",Alex martinez,Panamá,Miguel Martinez,tomato,Intermedio,3.334313154220581,Tizon 
-ID_1708527028086,"21/02/2024, 08:50:28",9.945088,-84.076134,"Foto_1_21022024,_085028",Finca Gerardo Rodriguez,Costa Rica,Diego Cordero,potato,Avanzado,3.3714966773986816,Tizon Tardio (phytopthora infestans)
-ID_1708528341623,"21/02/2024, 09:12:21",8.337847,-80.518097,"Foto_1_21022024,_091221",Alex martinez,Panamá,Miguel Martinez,tomato,Intermedio,2.9311201572418213,Manchado bacteria
-ID_1708528677240,"21/02/2024, 09:17:57",8.337825,-80.517918,"Foto_1_21022024,_091757",Alex martinez,Panamá,Miguel Martinez,pepper,Temprano,3.5344793796539307,Daños por acaros 
-ID_1708528944619,"21/02/2024, 09:22:24",8.337876,-80.51797,"Foto_1_21022024,_092224",Adan Camargo ,Panamá,Miguel Martinez,onion,Temprano,3.725299596786499,Punta amarilla 
-ID_1708529378160,"21/02/2024, 09:29:38",8.337734,-80.51793,"Foto_1_21022024,_092938",Basilio Gomez,Panamá,Miguel Martinez,onion,Temprano,3.6006100177764893,Punta amarilla 
-ID_1708529728426,"21/02/2024, 09:35:28",8.337788,-80.518054,"Foto_1_21022024,_093528",Carlos meneses ,Panamá,Miguel Martinez,onion,Intermedio,2.569821119308472,Botritis
-ID_1708527028086,"21/02/2024, 08:50:28",9.945088,-84.076134,"Foto_1_21022024,_085028",Finca Gerardo Rodriguez,Costa Rica,Diego Cordero,potato,Avanzado,3.3714966773986816,Tizon Tardio (phytopthora infestans)
-ID_1708533812075,"21/02/2024, 10:43:32",9.861258,-83.763493,"Foto_1_21022024,_104332",,Costa Rica,Diego Cordero,tomato,Intermedio,3.690276861190796,Mildio Polvoso(oidio)
-ID_1708533812075,"21/02/2024, 10:43:32",9.861258,-83.763493,"Foto_1_21022024,_104332",,Costa Rica,Diego Cordero,tomato,Intermedio,3.690276861190796,Mildio Polvoso(oidio)
-ID_1708553655038,"21/02/2024, 16:14:15",,,"Foto_1_21022024,_161415",Pacayas,Costa Rica,Diego Cordero,default,Temprano,3.278909683227539,Mosca blanca Bemisia Tabasi
-ID_1708557525159,"21/02/2024, 17:18:45",10.454204,-84.407593,"Foto_1_21022024,_171845","Fotografía tomada del maíz, propiedad de Mario Jimenez, cliente de Coseinca. El maíz se encuentra ubicado en Katira, Guatuso, Alajuela, Costa Rica",Costa Rica,Sofía Delgado,maize,Temprano,3.4328436851501465,Maíz afectado por Spodoptera frugiperda
-ID_1708558774063,"21/02/2024, 17:39:34",10.454211,-84.407608,"Foto_1_21022024,_173934","Maiz ubicado en la finca del señor Mario Jimenez, cliente de Coseinca. Ubicada en Katira, Guatuso, Alajuela, Costa Rica",Costa Rica,Sofía Delgado,maize,Intermedio,3.690842866897583,Phyllacora maydis o mancha de asfalto
-ID_1708562992811,"21/02/2024, 18:49:52",14.596897,-87.879541,"Foto_1_21022024,_184952","Kevin Meza, Siguatepeque ",Honduras,Franklin Meza,tomato,Intermedio,3.821073532104492,Ninfas de mosca blanca. Control 
-ID_1708562992811,"21/02/2024, 18:49:52",14.596897,-87.879541,"Foto_1_21022024,_184952","Kevin Meza, Siguatepeque ",Honduras,Franklin Meza,tomato,Intermedio,3.821073532104492,Ninfas de mosca blanca. Control 
-ID_1708564050780,"21/02/2024, 19:07:30",11.687421,-84.457313,"Foto_1_21022024,_190730",Enfermedad cafe,Nicaragua,Gabriel Alejandro Garcia,default,Intermedio,3.442572593688965,Antracnosis
-ID_1708564382404,"21/02/2024, 19:13:02",11.687486,-84.45738,"Foto_1_21022024,_191302",Maiz ,Nicaragua,Gabriel Alejandro Garcia,maize,Intermedio,3.824174165725708,Deficiencia
-ID_1708569540069,"21/02/2024, 20:39:00",14.59694,-87.879537,"Foto_1_21022024,_203900","Siguatepeque,  Joel Santos",Honduras,Franklin Meza,tomato,Intermedio,4.102968215942383,Tizón tardío 
-ID_1708569750010,"21/02/2024, 20:42:30",14.596934,-87.879527,"Foto_1_21022024,_204230","Siguatepeque, Melvin Manzanarez",Honduras,Franklin Meza,pepper,Intermedio,3.841162919998169,Larva de lepidoptero 
-ID_1708570109838,"21/02/2024, 20:48:29",14.596936,-87.879545,"Foto_1_21022024,_204829",Comayagua. Pablo Turcios ,Honduras,Franklin Meza,coffee,Avanzado,3.4047579765319824,Roya del café 
-ID_1708571426337,"21/02/2024, 21:10:26",9.962067,-84.047831,"Foto_1_21022024,_211026","San José, San Marcos",Costa Rica,Marisol Zanher,coffee,Avanzado,2.1026906967163086,Roya (Hemileia vastratrix)
-ID_1708571949883,"21/02/2024, 21:19:09",9.962067,-84.047831,"Foto_1_21022024,_211909","Frailes de Desamparados, San José       Finca La Laguna",Costa Rica,Marisol Zanher,coffee,Avanzado,2.107542991638184,Antracnosis del café (Colletotrichum gloesporioides)
-ID_1708572666790,"21/02/2024, 21:31:06",9.962067,-84.047831,"Foto_1_21022024,_213106","Acosta, San José",Costa Rica,Marisol Zanher,coffee,Avanzado,2.080522298812866,Hypothenemus hampei (Broca)
-ID_1708573691121,"21/02/2024, 21:48:11",9.962067,-84.047831,"Foto_1_21022024,_214811","Río Conejo, San José",Costa Rica,Marisol Zanher,coffee,Intermedio,2.007022857666016,Hemileia vastatrix (Roya)
-ID_1708573929843,"21/02/2024, 21:52:09",9.902239,-84.057959,"Foto_1_21022024,_215209","Frailes de Desamparados, San José       Finca La Laguna",Costa Rica,Marisol Zanher,coffee,Intermedio,2.0590016841888428,
-ID_1708575319862,"21/02/2024, 22:15:19",,,"Foto_1_21022024,_221519","Finca en Los Ángeles de Páramo, Pérez Zeledón",Costa Rica,Joshua Quriós,coffee,Avanzado,2.107553005218506,Roya por agente causal Hemileia vastatrix
-ID_1708575319862,"21/02/2024, 22:15:19",,,"Foto_1_21022024,_221519","Finca en Los Ángeles de Páramo, Pérez Zeledón",Costa Rica,Joshua Quriós,coffee,Avanzado,2.107553005218506,Roya por agente causal Hemileia vastatrix
-ID_1708576238697,"21/02/2024, 22:30:38",9.9418,-84.050903,"Foto_1_21022024,_223038",Finca en Buenos Aires de Puntarenas,Costa Rica,Joshua Quriós,maize,Avanzado,2.145686149597168,"Cultivo de maíz Infestación de mancha de asfalto por el complejo de hongos Phyllachora maydis, Monographella maydis y Coniothyrium phyllachorae"
-ID_1708576649236,"21/02/2024, 22:37:29",9.9418,-84.050903,"Foto_1_21022024,_223729","Finca en Buena Vista de Rivas, Pérez Zeledón, San José.",Costa Rica,Joshua Quriós,tomato,Intermedio,2.0502021312713623,Tomate con hojas afectadas por tizón tardío ocacionado por Phytophthora infestans
-ID_1708613004681,"22/02/2024, 08:43:24",12.072643,-85.097907,"Foto_1_22022024,_084324",Plaga de frijol,Nicaragua,Gabriel Alejandro Garcia,bean,Temprano,3.7569987773895264,Spodoptera
-ID_1708615827672,"22/02/2024, 09:30:27",13.093301,-85.996711,"Foto_1_22022024,_093027",Marlon Chavarria. El tamalaque pantasma ,Nicaragua,Erick Esquivel Altamirano,maize,Temprano,2.1269121170043945,Ataque por spodoptera frugiperda 
-ID_1708615988922,"22/02/2024, 09:33:08",13.093326,-85.996709,"Foto_1_22022024,_093308",William Peralta. Comunidad el portal pantasma ,Nicaragua,Erick Esquivel Altamirano,maize,Temprano,2.3321609497070312,Atque por spodoptera frugiperda 
-ID_1708616297730,"22/02/2024, 09:38:17",13.093323,-85.996704,"Foto_1_22022024,_093817",Jose Ariel Garcia. Comunidad el aserrio pantasma ,Nicaragua,Erick Esquivel Altamirano,bean,default,1.9932010173797607,Afectacion por virus del mosaico dorado del frijol 
-ID_1708616570040,"22/02/2024, 09:42:50",,,"Foto_1_22022024,_094250","Juan Ramón Rodriguez, sector aserrio",Nicaragua,Ariel Antonio Rivera Rodriguez,maize,Temprano,2.259730577468872,Afectación Peregrinus maidis
-ID_1708616536041,"22/02/2024, 09:42:16",13.09331,-85.996732,"Foto_1_22022024,_094216",William Palacios. Las cruces pantasma  ,Nicaragua,Erick Esquivel Altamirano,coffee,default,2.023949384689331,Ataque de hemileia vastatrix
-ID_1708617034386,"22/02/2024, 09:50:34",13.093312,-85.996742,"Foto_1_22022024,_095034",William palacios. Las cruces pantasma ,Nicaragua,Erick Esquivel Altamirano,coffee,Avanzado,1.8328230381011963,Atque de broca del cafe. Hipothenemus hampie
-ID_1708617281093,"22/02/2024, 09:54:41",13.093325,-85.99671,"Foto_1_22022024,_095441",Jose Ariel Garcia. Comunidad el aserrio pantasma ,Nicaragua,Erick Esquivel Altamirano,maize,Temprano,2.139528274536133,Atque por spodoptera frugiperda 
-ID_1708618438029,"22/02/2024, 10:13:58",14.557708,-87.879931,"Foto_1_22022024,_101358","Roger Deras, Potrerios, Siguatepeque ",Honduras,Franklin Meza,tomato,Intermedio,4.061766147613525,"Daño de tizon tardío, controlado. "
-ID_1708622879046,"22/02/2024, 11:27:59",14.592444,-87.881217,"Foto_1_22022024,_112759","Melvin Santos, El Porvenir,  Siguatepeque ",Honduras,Franklin Meza,tomato,Intermedio,4.247163057327271,Daño de larva de mirador y alternaria
-ID_1708622879046,"22/02/2024, 11:27:59",14.592444,-87.881217,"Foto_1_22022024,_112759","Melvin Santos, El Porvenir,  Siguatepeque ",Honduras,Franklin Meza,tomato,Intermedio,4.247163057327271,Daño de larva de mirador y alternaria
-ID_1708649587329,"22/02/2024, 18:53:07",8.857288,-82.594078,"Foto_1_22022024,_185307",Jaramillo boquete,Panamá,Nayesli Mendez,pepper,Intermedio,4.016828775405884,
-ID_1708655454842,"22/02/2024, 20:30:54",14.596958,-87.879644,"Foto_1_22022024,_203054","Joel Santos,  Siguatepeque ",Honduras,Franklin Meza,tomato,Intermedio,4.2955193519592285,Larva de minador 
-ID_1708655546727,"22/02/2024, 20:32:26",14.59699,-87.879633,"Foto_1_22022024,_203226","Roger Deras, Potrerios, Siguatepeque ",Honduras,Franklin Meza,pepper,Intermedio,4.255070447921753,"Virosis por trips, Tospovirus"
-ID_1708655747011,"22/02/2024, 20:35:47",14.596844,-87.879638,"Foto_1_22022024,_203547","Melvin Santos, El Porvenir,  Siguatepeque ",Honduras,Franklin Meza,tomato,Intermedio,4.16997218132019,Alternaria en tallo. 
-ID_1708656964520,"22/02/2024, 20:56:04",,,"Foto_1_22022024,_205604","Comunidad Las Morenas San Sebastian de Yalí, productor Antonio Centeno",Nicaragua,Oscar Danilo Ubeda Pineda,pepper,Intermedio,2.243905544281006,Daño por Trips 
-ID_1708714709902,"23/02/2024, 12:58:29",8.779433,-82.639451,"Foto_1_23022024,_125829","Volcan, Agroquímicos Caballero ",Panamá,Nayesli Mendez,onion,Avanzado,2.5903782844543457,Alternaria esporulando en hoja de cebolla 
-ID_1708715063989,"23/02/2024, 13:04:24",8.779636,-82.639408,"Foto_1_23022024,_130424",,Panamá,Juan Castillo,cucumber,Avanzado,2.0557570457458496,
-ID_1708715237384,"23/02/2024, 13:07:17",8.779253,-82.639355,"Foto_1_23022024,_130717",,Panamá,Juan Castillo,coffee,Avanzado,1.9920918941497805,
-ID_1708715342384,"23/02/2024, 13:09:02",8.779654,-82.639566,"Foto_1_23022024,_130902",,Panamá,Nayesli Mendez,potato,Intermedio,2.065515279769897,Tizon tardio en la hoja del cultivo de papa 
-ID_1708715706251,"23/02/2024, 13:15:06",13.193537,-86.168812,"Foto_1_23022024,_131506",Productor José  Ignacio zeledon La Concordia,Nicaragua,Yader Augusto Rizo Rivera,onion,Avanzado,2.0289013385772705,Tizón Foliar
-ID_1708717462172,"23/02/2024, 13:44:22",,,"Foto_1_23022024,_134422",,Honduras,Milton Peña,coffee,Avanzado,4.133607864379883,Presencia de Roya
-ID_1708717462172,"23/02/2024, 13:44:22",,,"Foto_1_23022024,_134422",,Honduras,Milton Peña,coffee,Avanzado,4.133607864379883,Presencia de Roya
-ID_1708712688404,"23/02/2024, 12:24:48",9.9441,-84.1442,"Foto_1_23022024,_122448","Golfito, Puntarenas",Costa Rica,Joshua Quriós,zucchini,Intermedio,2.350916862487793,Podredumbre de tallo en el cultivo de ayote
-ID_1708920278243,"25/02/2024, 22:04:38",,,"Foto_1_25022024,_220438",,Honduras,Milton Peña,coffee,Temprano,2.10146713256836,El cultivo presenta roya
-ID_1708964727320,"26/02/2024, 10:25:27",13.968599,-86.545376,"Foto_1_26022024,_102527","Arauli, Danli el paraiso",Honduras,Raul Amador,pepper,Avanzado,4.316000938415527,Cercospora
-ID_1708990062793,"26/02/2024, 17:27:42",,,"Foto_1_26022024,_172742",,Honduras,Milton Peña,maize,Intermedio,2.0730137825012207,Ataque de gusano cogollero
-ID_1709060058507,"27/02/2024, 12:54:18",8.525493,-82.644538,"Foto_1_27022024,_125418",,Panamá,Rosmel Bosque,pepper,Intermedio,3.935789823532105,Trips adulto
-ID_1709069850986,"27/02/2024, 15:37:30",8.247073,-80.523341,"Foto_1_27022024,_153730",Jose Solano ,Panamá,Miguel Martinez,maize,Temprano,2.247799634933472,Ataque de Spodopter frugiperda
-ID_1709070072460,"27/02/2024, 15:41:12",8.247305,-80.523259,"Foto_1_27022024,_154112",Cegraco,Panamá,Miguel Martinez,rice,Avanzado,2.25840425491333,Ataque por chinche 
-ID_1709070097515,"27/02/2024, 15:41:37",8.515253,-82.616948,"Foto_1_27022024,_154137",,Panamá,Rosmel Bosque,rice,Avanzado,2.248854637145996,
-ID_1709070435797,"27/02/2024, 15:47:15",8.515205,-82.616775,"Foto_1_27022024,_154715",,Panamá,Rosmel Bosque,rice,Avanzado,2.306654453277588,BULKOLDERIA GLUMAE
-ID_1709080130698,"27/02/2024, 18:28:50",13.195568,-86.167352,"Foto_1_27022024,_182850",Productor José Nicolás Valdivia Chavarria ,Nicaragua,Yader Augusto Rizo Rivera,bean,Intermedio,2.073610305786133,Oruga de la Calabaza
-ID_1709080560409,"27/02/2024, 18:36:00",13.195352,-86.167294,"Foto_1_27022024,_183600",Pantalla Ariel Rivera,Nicaragua,Yader Augusto Rizo Rivera,bean,Intermedio,2.035866498947144,Antracnosis
-ID_1709080560409,"27/02/2024, 18:36:00",13.195352,-86.167294,"Foto_1_27022024,_183600",Pantalla Ariel Rivera,Nicaragua,Yader Augusto Rizo Rivera,bean,Intermedio,2.035866498947144,Antracnosis
-ID_1709081395650,"27/02/2024, 18:49:55",13.19546,-86.167234,"Foto_1_27022024,_184955",Productor Cruz Absañon Gutierrez Comunidad Namanji,Nicaragua,Yader Augusto Rizo Rivera,onion,Intermedio,1.7717373371124268,Tizón Foliar en Cebolla
-ID_1709081744568,"27/02/2024, 18:55:44",13.19546,-86.167234,"Foto_1_27022024,_185544",Productor Elvin Antonio Herrera Valdivia Comunidad Coyolito La Concordia ,Nicaragua,Yader Augusto Rizo Rivera,pepper,Avanzado,1.7769606113433838,Gusano Bellotero
-ID_1709082096028,"27/02/2024, 19:01:36",13.19537,-86.16731,"Foto_1_27022024,_190136",Productor Elvin Antonio Herrera Valdivia Comunidad Coyolito La Concordia ,Nicaragua,Yader Augusto Rizo Rivera,pepper,Intermedio,2.3743093013763428,Ojo de Sapo en el cultivo de Pimiento
-ID_1709082538046,"27/02/2024, 19:08:58",13.195363,-86.167306,"Foto_1_27022024,_190858",Productor Marvin Jarquin Comunidad Coyolito La Concordia ,Nicaragua,Yader Augusto Rizo Rivera,pepper,Intermedio,1.8084690570831297,Mirador de la Hoja
-ID_1709129574098,"28/02/2024, 08:12:54",13.661142,-89.278739,"Foto_1_28022024,_081254",Tomate,El Salvador,Benjamín Najarro,default,Intermedio,2.3810036182403564,
-ID_1709129574098,"28/02/2024, 08:12:54",13.661142,-89.278739,"Foto_1_28022024,_081254",Tomate,El Salvador,Benjamín Najarro,default,Intermedio,2.3810036182403564,
-ID_1709130147837,"28/02/2024, 08:22:27",13.677836,-89.311575,"Foto_1_28022024,_082227",Esquipulas,El Salvador,Benjamín Najarro,coffee,Intermedio,5.35345983505249,
-ID_1709131448172,"28/02/2024, 08:44:08",8.440795,-82.478551,"Foto_1_28022024,_084408","Feryen, Boquete ",Panamá,Nayesli Mendez,coffee,Avanzado,1.806635856628418,Antracnosis en grano de café 
-ID_1709131389687,"28/02/2024, 08:43:09",8.247457,-80.523133,"Foto_1_28022024,_084309",Adan Camargo,Panamá,Miguel Martinez,onion,Temprano,3.962688446044922,Punta amarilla 
-ID_1709141787240,"28/02/2024, 11:36:27",8.918382,-78.395917,"Foto_1_28022024,_113627","Foto tomada en Darién, zona agua fría, agricultor Gabriel Cerrud",Panamá,Melvin Murillo,pepper,Intermedio,2.449173927307129,Pimiento afectado en la hojas por ataques de trips.
-ID_1709142745234,"28/02/2024, 11:52:25",8.918378,-78.395923,"Foto_1_28022024,_115225","Foto tomada en Darién, zona agua fría, agricultor Gabriel Cerrud",Panamá,Melvin Murillo,pepper,Intermedio,2.5637762546539307,Pimiento afectado en sus hojas por ataques de trips.
-ID_1709142633002,"28/02/2024, 11:50:33",14.971475,-88.113516,"Foto_1_28022024,_115033","El Dorado, SB. Heyvis Sagastume",Honduras,Franklin Meza,coffee,Intermedio,4.03212833404541,Manchabde hierro 
-ID_1709147033186,"28/02/2024, 13:03:53",8.232175,-80.590094,"Foto_1_28022024,_130353",Adan Camargo ,Panamá,Miguel Martinez,onion,Intermedio,4.263039827346802,Punta amarilla
-ID_1709147169023,"28/02/2024, 13:06:09",8.218475,-80.615233,"Foto_1_28022024,_130609",Adan Camargo ,Panamá,Miguel Martinez,onion,Intermedio,3.411140203475952,Daño por insectos masticadores
-ID_1709147456090,"28/02/2024, 13:10:56",8.180421,-80.653425,"Foto_1_28022024,_131056",Adan Camargo ,Panamá,Miguel Martinez,onion,Intermedio,4.173255920410156,Daño por minador
-ID_1709147612891,"28/02/2024, 13:13:32",8.160048,-80.673085,"Foto_1_28022024,_131332",Jose Vasquez,Panamá,Miguel Martinez,onion,Intermedio,3.65102481842041,Masticadir 
-ID_1709147834667,"28/02/2024, 13:17:14",8.130012,-80.687308,"Foto_1_28022024,_131714",Jose Vasquez,Panamá,Miguel Martinez,onion,Intermedio,4.271758794784546,Botritis 
-ID_1709148999755,"28/02/2024, 13:36:39",13.093625,-86.353141,"Foto_1_28022024,_133639",Productor Santiago de Jesús Benavidez,Nicaragua,Yader Augusto Rizo Rivera,zucchini,Avanzado,2.616073608398437,Virus del Pepino
-ID_1709149332856,"28/02/2024, 13:42:12",13.093446,-86.353281,"Foto_1_28022024,_134212",Productor Santiago de Jesús Benavidez,Nicaragua,Yader Augusto Rizo Rivera,pepper,Avanzado,3.575029134750366,Mosca Minadora
-ID_1709151683699,"28/02/2024, 14:21:23",8.165109,-80.953722,"Foto_1_28022024,_142123",Benhamin name ,Panamá,Miguel Martinez,rice,Temprano,3.7489593029022217,Daños por sogata 
-ID_1709174796799,"28/02/2024, 20:46:36",13.196187,-86.167193,"Foto_1_28022024,_204636",Productor Luis Montenegro Comunidad zapatero Occidental,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,2.11956524848938,Moho gris en Tomate
-ID_1709175054807,"28/02/2024, 20:50:54",13.196187,-86.167193,"Foto_1_28022024,_205054",Productor Luis Montenegro Comunidad zapatero Occidental,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,2.095123767852783,Tizón Tardío en Tomate
-ID_1709176021148,"28/02/2024, 21:07:01",13.195359,-86.167301,"Foto_1_28022024,_210701",Productor Santiago de Jesús Benavidez,Nicaragua,Yader Augusto Rizo Rivera,tomato,Temprano,1.8398313522338867,Mildiu Polvoso en Tomate
-ID_1709176256309,"28/02/2024, 21:10:56",13.195372,-86.16722,"Foto_1_28022024,_211056",Productor Santiago de Jesús Benavidez Comukidad  La Naranjita Esteli,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,1.842409610748291,Peca Bacteriana en Tomate
-ID_1709176381087,"28/02/2024, 21:13:01",13.195372,-86.16722,"Foto_1_28022024,_211301",Productor Santiago de Jesús Benavidez Comunidad  La Naranjita Esteli,Nicaragua,Alfredo Salomón Sanchez,pepper,Avanzado,2.057691097259521,Virus del Mosaico del Pepino
-ID_1709176530901,"28/02/2024, 21:15:30",13.195372,-86.16722,"Foto_1_28022024,_211530",Productor Santiago de Jesús Benavidez Comumidad  La Naranjita Esteli,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,1.819279432296753,Minador de la Hoja
-ID_1709219271234,"29/02/2024, 09:07:51",9.928069,-84.090725,"Foto_1_29022024,_090751",Roy esmeralda,Costa Rica,Diego Cordero,tomato,Intermedio,3.5648319721221924,Liriomyza
-ID_1709219810086,"29/02/2024, 09:16:50",9.928069,-84.090725,"Foto_1_29022024,_091650",carlos segura,Costa Rica,Diego Cordero,cauliflower,Intermedio,2.14901089668274,Ojo de sapo
-ID_1709220989573,"29/02/2024, 09:36:29",14.260364,-87.57081,"Foto_1_29022024,_093629","El Dorado,  Medardo Enamoraod",Honduras,Franklin Meza,pepper,Intermedio,4.166810035705566,Huevos de paratrioza 
-ID_1709221796394,"29/02/2024, 09:49:56",14.630553,-90.5695,"Foto_1_29022024,_094956",,Nicaragua,Oscar Danilo Ubeda Pineda,bean,default,2.1275761127471924,Mosaico Dorado en Frijol
-ID_1709224084660,"29/02/2024, 10:28:04",14.59159,-90.518323,"Foto_1_29022024,_102804",,Nicaragua,Oscar Danilo Ubeda Pineda,maize,default,1.929838180541992,Daño por Gusano Cogollero en Maíz
-ID_1709226033254,"29/02/2024, 11:00:33",13.019028,-86.349865,"Foto_1_29022024,_110033",Productor Filemon Meza Comunidad La Estanzuela Esteli,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,1.890222787857056,Gusano Bellotero del Algodon
-ID_1709226198528,"29/02/2024, 11:03:18",13.019028,-86.349865,"Foto_1_29022024,_110318",Productor Filemon Meza Comunidad La Estanzuela Esteli,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,1.7489967346191406,Mancha Bacteriana en Tomate
-ID_1709226287085,"29/02/2024, 11:04:47",13.019028,-86.349865,"Foto_1_29022024,_110447",Productor Filemon Meza Comunidad La Estanzuela Esteli,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,1.8374311923980715,Tizón Tardío en Tomate
-ID_1709227007033,"29/02/2024, 11:16:47",13.017703,-86.349958,"Foto_1_29022024,_111647",Productor Filemon Meza Comunidad La Estanzuela Esteli,Nicaragua,Yader Augusto Rizo Rivera,cabbage,Intermedio,2.07116961479187,Gusano Bellotero en Repollo
-ID_1709226860579,"29/02/2024, 11:14:20",14.59159,-90.518323,"Foto_1_29022024,_111420",,Nicaragua,Oscar Danilo Ubeda Pineda,bean,default,4.290629386901856,Daños por Trichoplusia ni en Frijol
-ID_1709229643410,"29/02/2024, 12:00:43",14.59159,-90.518323,"Foto_1_29022024,_120043",,Nicaragua,Oscar Danilo Ubeda Pineda,coffee,default,4.087541818618774,Deficiencia de Potacio en Café
-ID_1709230274036,"29/02/2024, 12:11:14",14.630096,-90.569603,"Foto_1_29022024,_121114",,Nicaragua,Oscar Danilo Ubeda Pineda,coffee,default,4.013077735900879,Deficiencia de Potacio en Café
-ID_1709238300700,"29/02/2024, 14:25:00",8.518923,-82.62448,"Foto_1_29022024,_142500",Boquete ,Panamá,Juan Castillo,coffee,default,3.69198489189148,
-ID_1709239082893,"29/02/2024, 14:38:02",8.518956,-82.624558,"Foto_1_29022024,_143802",Jaramillo boquete,Panamá,Juan Castillo,pepper,Intermedio,1.8099427223205569,
-ID_1709246071402,"29/02/2024, 16:34:31",8.440808,-82.478557,"Foto_1_29022024,_163431",Boquete    Finca Lerida,Panamá,Juan Castillo,coffee,Avanzado,2.1211133003234863,
-ID_1709302933343,"01/03/2024, 08:22:13",13.681832,-88.767102,"Foto_1_01032024,_082213","Apastepeque, San Vicente ",El Salvador,Angel Miranda,tomato,Temprano,2.3909246921539307,MINADOR DE HOJA
-ID_1709313366632,01/03/2024 11:16:06,8.838562,-82.794272,Foto_1_01032024_111606,Santos café santa clara ,Panamá,Yasmary Medina,coffee,Temprano,4.356693983078003,
-ID_1709316587980,"01/03/2024, 12:09:48",13.645821,-88.865599,"Foto_1_01032024,_120948","Cantón san bartolo, Tecoluca,  San. Vicente. ",El Salvador,Angel Miranda,maize,Temprano,3.4016737937927246,GUSANO COGOLLERO
-ID_1709323484054,"01/03/2024, 14:04:44",8.427681,-82.437727,"Foto_1_01032024,_140444","Wilfredo Pitti, cerro Punta ",Panamá,Nayesli Mendez,onion,Avanzado,2.150183916091919,Alternaria en cebolla 
-ID_1709329380411,"01/03/2024, 15:43:00",9.655222,-84.020665,"Foto_1_01032024,_154300","Tarrazú, San Marcos, Costa Rica ",Costa Rica,Marisol Zanher,coffee,Intermedio,3.783639907836914,Antracnosis (Colletrotrichum gloesporoides)
-ID_1709329652656,"01/03/2024, 15:47:32",9.655448,-84.020482,"Foto_1_01032024,_154732","San Marcos, Tarrazú ",Costa Rica,Marisol Zanher,coffee,Temprano,4.088888883590698,Roya *Hemileia vastatrix
-ID_1709330400959,"01/03/2024, 16:00:00",9.655346,-84.020601,"Foto_1_01032024,_160000","San Marcos, Tarrazú ",Costa Rica,Marisol Zanher,coffee,Intermedio,3.687950372695923,Antracnosis (Colletotrichum gloesporoides)
-ID_1709345050601,"01/03/2024, 20:04:10",8.773681,-82.637323,"Foto_1_01032024,_200410",El salto boquete,Panamá,Juan Castillo,coffee,Intermedio,3.5962166786193848,
-ID_1709346477684,"01/03/2024, 20:27:57",13.196186,-86.167192,"Foto_1_01032024,_202757",Productor Rafale lagos Miraflor Esteli,Nicaragua,Yader Augusto Rizo Rivera,maize,Intermedio,1.7938344478607178,Bacteriosis en Maiz
-ID_1709346637488,"01/03/2024, 20:30:37",13.196184,-86.167191,"Foto_1_01032024,_203037",Productor  Rafael Lagos Comunidad La Fortuna Mirafl9r Esteli,Nicaragua,Yader Augusto Rizo Rivera,maize,Intermedio,1.760343313217163,Mancha Ocutar en Maiz
-ID_1709346786060,"01/03/2024, 20:33:06",13.196184,-86.167192,"Foto_1_01032024,_203306",Productor Filemon Meza Comunidad La Estanzuela Esteli,Nicaragua,Yader Augusto Rizo Rivera,maize,Intermedio,2.27805495262146,Cogollero en Maiz
-ID_1709347039564,"01/03/2024, 20:37:19",13.196184,-86.167192,"Foto_1_01032024,_203719",Productor Filemon Meza Comunidad La Estanzuela Esteli,Nicaragua,Yader Augusto Rizo Rivera,cabbage,default,2.0003442764282227,Bacteria en Repollo
-ID_1709484280648,"03/03/2024, 10:44:40",14.092226,-87.167488,"Foto_1_03032024,_104440",,Honduras,Marcial Valeriano,maize,Temprano,4.203052282333374,
-ID_1709484438495,"03/03/2024, 10:47:18",14.092226,-87.167489,"Foto_1_03032024,_104718",,Honduras,Marcial Valeriano,maize,Temprano,3.705244779586792,
-ID_1709510875983,"03/03/2024, 18:07:55",,,"Foto_1_03032024,_180755",,Honduras,Milton Peña,tomato,Intermedio,2.0799477100372314,Se ve presencia de virus de mosaico
-ID_1709594343909,"04/03/2024, 17:19:03",8.78026,-82.645158,"Foto_1_04032024,_171903",Boquete,Panamá,Juan Castillo,coffee,Avanzado,1.8113114833831787,Broca en cafe
-ID_1709640604156,"05/03/2024, 06:10:04",8.427369,-82.501137,"Foto_1_05032024,_061004","Chevaz coffe, Boquete ",Panamá,Nayesli Mendez,coffee,Intermedio,2.15722393989563,Mancha de hierro en plantas de cafe
-ID_1709640919081,"05/03/2024, 06:15:19",8.427369,-82.501137,"Foto_1_05032024,_061519","Jaime Castillo, Volcan ",Panamá,Nayesli Mendez,potato,Intermedio,2.853508949279785,Alternaria en papa
-ID_1709641083830,"05/03/2024, 06:18:03",8.427369,-82.501137,"Foto_1_05032024,_061803","Jaime Castillo, Volcan ",Panamá,Nayesli Mendez,potato,Intermedio,1.834971904754639,Tizon tardío en el cultivo de papa
-ID_1709654411467,"05/03/2024, 10:00:11",13.388697,-88.655495,"Foto_1_05032024,_100011","Cantón anonas, Tecoluca,  San Vicente ",El Salvador,Angel Miranda,tomato,Intermedio,3.6831655502319336,
-ID_1709672900122,"05/03/2024, 15:08:20",13.768912,-89.411582,"Foto_1_05032024,_150820",Chalchuapa,El Salvador,Cristian Torres,tomato,Intermedio,2.3696165084838867,Tizón tardío 
-ID_1709673089317,05/03/2024 15:11:29,13.767861,-89.40992,,"Zona 5, Zapotitan",El Salvador,Douglas Lemus,tomato,Intermedio,3.385589122772217,Ralstonia en tomate
-ID_1709673639894,"05/03/2024, 15:20:39",13.969622,-89.564455,"Foto_1_05032024,_152039",HR-663 Cara Sucia 1,El Salvador,Luis Mario Ascencio,maize,Temprano,2.3244924545288086,
-ID_1709673834597,"05/03/2024, 15:23:54",13.969632,-89.564445,"Foto_1_05032024,_152354",HR-663 Cara Sucia 4,El Salvador,Luis Mario Ascencio,maize,Intermedio,2.016381025314331,
-ID_1709678745915,05/03/2024 16:45:45,,,Foto_1_05032024_164545,"Cantón Rojitas,Ciudad Victoria,Cabañas.",El Salvador,Javier Hernández,maize,Avanzado,2.2951626777648926,Mamcha de asfalto
-ID_1709678871673,05/03/2024 16:47:51,,,Foto_1_05032024_164751,"Cantón Animas,Santa Cruz Michapa,Cuscatlán.",El Salvador,Javier Hernández,zucchini,Avanzado,2.30718731880188,Oidio
-ID_1709678987047,05/03/2024 16:49:47,,,Foto_1_05032024_164947,,El Salvador,Javier Hernández,bean,Temprano,2.107234477996826,Roya
-ID_1709679057848,05/03/2024 16:50:57,,,Foto_1_05032024_165057,,El Salvador,Javier Hernández,bean,Avanzado,2.3178036212921143,Complejo de virus
-ID_1709679116740,"05/03/2024, 16:51:56",13.983328,-89.570992,"Foto_1_05032024,_165156",,El Salvador,Ivonne Corado,cucumber,Temprano,2.2770557403564453,Fusarium oxysporum 
-ID_1709679482122,05/03/2024 16:58:02,,,Foto_1_05032024_165802,"Cantón el Común, Dulce Nombre de María, Chalatenango.",El Salvador,Javier Hernández,pepper,Intermedio,2.0051286220550537,Deficiencia calcio
-ID_1709679608956,"05/03/2024, 17:00:08",13.347398,-88.344425,"Foto_1_05032024,_170008","El Brazo, San Miguel ",El Salvador,César Chacón,tomato,Avanzado,2.2605018615722656,Tizon tardío 
-ID_1709680160780,05/03/2024 17:09:20,,,Foto_1_05032024_170920,,El Salvador,Javier Hernández,cucumber,Temprano,1.9515421390533447,Mildíu
-ID_1709680301799,"05/03/2024, 17:11:41",13.983267,-89.571038,"Foto_1_05032024,_171141",,El Salvador,Ivonne Corado,tomato,Temprano,2.256269216537476,Fusarium oxysporum
-ID_1709680250042,"05/03/2024, 17:10:50",13.346663,-88.343478,"Foto_1_05032024,_171050","Monte Grande, San Miguel ",El Salvador,César Chacón,cucumber,Intermedio,1.987408876419068,Mildiu velloso
-ID_1709680367549,05/03/2024 17:12:47,,,Foto_1_05032024_171247,"Cantón San Lórenzo,Sensuntepeque,Cabañas.",El Salvador,Javier Hernández,tomato,Avanzado,2.03530502319336,Peca bacteriana
-ID_1709680636112,"05/03/2024, 17:17:16",13.346572,-88.343428,"Foto_1_05032024,_171716",Perquin,El Salvador,Benjamín Najarro,tomato,Intermedio,2.2775533199310303,Tizón temprano 
-ID_1709680878204,"05/03/2024, 17:21:18",13.346578,-88.343433,"Foto_1_05032024,_172118",San Miguel ,El Salvador,Benjamín Najarro,pepper,Intermedio,2.290008306503296,Mojo gris
-ID_1709681054188,"05/03/2024, 17:24:14",13.346571,-88.343426,"Foto_1_05032024,_172414",Esquipulas,El Salvador,Benjamín Najarro,coffee,Intermedio,1.9887573719024656,Roya
-ID_1709681277348,"05/03/2024, 17:27:57",13.346578,-88.343435,"Foto_1_05032024,_172757",Perquin,El Salvador,Benjamín Najarro,cucumber,Intermedio,2.046835660934448,Botritis 
-ID_1709681306192,"05/03/2024, 17:28:26",13.346663,-88.343478,"Foto_1_05032024,_172826",,El Salvador,César Chacón,maize,default,2.0837717056274414,Pulgon amarillo
-ID_1709681306192,"05/03/2024, 17:28:26",13.346663,-88.343478,"Foto_1_05032024,_172826",,El Salvador,César Chacón,maize,default,2.0837717056274414,Pulgon amarillo
-ID_1709681786171,"05/03/2024, 17:36:26",13.346687,-88.34353,"Foto_1_05032024,_173626","Ciudad Barrios, San Miguel ",El Salvador,César Chacón,coffee,Temprano,2.130305767059326,Roya del café 
-ID_1709695347463,"05/03/2024, 21:22:27",13.195352,-86.167292,"Foto_1_05032024,_212227",Productor Juan Ramón Montenegro Comunidad Zapote Occidental,Nicaragua,Yader Augusto Rizo Rivera,maize,default,2.114400148391724,Cogollero del Maiz
-ID_1709695527426,"05/03/2024, 21:25:27",13.195352,-86.167292,"Foto_1_05032024,_212527",Productor Juan Ramón Montenegro Comunidad Zapote Occidental,Nicaragua,Yader Augusto Rizo Rivera,tomato,default,2.2427706718444824,Minador en Tomate
-ID_1709695689898,"05/03/2024, 21:28:09",13.195352,-86.167292,"Foto_1_05032024,_212809",Productor Juan Ramón Montenegro Comunidad Zapote Occidental,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,2.3030452728271484,Tizón Temprano en Tomate
-ID_1709695846059,"05/03/2024, 21:30:46",13.195352,-86.167292,"Foto_1_05032024,_213046",Productor Juan Ramón Montenegro Comunidad Zapote Occidental,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,2.27879285812378,Tizón Tardío en el Cultivo de Tomate
-ID_1709695846059,"05/03/2024, 21:30:46",13.195352,-86.167292,"Foto_1_05032024,_213046",Productor Juan Ramón Montenegro Comunidad Zapote Occidental,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,2.27879285812378,Tizón Tardío en el Cultivo de Tomate
-ID_1709696210208,"05/03/2024, 21:36:50",13.195352,-86.167292,"Foto_1_05032024,_213650",Productor Juan Ramón Montenegro Comunidad Zapote Occidental,Nicaragua,Yader Augusto Rizo Rivera,tomato,Avanzado,2.303837299346924,Mancha Bacteriana en Tomate
-ID_1709701715097,"05/03/2024, 23:08:35",8.777446,-82.6494,"Foto_1_05032024,_230835",,Panamá,Juan Castillo,coffee,Intermedio,3.575249671936035,
-ID_1709747688785,"06/03/2024, 11:54:48",8.849484,-82.596613,"Foto_1_06032024,_115448",Las nubes Cerro Punta,Panamá,Juan Castillo,cabbage,Avanzado,3.792615175247192,
-ID_1709747688785,"06/03/2024, 11:54:48",8.849484,-82.596613,"Foto_1_06032024,_115448",Las nubes Cerro Punta,Panamá,Juan Castillo,cabbage,Avanzado,3.792615175247192,
-ID_1709749356104,"06/03/2024, 12:22:36",13.422633,-86.484333,"Foto_1_06032024,_122236",Productor Nelson Antonio Gonzalez,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,1.8223989009857176,Minador de la Hoja 
-ID_1709749496857,"06/03/2024, 12:24:56",13.421503,-86.480858,"Foto_1_06032024,_122456",Productor Nelson González Comunidad casa Blanca Pueblo Nuevo Esteli,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,1.825892686843872,Virus del Tomate 
-ID_1709749624898,"06/03/2024, 12:27:04",13.422633,-86.484333,"Foto_1_06032024,_122704",Productor Nelson González Comunidad casa Blanca Pueblo Nuevo Esteli,Nicaragua,Yader Augusto Rizo Rivera,tomato,Intermedio,1.809896230697632,Mosca Blanca 
-ID_1709750961380,"06/03/2024, 12:49:21",8.779729,-82.63943,"Foto_1_06032024,_124921",Boquete ,Panamá,Nayesli Mendez,coffee,Avanzado,3.794500350952149,
-ID_1709751470283,"06/03/2024, 12:57:50",13.386773,-88.656842,"Foto_1_06032024,_125750","Cantón California, tierra blanca, Jiquilisco Usulutan",El Salvador,Angel Miranda,default,Intermedio,4.414882659912109,Marchitez en tomate
-ID_1709751663257,"06/03/2024, 13:01:03",13.385753,-88.655845,"Foto_1_06032024,_130103","Cantón California, tierra blanca, Jiquilisco Usulutan",El Salvador,Cristian Torres,tomato,Intermedio,3.712858438491821,Marchitez bacteriana
-ID_1709751789243,"06/03/2024, 13:03:09",13.385706,-88.655781,"Foto_1_06032024,_130309","Cantón California, tierra blanca, Jiquilisco Usulutan",El Salvador,Angel Miranda,default,Intermedio,2.649904489517212,Sigatoka
-ID_1709751916894,"06/03/2024, 13:05:16",13.38572,-88.655983,"Foto_1_06032024,_130516","Cantón Achotal, San Pedro Masahuat, La Paz",El Salvador,Angel Miranda,default,Temprano,3.3336846828460693,Gomosis
-ID_1709752092815,"06/03/2024, 13:08:12",13.385578,-88.655855,"Foto_1_06032024,_130812","Cantón Achotal, San Pedro Masahuat, La Paz",El Salvador,Angel Miranda,default,Intermedio,2.8116872310638428,MILDIU
-ID_1709752222457,"06/03/2024, 13:10:22",13.385596,-88.655834,"Foto_1_06032024,_131022","Cantón la lomita, zacatecoluca,  La Paz",El Salvador,Angel Miranda,default,Intermedio,2.742928266525269,MILDIU
-ID_1709752388974,"06/03/2024, 13:13:08",13.385475,-88.65598,"Foto_1_06032024,_131308","Cantón Achotal, San Pedro Masahuat, La Paz",El Salvador,Angel Miranda,default,Intermedio,3.074777841567993,Virosis
-ID_1709752541977,"06/03/2024, 13:15:41",13.385412,-88.655938,"Foto_1_06032024,_131541","Cantón Achotal, San Pedro Masahuat, La Paz",El Salvador,Angel Miranda,default,Intermedio,3.049211263656616,Mosca blanca
-ID_1709752811336,"06/03/2024, 13:20:11",13.385325,-88.655793,"Foto_1_06032024,_132011","San Pedro Nonualco,  La Paz",El Salvador,Angel Miranda,default,Intermedio,3.007822275161743,Antracnosis
-ID_1709750961380,"06/03/2024, 12:49:21",8.779729,-82.63943,"Foto_1_06032024,_124921",Boquete ,Panamá,Nayesli Mendez,coffee,Avanzado,3.794500350952149,
-ID_1709750961380,"06/03/2024, 12:49:21",8.779729,-82.63943,"Foto_1_06032024,_124921",Boquete ,Panamá,Nayesli Mendez,coffee,Avanzado,3.794500350952149,
-ID_1709820534885,"07/03/2024, 08:08:54",14.314654,-89.16807,"Foto_1_07032024,_080854","Cantón el Centro, San Ignacio ",El Salvador,Benedicto Ramírez,potato,Intermedio,2.0709688663482666,
-ID_1709820717226,"07/03/2024, 08:11:57",14.312469,-89.168015,"Foto_1_07032024,_081157","Cantón Las Pilas, San Ignacio ",El Salvador,Benedicto Ramírez,cabbage,Intermedio,2.076143980026245,
-ID_1709820808354,"07/03/2024, 08:13:28",14.312469,-89.168015,"Foto_1_07032024,_081328",Cantón Las Pilas ,El Salvador,Benedicto Ramírez,tomato,Intermedio,2.070249080657959,
-ID_1709859591658,"07/03/2024, 18:59:51",14.596959,-87.879667,"Foto_1_07032024,_185951","Kevin Meza, El Junco",Honduras,Franklin Meza,cucumber,Intermedio,4.1395263671875,Larva de mirador 
-ID_1709860062975,"07/03/2024, 19:07:42",14.596981,-87.879655,"Foto_1_07032024,_190742","Elmer Amalla, Siguatepeque ",Honduras,Franklin Meza,tomato,Avanzado,4.465620279312134,xanthomonas campestris
-ID_1709860786281,"07/03/2024, 19:19:46",14.596998,-87.879635,"Foto_1_07032024,_191946","Jhony Mencia, Cerró Blanco ",Honduras,Franklin Meza,cabbage,Avanzado,4.607283115386963,xanthomonas campestris
-ID_1709910982497,"08/03/2024, 09:16:22",8.329099,-80.502948,"Foto_1_08032024,_091622",Alex martinez,Panamá,Miguel Martinez,tomato,Avanzado,3.8609097003936768,Pudricion por antracnosis 
-ID_1709911183747,"08/03/2024, 09:19:43",8.328999,-80.502978,"Foto_1_08032024,_091943",Alex martinez,Panamá,Miguel Martinez,tomato,Avanzado,3.419248580932617,Tizon tardio
-ID_1709911304037,"08/03/2024, 09:21:44",8.328932,-80.503017,"Foto_1_08032024,_092144",,Panamá,Miguel Martinez,tomato,Avanzado,3.43699312210083,Deficiencia de calcio
-ID_1709911304037,"08/03/2024, 09:21:44",8.328932,-80.503017,"Foto_1_08032024,_092144",,Panamá,Miguel Martinez,tomato,Avanzado,3.43699312210083,Deficiencia de calcio
-ID_1709911729037,"08/03/2024, 09:28:49",8.328988,-80.502898,"Foto_1_08032024,_092849",Alex martinez,Panamá,Miguel Martinez,tomato,Avanzado,3.424955368041992,Ataque de antracnosis 
-ID_1709912053308,"08/03/2024, 09:34:13",8.328974,-80.503135,"Foto_1_08032024,_093413",Alex martinez,Panamá,Miguel Martinez,tomato,Avanzado,3.5281107425689697,Craking
-ID_1709912701824,"08/03/2024, 09:45:01",8.32899,-80.502948,"Foto_1_08032024,_094501",Alex martinez,Panamá,Miguel Martinez,tomato,Avanzado,3.661332845687866,Minador 
-ID_1709913287086,"08/03/2024, 09:54:47",8.32908,-80.502921,"Foto_1_08032024,_095447",Alex martinez,Panamá,Miguel Martinez,tomato,Avanzado,3.507880926132202,Gusano del fruto 
-ID_1709923710612,"08/03/2024, 12:48:30",8.247482,-80.523464,"Foto_1_08032024,_124830",Alex martinez,Panamá,Miguel Martinez,tomato,Avanzado,3.5446937084198,Minador
-ID_1709923802399,"08/03/2024, 12:50:02",8.247684,-80.523317,"Foto_1_08032024,_125002",Basilio Gomez,Panamá,Miguel Martinez,onion,Avanzado,3.888710021972656,Punta amarilla
-ID_1709924019729,"08/03/2024, 12:53:39",8.247263,-80.523217,"Foto_1_08032024,_125339",Basilio Gomez,Panamá,Miguel Martinez,onion,Avanzado,4.005889654159546,Daños por insectos masticadores
-ID_1709924153890,"08/03/2024, 12:55:53",8.247262,-80.52322,"Foto_1_08032024,_125553",Basilio Gomez,Panamá,Miguel Martinez,onion,Avanzado,4.352159023284912,"Botritis
-"
-ID_1709924312861,"08/03/2024, 12:58:32",8.246975,-80.523307,"Foto_1_08032024,_125832",Basilio Gomez,Panamá,Miguel Martinez,tomato,Avanzado,3.672701120376587,Cenisilla
-ID_1709928806247,"08/03/2024, 14:13:26",8.247263,-80.52322,"Foto_1_08032024,_141326",Adan Camargo ,Panamá,Miguel Martinez,onion,Avanzado,3.6250524520874015,Punta amarilla 
-ID_1709928909495,"08/03/2024, 14:15:09",8.247263,-80.523221,"Foto_1_08032024,_141509",Adan Camargo ,Panamá,Miguel Martinez,onion,Avanzado,3.639572143554688,Stenfilium
-ID_1709929138331,"08/03/2024, 14:18:58",8.247256,-80.523214,"Foto_1_08032024,_141858",Adan Camargo ,Panamá,Miguel Martinez,onion,Avanzado,3.8028743267059326,Alternaria
-ID_1709929349348,"08/03/2024, 14:22:29",8.247261,-80.523221,"Foto_1_08032024,_142229",Basilio Gomez,Panamá,Miguel Martinez,onion,Avanzado,3.576550245285034,Ataque de insecto masticador
-ID_1709929649059,"08/03/2024, 14:27:29",8.24726,-80.523221,"Foto_1_08032024,_142729",Basilio Gomez,Panamá,Miguel Martinez,onion,Avanzado,3.759263038635254,Stemfillium 
-ID_1709931727497,"08/03/2024, 15:02:07",8.798425,-82.626005,"Foto_1_08032024,_150207","Feryen, Boquete ",Panamá,Nayesli Mendez,coffee,Intermedio,1.97762393951416,Antracnosis en cafe 
-ID_1709931909356,"08/03/2024, 15:05:09",8.79847,-82.625882,"Foto_1_08032024,_150509","Feryen, Boquete ",Panamá,Nayesli Mendez,coffee,Intermedio,1.8039703369140625,Mosca de la fruta en hoja de cafe 
-ID_1709932196753,"08/03/2024, 15:09:56",8.798338,-82.625995,"Foto_1_08032024,_150956","Wilfredo Pitti, Cerro Punta ",Panamá,Nayesli Mendez,potato,Intermedio,2.027311325073242,Alternaria y liriomiza en papa 
-ID_1710024994938,"09/03/2024, 16:56:34",13.195356,-86.167294,"Foto_1_09032024,_165634",Productor:Santiago de Jesús Benavidez,Nicaragua,Yader Augusto Rizo Rivera,zucchini,Avanzado,2.114018440246582,Mosca Blanca en Calabaza
-ID_1710025347049,"09/03/2024, 17:02:27",13.195356,-86.167294,"Foto_1_09032024,_170227",Productor:Santiago de Jesús Benavidez,Nicaragua,Yader Augusto Rizo Rivera,zucchini,Avanzado,2.312384605407715,Mildiu Lanoso en Calabaza
-ID_1710108702813,"10/03/2024, 16:11:42",13.195347,-86.167289,"Foto_1_10032024,_161142",Productor:Freddys Adalid Osorio Comunidad La Fortuna Miraflor Esteli,Nicaragua,Yader Augusto Rizo Rivera,potato,Intermedio,2.539046287536621,Gusanon Bellotero en el cultivo de Papa
-ID_1710108888891,"10/03/2024, 16:14:48",13.195347,-86.167289,"Foto_1_10032024,_161448",Finca del Productor Elvin Antonio Herrera Valdivia Coyolito La Concordia,Nicaragua,Yader Augusto Rizo Rivera,pepper,Intermedio,2.97075629234314,Gusano de la Chiltoma
-ID_1710176769262,"11/03/2024, 11:06:09",8.852383,-82.572607,"Foto_1_11032024,_110609",,Panamá,Juan Castillo,coffee,Avanzado,4.576448917388916,
-ID_1710188371968,"11/03/2024, 14:19:31",13.474135,-89.066153,"Foto_1_11032024,_141931","Cantón Achotal, San Pedro Masahuat, La Paz",El Salvador,Cristian Torres,default,Intermedio,2.9830410480499268,Virosis
-ID_1710188494381,"11/03/2024, 14:21:34",13.474215,-89.066187,"Foto_1_11032024,_142134",,El Salvador,Angel Miranda,default,Intermedio,3.643472909927368,Mildiu 
-ID_1710188592755,"11/03/2024, 14:23:12",13.47416,-89.066215,"Foto_1_11032024,_142312","Cantón California, tierra blanca, Jiquilisco Usulutan",El Salvador,Angel Miranda,default,Intermedio,3.0146045684814453,Punta de cigarro
-ID_1710188827230,"11/03/2024, 14:27:07",13.768684,-89.411793,"Foto_1_11032024,_142707",Zapotitan ,El Salvador,Douglas Lemus,tomato,Intermedio,3.465955972671509,Rastonia
-ID_1710189294712,"11/03/2024, 14:34:54",13.47403,-89.066173,"Foto_1_11032024,_143454","Cantón anonas, Tecoluca,  San Vicente ",El Salvador,Angel Miranda,tomato,Intermedio,2.642667293548584,
-ID_1710191839798,"11/03/2024, 15:17:19",13.983292,-89.571097,"Foto_1_11032024,_151719",,El Salvador,Ivonne Corado,tomato,Avanzado,2.3384103775024414,Mirador de la hoja
-ID_1710191924051,"11/03/2024, 15:18:44",13.983299,-89.571076,"Foto_1_11032024,_151844",,El Salvador,Ivonne Corado,tomato,Avanzado,2.3566250801086426,Virosis
-ID_1710192193545,"11/03/2024, 15:23:13",13.983291,-89.571084,"Foto_1_11032024,_152313",,El Salvador,Ivonne Corado,cucumber,Temprano,2.3277957439422607,Gomosis
-ID_1710218890866,"11/03/2024, 22:48:10",13.195369,-86.167297,"Foto_1_11032024,_224810",Productor:Eddy Jarquin Comunidad Isiqui Esteli,Nicaragua,Yader Augusto Rizo Rivera,pepper,Avanzado,2.093112230300904,Mosca Minadora en Pimiento
-ID_1710219047001,"11/03/2024, 22:50:47",13.195365,-86.1673,"Foto_1_11032024,_225047",Productor:Eddy Jarquin Comunidad Isiqui Esteli,Nicaragua,Yader Augusto Rizo Rivera,tomato,Avanzado,2.013481616973877,Mosca Minadora en Tomate
-ID_1710219205421,"11/03/2024, 22:53:25",13.195356,-86.167295,"Foto_1_11032024,_225325",Productor:Eddy Jarquin Comunidad Isiqui Esteli,Nicaragua,Yader Augusto Rizo Rivera,tomato,Avanzado,2.6461284160614014,Tizón Temprano en Tomate
-ID_1710219486496,"11/03/2024, 22:58:06",13.195359,-86.167294,"Foto_1_11032024,_225806",Productor:Donald Salguera,Nicaragua,Yader Augusto Rizo Rivera,tomato,Avanzado,2.08776330947876,Trip en Tomate
-ID_1710219670203,"11/03/2024, 23:01:10",13.195359,-86.167294,"Foto_1_11032024,_230110",Productor:Donald Salguera Comunidad Llanos de Colón Esteli,Nicaragua,Yader Augusto Rizo Rivera,tomato,Avanzado,2.314901828765869,Minador en Tomate
-ID_1710219850805,"11/03/2024, 23:04:10",13.195355,-86.167293,"Foto_1_11032024,_230410",Productor:Donald Salguera Comunidad Llanos de Colón Esteli,Nicaragua,Yader Augusto Rizo Rivera,tomato,Avanzado,2.0677132606506348,Mosca Blanca en Tomate
-ID_1710259127717,"12/03/2024, 09:58:47",8.771027,-82.433113,"Foto_1_12032024,_095847","Anef, Cerro Puntal ",Panamá,Nayesli Mendez,potato,Intermedio,2.5734198093414307,Tizon tardío en papá 
-ID_1710259264848,"12/03/2024, 10:01:04",8.771027,-82.433113,"Foto_1_12032024,_100104","Anef, Cerro Puntal ",Panamá,Nayesli Mendez,cabbage,Avanzado,2.298705816268921,Afectación de plutella en repollo
-ID_1710259516718,"12/03/2024, 10:05:16",8.771027,-82.433113,"Foto_1_12032024,_100516","Anef, Cerro Puntal ",Panamá,Nayesli Mendez,potato,Intermedio,2.3604793548583984,Tizon tardío en papa
-ID_1710259626086,"12/03/2024, 10:07:06",8.771027,-82.433113,"Foto_1_12032024,_100706","Anef, Cerro Puntal ",Panamá,Nayesli Mendez,cabbage,Avanzado,2.243499994277954,Plutella xylostella en repollo
-ID_1710265511682,"12/03/2024, 11:45:11",13.783543,-89.458116,"Foto_1_12032024,_114511",Zapotitan ,El Salvador,Douglas Lemus,rice,Intermedio,4.287291526794434,Pyricularia
-ID_1710279023549,"12/03/2024, 15:30:23",13.617717,-89.196077,"Foto_1_12032024,_153023","Cantón san bartolo, Tecoluca,  San. Vicente. ",El Salvador,Angel Miranda,maize,Intermedio,2.375496864318848,
-ID_1710279402293,"12/03/2024, 15:36:42",13.617713,-89.195997,"Foto_1_12032024,_153642","Cantón san bartolo, Tecoluca,  San. Vicente. ",El Salvador,Angel Miranda,cucumber,Intermedio,3.1671621799468994,
-ID_1710279538890,"12/03/2024, 15:38:58",13.617713,-89.195997,"Foto_1_12032024,_153858","Cantón anonas, Tecoluca,  San Vicente ",El Salvador,Angel Miranda,pepper,Temprano,2.907125949859619,Fusarium
-ID_1710293165722,"12/03/2024, 19:26:05",14.597431,-87.877967,"Foto_1_12032024,_192605","Oscar Alvarado, Zamorano.",Honduras,Franklin Meza,onion,Intermedio,3.955643177032471,Larva de minador 
-ID_1710330887263,"13/03/2024, 05:54:47",14.047895,-89.724056,"Foto_1_13032024,_055447",Chalchuapa ,El Salvador,Douglas Lemus,tomato,Intermedio,2.343482494354248,Tizon tardío 
-ID_1710427966730,"14/03/2024, 08:52:46",13.755612,-89.394707,"Foto_1_14032024,_085246",Zapotitan ,El Salvador,Douglas Lemus,maize,Intermedio,2.408841848373413,Mancha de asfalto
-ID_1710429934696,14/03/2024 09:25:34,14.127486,-89.048243,Foto_1_14032024_092534,"San Rafael,Chalatenango.",El Salvador,Javier Hernández,tomato,Avanzado,3.7327516078948975,Fumagina
-ID_1710430830384,14/03/2024 09:40:30,14.127486,-89.048243,Foto_1_14032024_094030,"San Rafael,Chalatenango.",El Salvador,Javier Hernández,pepper,Avanzado,3.973579168319702,Mal de talluelo
-ID_1710434844541,"14/03/2024, 10:47:24",13.751565,-89.409033,"Foto_1_14032024,_104724",Zapotitan ,El Salvador,Douglas Lemus,cucumber,Intermedio,2.2653536796569824,Corynespora
-ID_1710447807965,"14/03/2024, 14:23:27",,,"Foto_1_14032024,_142327",,Panamá,Rosmel Bosque,maize,Temprano,3.0424673557281494,
-ID_1710471084945,"14/03/2024, 20:51:24",9.902301,-84.05783,"Foto_1_14032024,_205124","Ceiba alto, Acosta",Costa Rica,Marisol Zanher,coffee,Avanzado,4.078992605209351,Colletotrichum gloesporoides (Antracnosis)
-ID_1710471263080,"14/03/2024, 20:54:23",9.902302,-84.057833,"Foto_1_14032024,_205423","Frailes, Desamparados ",Costa Rica,Marisol Zanher,coffee,Temprano,4.054643392562866,Roya (Hemileia vastatrix)
-ID_1710471577657,"14/03/2024, 20:59:37",9.902269,-84.057967,"Foto_1_14032024,_205937","Frailes, Desamparados ",Costa Rica,Marisol Zanher,coffee,Intermedio,3.672261238098145,Roya (Hemileia vastatrix)
-ID_1710687819156,"17/03/2024, 09:03:39",,,"Foto_1_17032024,_090339",,Honduras,Milton Peña,bean,Avanzado,2.1406471729278564,Presencia de virus de mosaico
-ID_1710852831454,"19/03/2024, 06:53:51",8.332589,-80.515026,"Foto_1_19032024,_065351",Basilio Gomez,Panamá,Miguel Martinez,onion,Avanzado,3.697390794754028,Botritis 
-ID_1710852977792,"19/03/2024, 06:56:17",8.337752,-80.518019,"Foto_1_19032024,_065617",Basilio Gomez,Panamá,Miguel Martinez,tomato,Avanzado,2.642078399658203,Mildiu 
-ID_1711036950601,"21/03/2024, 10:02:30",8.52006,-82.640073,"Foto_1_21032024,_100230","Feryen, Boquete ",Panamá,Nayesli Mendez,coffee,Avanzado,2.80535888671875,Roya en planta de cafe 
-ID_1711038621933,"21/03/2024, 10:30:21",8.520715,-82.639011,"Foto_1_21032024,_103021","La Alquería, Boquete ",Panamá,Nayesli Mendez,coffee,Intermedio,2.0932376384735107,Roya en cafe
-ID_1711307829665,"24/03/2024, 13:17:09",13.195411,-86.167283,"Foto_1_24032024,_131709",Prooductor: Jesús Rodríguez Comunidad Casa Blanca Pueblo Nuevo Esteli,Nicaragua,Yader Augusto Rizo Rivera,cucumber,Intermedio,2.131011486053467,Ácaro Rojo en Pepino
-ID_1711380186735,"25/03/2024, 09:23:06",14.598144,-90.554368,"Foto_1_25032024,_092306",PRUEBA DE CARGA,Guatemala,Bernardo Gregorio Toc,pepper,Temprano,2.1158032417297363,PRUEBA DE CARGA
-ID_1711507647293,"26/03/2024, 20:47:27",8.33788,-80.518142,"Foto_1_26032024,_204727",Basilio Gomez,Panamá,Miguel Martinez,onion,Intermedio,2.975189685821533,Marchites por fusarium
-ID_1711558441531,"27/03/2024, 10:54:01",14.596969,-87.879652,"Foto_1_27032024,_105401",Oscar Morales,Honduras,Franklin Meza,onion,default,2.6839346885681152,Daño por bacteria.
-ID_1712027770452,"01/04/2024, 21:16:10",14.597011,-87.879868,"Foto_1_01042024,_211610","Melvin Santos, El Porvenir,  Siguatepeque ",Honduras,Franklin Meza,tomato,Intermedio,3.973498106002808,Tizón tardío 
-ID_1712027770452,"01/04/2024, 21:16:10",14.597011,-87.879868,"Foto_1_01042024,_211610","Melvin Santos, El Porvenir,  Siguatepeque ",Honduras,Franklin Meza,tomato,Intermedio,3.973498106002808,Tizón tardío 
-ID_1712028148704,"01/04/2024, 21:22:28",14.597011,-87.879867,"Foto_1_01042024,_212228","Milton Almendarez, Zambrano",Honduras,Franklin Meza,tomato,Intermedio,3.686725378036499,Alternaria 
-ID_1712063488870,"02/04/2024, 07:11:28",13.42701,-88.066962,"Foto_1_02042024,_071128",San Miguel ,El Salvador,Benjamín Najarro,maize,Intermedio,2.353869676589966,Araña roja
-ID_1712066808763,"02/04/2024, 08:06:48",8.33776,-80.517991,"Foto_1_02042024,_080648",Basilio Gomez,Panamá,Miguel Martinez,onion,Intermedio,2.3714816570281982,Botritis 
-ID_1712066939146,"02/04/2024, 08:08:59",8.33776,-80.517991,"Foto_1_02042024,_080859",Basilio Gomez,Panamá,Miguel Martinez,onion,Intermedio,2.2651755809783936,Bitritis 
-ID_1712067022619,"02/04/2024, 08:10:22",8.33776,-80.517991,"Foto_1_02042024,_081022",Basilio Gomez,Panamá,Miguel Martinez,onion,Intermedio,2.326599597930908,Stemfilium 
-ID_1712067595302,"02/04/2024, 08:19:55",8.337745,-80.518003,"Foto_1_02042024,_081955",Carlos meneses ,Panamá,Miguel Martinez,onion,Intermedio,2.3561484813690186,Stemfilium 
-ID_1712067737461,"02/04/2024, 08:22:17",8.337913,-80.517252,"Foto_1_02042024,_082217",Basilio Gomez,Panamá,Miguel Martinez,onion,Intermedio,2.1211307048797607,Botritis de la cebolla 
-ID_1712067841815,"02/04/2024, 08:24:01",8.337913,-80.517252,"Foto_1_02042024,_082401",Basilio Gomez,Panamá,Miguel Martinez,onion,Intermedio,2.266827344894409,Pleospora 
-ID_1712067955075,"02/04/2024, 08:25:55",8.337913,-80.517252,"Foto_1_02042024,_082555",Basilio Gomez,Panamá,Miguel Martinez,onion,Intermedio,2.030531406402588,Botritis 
-ID_1712068001858,"02/04/2024, 08:26:41",8.337913,-80.517252,"Foto_1_02042024,_082641",Basilio Gomez,Panamá,Miguel Martinez,onion,Intermedio,2.296772003173828,Botritis 
-ID_1712156019986,"03/04/2024, 08:53:39",8.441061,-82.478507,"Foto_1_03042024,_085339","Boquete, Agroquímicos Caballero ",Panamá,Nayesli Mendez,tomato,Avanzado,2.180493831634521,Peca bacteriana 
-ID_1712174549106,"03/04/2024, 14:02:29",8.441073,-82.478503,"Foto_1_03042024,_140229","Boquete, Agroquímicos Caballero ",Panamá,Nayesli Mendez,tomato,Intermedio,2.1028852462768555,Mancha bacteriana en tomate 
-ID_1712174671917,"03/04/2024, 14:04:31",8.441073,-82.478503,"Foto_1_03042024,_140431","Boquete, Agroquímicos Caballero ",Panamá,Nayesli Mendez,tomato,Intermedio,2.0983989238739014,Mancha bacteriana en tomate 
-ID_1712253261896,"04/04/2024, 11:54:21",14.278601,-87.422146,"Foto_1_04042024,_115421",Milton Almendarez ,Honduras,Franklin Meza,onion,Intermedio,4.222374200820923,Alternaria 
-ID_1712253718793,"04/04/2024, 12:01:58",14.610348,-90.556636,"Foto_1_04042024,_120158",test,Guatemala,Jorge Alberto Mejicanos Donis,pepper,Intermedio,2.141235589981079,test
-ID_1712254310782,"04/04/2024, 12:11:50",14.278601,-87.422146,"Foto_1_04042024,_121150",Kevin Meza,Honduras,Franklin Meza,cucumber,Avanzado,4.468885898590088,Trips
-ID_1712341679433,"05/04/2024, 12:27:59",14.586876,-87.851398,"Foto_1_05042024,_122759","Joel Santos,  Siguatepeque ",Honduras,Franklin Meza,tomato,Avanzado,1.859511137008667,Gusano del fruto 
-ID_1712341878680,"05/04/2024, 12:31:18",14.586876,-87.851398,"Foto_1_05042024,_123118","Kevin Meza, Siguatepeque ",Honduras,Franklin Meza,tomato,Intermedio,4.177469968795776,Alternaria 
-ID_1712584470379,"08/04/2024, 07:54:30",13.861333,-86.191792,"Foto_1_08042024,_075430",,Nicaragua,Liuxmilia Jaxari Rivera Umanzor,tomato,Intermedio,2.0550758838653564,Minador de la hoja en tomate 
-ID_1712584470379,"08/04/2024, 07:54:30",13.861333,-86.191792,"Foto_1_08042024,_075430",,Nicaragua,Liuxmilia Jaxari Rivera Umanzor,tomato,Intermedio,2.0550758838653564,Minador de la hoja en tomate 
+id,pais,cultivo,,,
+ID_1706886541043,Colombia,potato,,,
+ID_1706905924273,Colombia,potato,,,
+ID_1706906519353,Colombia,potato,,,
+ID_1706906585880,Colombia,potato,,,
+ID_1706907994076,Colombia,potato,,,
+ID_1707167291988,Honduras,bean,,,
+ID_1707167766933,Honduras,bean,,,
+ID_1707216803822,Colombia,potato,,,
+ID_1707216885757,Colombia,onion,,,
+ID_1707216990465,Colombia,potato,,,
+ID_1707217669995,Colombia,potato,,,
+ID_1707337378022,Honduras,tomato,,,
+ID_1707341020081,Honduras,coffee,,,
+ID_1707413124340,Colombia,potato,,,
+ID_1707413601871,Colombia,potato,,,
+ID_1707413701629,Colombia,potato,,,
+ID_1707413751241,Colombia,potato,,,
+ID_1707413920931,Colombia,potato,,,
+ID_1707414435887,Colombia,tomato,,,
+ID_1707414816827,Colombia,onion,,,
+ID_1707442674510,Colombia,maize,,,
+ID_1707442766280,Colombia,maize,,,
+ID_1707446428968,Colombia,maize,,,
+ID_1707494912671,Colombia,coffee,,,
+ID_1707495315474,Colombia,coffee,,,
+ID_1707495516825,Colombia,potato,,,
+ID_1707503099922,Colombia,tomato,,,
+ID_1707529700369,Colombia,tomato,,,
+ID_1707529772899,Colombia,tomato,,,
+ID_1707529870811,Colombia,potato,,,
+ID_1707575590884,Colombia,tomato,,,
+ID_1707576095541,Colombia,tomato,,,
+ID_1707576159792,Colombia,tomato,,,
+ID_1707576451722,Colombia,default,,,
+ID_1707741909539,Colombia,coffee,,,
+ID_1707747270968,Colombia,coffee,,,
+ID_1707747556038,Colombia,coffee,,,
+ID_1707752855102,Colombia,eggplant,,,
+ID_1707757725797,Colombia,potato,,,
+ID_1707779015043,Colombia,potato,,,
+ID_1707779862232,Colombia,onion,,,
+ID_1707780110116,Colombia,potato,,,
+ID_1707781160763,Colombia,onion,,,
+ID_1707781491833,Colombia,potato,,,
+ID_1707792827045,Costa Rica,onion,,,
+ID_1707827088702,Colombia,maize,,,
+ID_1707827406497,Colombia,maize,,,
+ID_1707832573926,Colombia,potato,,,
+ID_1707832844783,Colombia,potato,,,
+ID_1707837403712,Guatemala,potato,,,
+ID_1707837856536,Colombia,potato,,,
+ID_1707838081790,Colombia,potato,,,
+ID_1707838223118,Colombia,potato,,,
+ID_1707838311789,Colombia,potato,,,
+ID_1707838454346,Colombia,potato,,,
+ID_1707838522491,Colombia,potato,,,
+ID_1707838748332,Colombia,potato,,,
+ID_1707838894656,Colombia,potato,,,
+ID_1707841173467,Colombia,coffee,,,
+ID_1707841490254,Colombia,coffee,,,
+ID_1707846193756,Colombia,maize,,,
+ID_1707856487938,Colombia,tomato,,,
+ID_1707856487938,Colombia,tomato,,,
+ID_1707870564019,Colombia,maize,,,
+ID_1707887294864,Colombia,maize,,,
+ID_1707918954695,Colombia,potato,,,
+ID_1707919040669,Colombia,potato,,,
+ID_1707919179909,Colombia,potato,,,
+ID_1707919263671,Colombia,potato,,,
+ID_1707919396748,Colombia,potato,,,
+ID_1707920059338,Colombia,potato,,,
+ID_1707924483877,Colombia,coffee,,,
+ID_1707926896702,Colombia,maize,,,
+ID_1707927143842,Colombia,maize,,,
+ID_1707927254373,Colombia,maize,,,
+ID_1707928335099,Colombia,maize,,,
+ID_1707928434002,Colombia,maize,,,
+ID_1707928727525,Colombia,maize,,,
+ID_1707928799550,Colombia,potato,,,
+ID_1707933085338,Colombia,maize,,,
+ID_1707935269208,Honduras,coffee,,,
+ID_1707935339869,Honduras,tomato,,,
+ID_1707935451672,Colombia,maize,,,
+ID_1707935627310,Honduras,pepper,,,
+ID_1707936355882,Honduras,potato,,,
+ID_1707940262052,Honduras,coffee,,,
+ID_1707941098471,Colombia,potato,,,
+ID_1707941686519,Colombia,default,,,
+ID_1707941856489,Colombia,default,,,
+ID_1707942227325,Colombia,potato,,,
+ID_1707942333428,Colombia,default,,,
+ID_1707942870667,Honduras,tomato,,,
+ID_1707943074521,Colombia,maize,,,
+ID_1707943146403,Colombia,default,,,
+ID_1707948149858,Honduras,pepper,,,
+ID_1707949601900,Panamá,maize,,,
+ID_1707949905845,Colombia,tomato,,,
+ID_1707971410088,Honduras,tomato,,,
+ID_1707971699437,Honduras,tomato,,,
+ID_1708002247071,Colombia,eggplant,,,
+ID_1708002466035,Colombia,eggplant,,,
+ID_1708002670043,Guatemala,tomato,,,
+ID_1708006770361,Colombia,maize,,,
+ID_1708006904814,Colombia,maize,,,
+ID_1708007311807,Colombia,maize,,,
+ID_1708007899499,Guatemala,onion,,,
+ID_1708009287393,Guatemala,onion,,,
+ID_1708039674622,Guatemala,maize,,,
+ID_1708039845684,Honduras,bean,,,
+ID_1708039784222,Guatemala,potato,,,
+ID_1708039784222,Guatemala,potato,,,
+ID_1708040470211,Guatemala,potato,,,
+ID_1708040662675,Guatemala,cabbage,,,
+ID_1708040778038,Honduras,pepper,,,
+ID_1708040778038,Honduras,pepper,,,
+ID_1708040876878,Guatemala,tomato,,,
+ID_1708042014656,Guatemala,tomato,,,
+ID_1708042523323,Guatemala,tomato,,,
+ID_1708042755772,Guatemala,tomato,,,
+ID_1708043842866,Honduras,pepper,,,
+ID_1708044311872,Guatemala,maize,,,
+ID_1708044505140,Guatemala,tomato,,,
+ID_1708044626356,Guatemala,pepper,,,
+ID_1708044719144,Guatemala,tomato,,,
+ID_1708045203388,Guatemala,tomato,,,
+ID_1708045347191,Guatemala,pepper,,,
+ID_1708045626735,Guatemala,pepper,,,
+ID_1708045561666,Panamá,pepper,,,
+ID_1708045901244,Guatemala,tomato,,,
+ID_1708045861012,Panamá,tomato,,,
+ID_1708046330546,Panamá,onion,,,
+ID_1708046581389,Guatemala,pepper,,,
+ID_1708046468578,Colombia,cucumber,,,
+ID_1708047199679,Colombia,maize,,,
+ID_1708048615222,Colombia,eggplant,,,
+ID_1708050115006,Colombia,maize,,,
+ID_1708050970412,Colombia,maize,,,
+ID_1708051275516,Colombia,coffee,,,
+ID_1708051539737,Colombia,coffee,,,
+ID_1708052727354,Honduras,pepper,,,
+ID_1708053124123,Honduras,tomato,,,
+ID_1708053298660,Honduras,pepper,,,
+ID_1708053463027,Honduras,tomato,,,
+ID_1708053775776,Honduras,tomato,,,
+ID_1708053883541,Honduras,tomato,,,
+ID_1708054094358,Honduras,tomato,,,
+ID_1708054345671,Honduras,tomato,,,
+ID_1708054699382,Honduras,pepper,,,
+ID_1708055944297,Honduras,pepper,,,
+ID_1708079629529,Guatemala,tomato,,,
+ID_1708080039202,Guatemala,tomato,,,
+ID_1708080039202,Guatemala,tomato,,,
+ID_1708080621925,Guatemala,tomato,,,
+ID_1708081471009,Guatemala,potato,,,
+ID_1708082445895,Guatemala,tomato,,,
+ID_1708081471009,Guatemala,potato,,,
+ID_1708082945447,Guatemala,tomato,,,
+ID_1708083467438,Guatemala,cucumber,,,
+ID_1708082445895,Guatemala,tomato,,,
+ID_1708087992409,Colombia,potato,,,
+ID_1708088062601,Colombia,potato,,,
+ID_1708088185801,Colombia,potato,,,
+ID_1708088641129,Honduras,tomato,,,
+ID_1708088825398,Guatemala,bean,,,
+ID_1708091904545,Guatemala,coffee,,,
+ID_1708094045858,Guatemala,tomato,,,
+ID_1708094760935,Guatemala,potato,,,
+ID_1708095286741,Panamá,onion,,,
+ID_1708095816341,Guatemala,tomato,,,
+ID_1708096788427,Guatemala,maize,,,
+ID_1708096946999,Guatemala,maize,,,
+ID_1708096799395,Guatemala,cabbage,,,
+ID_1708097465824,Guatemala,cauliflower,,,
+ID_1708097696729,Guatemala,tomato,,,
+ID_1708098129233,Guatemala,tomato,,,
+ID_1708098447844,Guatemala,tomato,,,
+ID_1708098809792,Guatemala,maize,,,
+ID_1708098961445,El Salvador,cucumber,,,
+ID_1708099281602,Guatemala,maize,,,
+ID_1708099207588,Guatemala,onion,,,
+ID_1708099731950,Guatemala,onion,,,
+ID_1708099780441,Guatemala,onion,,,
+ID_1708099896309,Guatemala,potato,,,
+ID_1708100207411,Guatemala,coffee,,,
+ID_1708100564077,Guatemala,onion,,,
+ID_1708100671298,Guatemala,coffee,,,
+ID_1708100397474,Guatemala,tomato,,,
+ID_1708100750587,Nicaragua,maize,,,
+ID_1708101043534,Guatemala,onion,,,
+ID_1708100122830,Guatemala,tomato,,,
+ID_1708100898960,Guatemala,onion,,,
+ID_1708101236260,Guatemala,tomato,,,
+ID_1708101594460,Guatemala,tomato,,,
+ID_1708101801990,Guatemala,maize,,,
+ID_1708101952955,Guatemala,maize,,,
+ID_1708102175608,Guatemala,maize,,,
+ID_1708102953209,Guatemala,maize,,,
+ID_1708103702179,Guatemala,tomato,,,
+ID_1708104155003,Guatemala,maize,,,
+ID_1708104453253,Guatemala,tomato,,,
+ID_1708104458188,Guatemala,tomato,,,
+ID_1708105951898,Guatemala,tomato,,,
+ID_1708106329451,Guatemala,coffee,,,
+ID_1708106498428,Nicaragua,rice,,,
+ID_1708106835820,Guatemala,tomato,,,
+ID_1708107636610,Nicaragua,rice,,,
+ID_1708107758902,Nicaragua,rice,,,
+ID_1708107846512,Nicaragua,rice,,,
+ID_1708108185665,Nicaragua,rice,,,
+ID_1708108339924,Nicaragua,rice,,,
+ID_1708108992346,Nicaragua,rice,,,
+ID_1708109066853,Nicaragua,rice,,,
+ID_1708109202347,Nicaragua,rice,,,
+ID_1708109162195,Guatemala,maize,,,
+ID_1708109254556,Nicaragua,rice,,,
+ID_1708109337964,Nicaragua,rice,,,
+ID_1708109408088,Guatemala,maize,,,
+ID_1708109542079,Nicaragua,rice,,,
+ID_1708109639030,Nicaragua,rice,,,
+ID_1708109684042,Nicaragua,rice,,,
+ID_1708109771415,Nicaragua,rice,,,
+ID_1708109841470,Nicaragua,rice,,,
+ID_1708109916996,Nicaragua,rice,,,
+ID_1708109628106,Guatemala,maize,,,
+ID_1708110065524,Nicaragua,rice,,,
+ID_1708110189069,Nicaragua,rice,,,
+ID_1708110273269,Nicaragua,rice,,,
+ID_1708110407823,Nicaragua,rice,,,
+ID_1708110485408,Guatemala,default,,,
+ID_1708111856076,Guatemala,default,,,
+ID_1708111974706,Guatemala,default,,,
+ID_1708112075315,El Salvador,coffee,,,
+ID_1708112256424,El Salvador,maize,,,
+ID_1708112354138,El Salvador,maize,,,
+ID_1708112540324,Nicaragua,tomato,,,
+ID_1708113943288,Nicaragua,tomato,,,
+ID_1708114496875,El Salvador,maize,,,
+ID_1708114582813,Nicaragua,tomato,,,
+ID_1708114809824,Nicaragua,tomato,,,
+ID_1708114774199,Nicaragua,tomato,,,
+ID_1708115034464,Guatemala,maize,,,
+ID_1708114917950,Guatemala,cabbage,,,
+ID_1708115108042,Nicaragua,rice,,,
+ID_1708116182125,Nicaragua,onion,,,
+ID_1708116530262,Guatemala,coffee,,,
+ID_1708116907029,Guatemala,maize,,,
+ID_1708116907029,Guatemala,maize,,,
+ID_1708117189709,Guatemala,default,,,
+ID_1708117557431,Guatemala,potato,,,
+ID_1708118727861,Guatemala,coffee,,,
+ID_1708118831856,Nicaragua,rice,,,
+ID_1708119585440,Guatemala,maize,,,
+ID_1708120714571,Nicaragua,coffee,,,
+ID_1708120623557,Guatemala,tomato,,,
+ID_1708121380947,Guatemala,bean,,,
+ID_1708122907158,Guatemala,bean,,,
+ID_1708122140887,Nicaragua,coffee,,,
+ID_1708123579437,Guatemala,tomato,,,
+ID_1708123464605,Nicaragua,rice,,,
+ID_1708124780050,Colombia,maize,,,
+ID_1708126954764,Guatemala,onion,,,
+ID_1708128387285,Nicaragua,maize,,,
+ID_1708128054094,Guatemala,tomato,,,
+ID_1708128054094,Guatemala,tomato,,,
+ID_1708129137520,Guatemala,onion,,,
+ID_1708129484420,Nicaragua,tomato,,,
+ID_1708129831456,Nicaragua,tomato,,,
+ID_1708130287439,Nicaragua,tomato,,,
+ID_1708131648800,Guatemala,maize,,,
+ID_1708110991844,Guatemala,cucumber,,,
+ID_1708132434072,Guatemala,tomato,,,
+ID_1708132663196,Guatemala,maize,,,
+ID_1708182631885,Nicaragua,default,,,
+ID_1708181914403,Guatemala,coffee,,,
+ID_1708183656631,Guatemala,coffee,,,
+ID_1708184619318,Nicaragua,pepper,,,
+ID_1708184778747,Guatemala,coffee,,,
+ID_1708185227847,Nicaragua,maize,,,
+ID_1708185489202,Nicaragua,pepper,,,
+ID_1708184556868,Guatemala,coffee,,,
+ID_1708185622894,Nicaragua,pepper,,,
+ID_1708185757417,Nicaragua,tomato,,,
+ID_1708185960207,Nicaragua,tomato,,,
+ID_1708185687137,Guatemala,coffee,,,
+ID_1708202960420,Guatemala,coffee,,,
+ID_1708202781671,Nicaragua,tomato,,,
+ID_1708206122273,Nicaragua,tomato,,,
+ID_1708212967402,Nicaragua,tomato,,,
+ID_1708213165892,Nicaragua,maize,,,
+ID_1708214985209,Colombia,coffee,,,
+ID_1708216916075,Nicaragua,maize,,,
+ID_1708217062566,Nicaragua,maize,,,
+ID_1708217248035,Nicaragua,tomato,,,
+ID_1708263220819,Costa Rica,pepper,,,
+ID_1708263975259,Costa Rica,tomato,,,
+ID_1708264264900,Costa Rica,pepper,,,
+ID_1708264868690,Costa Rica,pepper,,,
+ID_1708266846204,Costa Rica,coffee,,,
+ID_1708290929262,Nicaragua,pepper,,,
+ID_1708291110748,Nicaragua,pepper,,,
+ID_1708301659200,Panamá,onion,,,
+ID_1708349647417,Colombia,maize,,,
+ID_1708349786317,Colombia,maize,,,
+ID_1708368426847,Honduras,coffee,,,
+ID_1708368490312,Honduras,potato,,,
+ID_1708368626476,Honduras,potato,,,
+ID_1708368706543,Honduras,onion,,,
+ID_1708368766036,Honduras,coffee,,,
+ID_1708370547909,Honduras,cucumber,,,
+ID_1708360227973,Honduras,maize,,,
+ID_1708377199302,Honduras,maize,,,
+ID_1708377252409,Honduras,maize,,,
+ID_1708378414504,Honduras,maize,,,
+ID_1708378482705,Honduras,maize,,,
+ID_1708378695840,Honduras,maize,,,
+ID_1708378768861,Honduras,coffee,,,
+ID_1708378865457,Honduras,maize,,,
+ID_1708378970622,Honduras,bean,,,
+ID_1708384470419,Honduras,coffee,,,
+ID_1708384737976,Honduras,maize,,,
+ID_1708385215772,Honduras,maize,,,
+ID_1708385568871,Honduras,maize,,,
+ID_1708385788109,Honduras,maize,,,
+ID_1708385896685,Honduras,maize,,,
+ID_1708396211203,Nicaragua,cauliflower,,,
+ID_1708397362868,Nicaragua,potato,,,
+ID_1708398196382,Nicaragua,default,,,
+ID_1708398341435,Nicaragua,potato,,,
+ID_1708439923038,Nicaragua,tomato,,,
+ID_1708440373527,Nicaragua,tomato,,,
+ID_1708443166573,Nicaragua,maize,,,
+ID_1708452468054,El Salvador,default,,,
+ID_1708453327409,Nicaragua,tomato,,,
+ID_1708456600464,Nicaragua,tomato,,,
+ID_1708456895465,Nicaragua,tomato,,,
+ID_1708458471539,Nicaragua,tomato,,,
+ID_1708459792162,Panamá,onion,,,
+ID_1708459597057,Honduras,maize,,,
+ID_1708459941563,Honduras,maize,,,
+ID_1708460320060,Honduras,maize,,,
+ID_1708460583661,Honduras,maize,,,
+ID_1708460762467,Honduras,bean,,,
+ID_1708460978271,Honduras,bean,,,
+ID_1708461174023,Honduras,bean,,,
+ID_1708461174023,Honduras,bean,,,
+ID_1708519179078,Panamá,coffee,,,
+ID_1708527832848,Panamá,tomato,,,
+ID_1708527028086,Costa Rica,potato,,,
+ID_1708528341623,Panamá,tomato,,,
+ID_1708528677240,Panamá,pepper,,,
+ID_1708528944619,Panamá,onion,,,
+ID_1708529378160,Panamá,onion,,,
+ID_1708529728426,Panamá,onion,,,
+ID_1708527028086,Costa Rica,potato,,,
+ID_1708533812075,Costa Rica,tomato,,,
+ID_1708533812075,Costa Rica,tomato,,,
+ID_1708553655038,Costa Rica,default,,,
+ID_1708557525159,Costa Rica,maize,,,
+ID_1708558774063,Costa Rica,maize,,,
+ID_1708562992811,Honduras,tomato,,,
+ID_1708562992811,Honduras,tomato,,,
+ID_1708564050780,Nicaragua,default,,,
+ID_1708564382404,Nicaragua,maize,,,
+ID_1708569540069,Honduras,tomato,,,
+ID_1708569750010,Honduras,pepper,,,
+ID_1708570109838,Honduras,coffee,,,
+ID_1708571426337,Costa Rica,coffee,,,
+ID_1708571949883,Costa Rica,coffee,,,
+ID_1708572666790,Costa Rica,coffee,,,
+ID_1708573691121,Costa Rica,coffee,,,
+ID_1708573929843,Costa Rica,coffee,,,
+ID_1708575319862,Costa Rica,coffee,,,
+ID_1708575319862,Costa Rica,coffee,,,
+ID_1708576238697,Costa Rica,maize,,,
+ID_1708576649236,Costa Rica,tomato,,,
+ID_1708613004681,Nicaragua,bean,,,
+ID_1708615827672,Nicaragua,maize,,,
+ID_1708615988922,Nicaragua,maize,,,
+ID_1708616297730,Nicaragua,bean,,,
+ID_1708616570040,Nicaragua,maize,,,
+ID_1708616536041,Nicaragua,coffee,,,
+ID_1708617034386,Nicaragua,coffee,,,
+ID_1708617281093,Nicaragua,maize,,,
+ID_1708618438029,Honduras,tomato,,,
+ID_1708622879046,Honduras,tomato,,,
+ID_1708622879046,Honduras,tomato,,,
+ID_1708649587329,Panamá,pepper,,,
+ID_1708655454842,Honduras,tomato,,,
+ID_1708655546727,Honduras,pepper,,,
+ID_1708655747011,Honduras,tomato,,,
+ID_1708656964520,Nicaragua,pepper,,,
+ID_1708714709902,Panamá,onion,,,
+ID_1708715063989,Panamá,cucumber,,,
+ID_1708715237384,Panamá,coffee,,,
+ID_1708715342384,Panamá,potato,,,
+ID_1708715706251,Nicaragua,onion,,,
+ID_1708717462172,Honduras,coffee,,,
+ID_1708717462172,Honduras,coffee,,,
+ID_1708712688404,Costa Rica,zucchini,,,
+ID_1708920278243,Honduras,coffee,,,
+ID_1708964727320,Honduras,pepper,,,
+ID_1708990062793,Honduras,maize,,,
+ID_1709060058507,Panamá,pepper,,,
+ID_1709069850986,Panamá,maize,,,
+ID_1709070072460,Panamá,rice,,,
+ID_1709070097515,Panamá,rice,,,
+ID_1709070435797,Panamá,rice,,,
+ID_1709080130698,Nicaragua,bean,,,
+ID_1709080560409,Nicaragua,bean,,,
+ID_1709080560409,Nicaragua,bean,,,
+ID_1709081395650,Nicaragua,onion,,,
+ID_1709081744568,Nicaragua,pepper,,,
+ID_1709082096028,Nicaragua,pepper,,,
+ID_1709082538046,Nicaragua,pepper,,,
+ID_1709129574098,El Salvador,default,,,
+ID_1709129574098,El Salvador,default,,,
+ID_1709130147837,El Salvador,coffee,,,
+ID_1709131448172,Panamá,coffee,,,
+ID_1709131389687,Panamá,onion,,,
+ID_1709141787240,Panamá,pepper,,,
+ID_1709142745234,Panamá,pepper,,,
+ID_1709142633002,Honduras,coffee,,,
+ID_1709147033186,Panamá,onion,,,
+ID_1709147169023,Panamá,onion,,,
+ID_1709147456090,Panamá,onion,,,
+ID_1709147612891,Panamá,onion,,,
+ID_1709147834667,Panamá,onion,,,
+ID_1709148999755,Nicaragua,zucchini,,,
+ID_1709149332856,Nicaragua,pepper,,,
+ID_1709151683699,Panamá,rice,,,
+ID_1709174796799,Nicaragua,tomato,,,
+ID_1709175054807,Nicaragua,tomato,,,
+ID_1709176021148,Nicaragua,tomato,,,
+ID_1709176256309,Nicaragua,tomato,,,
+ID_1709176381087,Nicaragua,pepper,,,
+ID_1709176530901,Nicaragua,tomato,,,
+ID_1709219271234,Costa Rica,tomato,,,
+ID_1709219810086,Costa Rica,cauliflower,,,
+ID_1709220989573,Honduras,pepper,,,
+ID_1709221796394,Nicaragua,bean,,,
+ID_1709224084660,Nicaragua,maize,,,
+ID_1709226033254,Nicaragua,tomato,,,
+ID_1709226198528,Nicaragua,tomato,,,
+ID_1709226287085,Nicaragua,tomato,,,
+ID_1709227007033,Nicaragua,cabbage,,,
+ID_1709226860579,Nicaragua,bean,,,
+ID_1709229643410,Nicaragua,coffee,,,
+ID_1709230274036,Nicaragua,coffee,,,
+ID_1709238300700,Panamá,coffee,,,
+ID_1709239082893,Panamá,pepper,,,
+ID_1709246071402,Panamá,coffee,,,
+ID_1709302933343,El Salvador,tomato,,,
+ID_1709313366632,Panamá,coffee,,,
+ID_1709316587980,El Salvador,maize,,,
+ID_1709323484054,Panamá,onion,,,
+ID_1709329380411,Costa Rica,coffee,,,
+ID_1709329652656,Costa Rica,coffee,,,
+ID_1709330400959,Costa Rica,coffee,,,
+ID_1709345050601,Panamá,coffee,,,
+ID_1709346477684,Nicaragua,maize,,,
+ID_1709346637488,Nicaragua,maize,,,
+ID_1709346786060,Nicaragua,maize,,,
+ID_1709347039564,Nicaragua,cabbage,,,
+ID_1709484280648,Honduras,maize,,,
+ID_1709484438495,Honduras,maize,,,
+ID_1709510875983,Honduras,tomato,,,
+ID_1709594343909,Panamá,coffee,,,
+ID_1709640604156,Panamá,coffee,,,
+ID_1709640919081,Panamá,potato,,,
+ID_1709641083830,Panamá,potato,,,
+ID_1709654411467,El Salvador,tomato,,,
+ID_1709672900122,El Salvador,tomato,,,
+ID_1709673089317,El Salvador,tomato,,,
+ID_1709673639894,El Salvador,maize,,,
+ID_1709673834597,El Salvador,maize,,,
+ID_1709678745915,El Salvador,maize,,,
+ID_1709678871673,El Salvador,zucchini,,,
+ID_1709678987047,El Salvador,bean,,,
+ID_1709679057848,El Salvador,bean,,,
+ID_1709679116740,El Salvador,cucumber,,,
+ID_1709679482122,El Salvador,pepper,,,
+ID_1709679608956,El Salvador,tomato,,,
+ID_1709680160780,El Salvador,cucumber,,,
+ID_1709680301799,El Salvador,tomato,,,
+ID_1709680250042,El Salvador,cucumber,,,
+ID_1709680367549,El Salvador,tomato,,,
+ID_1709680636112,El Salvador,tomato,,,
+ID_1709680878204,El Salvador,pepper,,,
+ID_1709681054188,El Salvador,coffee,,,
+ID_1709681277348,El Salvador,cucumber,,,
+ID_1709681306192,El Salvador,maize,,,
+ID_1709681306192,El Salvador,maize,,,
+ID_1709681786171,El Salvador,coffee,,,
+ID_1709695347463,Nicaragua,maize,,,
+ID_1709695527426,Nicaragua,tomato,,,
+ID_1709695689898,Nicaragua,tomato,,,
+ID_1709695846059,Nicaragua,tomato,,,
+ID_1709695846059,Nicaragua,tomato,,,
+ID_1709696210208,Nicaragua,tomato,,,
+ID_1709701715097,Panamá,coffee,,,
+ID_1709747688785,Panamá,cabbage,,,
+ID_1709747688785,Panamá,cabbage,,,
+ID_1709749356104,Nicaragua,tomato,,,
+ID_1709749496857,Nicaragua,tomato,,,
+ID_1709749624898,Nicaragua,tomato,,,
+ID_1709750961380,Panamá,coffee,,,
+ID_1709751470283,El Salvador,default,,,
+ID_1709751663257,El Salvador,tomato,,,
+ID_1709751789243,El Salvador,default,,,
+ID_1709751916894,El Salvador,default,,,
+ID_1709752092815,El Salvador,default,,,
+ID_1709752222457,El Salvador,default,,,
+ID_1709752388974,El Salvador,default,,,
+ID_1709752541977,El Salvador,default,,,
+ID_1709752811336,El Salvador,default,,,
+ID_1709750961380,Panamá,coffee,,,
+ID_1709750961380,Panamá,coffee,,,
+ID_1709820534885,El Salvador,potato,,,
+ID_1709820717226,El Salvador,cabbage,,,
+ID_1709820808354,El Salvador,tomato,,,
+ID_1709859591658,Honduras,cucumber,,,
+ID_1709860062975,Honduras,tomato,,,
+ID_1709860786281,Honduras,cabbage,,,
+ID_1709910982497,Panamá,tomato,,,
+ID_1709911183747,Panamá,tomato,,,
+ID_1709911304037,Panamá,tomato,,,
+ID_1709911304037,Panamá,tomato,,,
+ID_1709911729037,Panamá,tomato,,,
+ID_1709912053308,Panamá,tomato,,,
+ID_1709912701824,Panamá,tomato,,,
+ID_1709913287086,Panamá,tomato,,,
+ID_1709923710612,Panamá,tomato,,,
+ID_1709923802399,Panamá,onion,,,
+ID_1709924019729,Panamá,onion,,,
+ID_1709924153890,Panamá,onion,,,
+ID_1709924312861,Panamá,tomato,,,
+ID_1709928806247,Panamá,onion,,,
+ID_1709928909495,Panamá,onion,,,
+ID_1709929138331,Panamá,onion,,,
+ID_1709929349348,Panamá,onion,,,
+ID_1709929649059,Panamá,onion,,,
+ID_1709931727497,Panamá,coffee,,,
+ID_1709931909356,Panamá,coffee,,,
+ID_1709932196753,Panamá,potato,,,
+ID_1710024994938,Nicaragua,zucchini,,,
+ID_1710025347049,Nicaragua,zucchini,,,
+ID_1710108702813,Nicaragua,potato,,,
+ID_1710108888891,Nicaragua,pepper,,,
+ID_1710176769262,Panamá,coffee,,,
+ID_1710188371968,El Salvador,default,,,
+ID_1710188494381,El Salvador,default,,,
+ID_1710188592755,El Salvador,default,,,
+ID_1710188827230,El Salvador,tomato,,,
+ID_1710189294712,El Salvador,tomato,,,
+ID_1710191839798,El Salvador,tomato,,,
+ID_1710191924051,El Salvador,tomato,,,
+ID_1710192193545,El Salvador,cucumber,,,
+ID_1710218890866,Nicaragua,pepper,,,
+ID_1710219047001,Nicaragua,tomato,,,
+ID_1710219205421,Nicaragua,tomato,,,
+ID_1710219486496,Nicaragua,tomato,,,
+ID_1710219670203,Nicaragua,tomato,,,
+ID_1710219850805,Nicaragua,tomato,,,
+ID_1710259127717,Panamá,potato,,,
+ID_1710259264848,Panamá,cabbage,,,
+ID_1710259516718,Panamá,potato,,,
+ID_1710259626086,Panamá,cabbage,,,
+ID_1710265511682,El Salvador,rice,,,
+ID_1710279023549,El Salvador,maize,,,
+ID_1710279402293,El Salvador,cucumber,,,
+ID_1710279538890,El Salvador,pepper,,,
+ID_1710293165722,Honduras,onion,,,
+ID_1710330887263,El Salvador,tomato,,,
+ID_1710427966730,El Salvador,maize,,,
+ID_1710429934696,El Salvador,tomato,,,
+ID_1710430830384,El Salvador,pepper,,,
+ID_1710434844541,El Salvador,cucumber,,,
+ID_1710447807965,Panamá,maize,,,
+ID_1710471084945,Costa Rica,coffee,,,
+ID_1710471263080,Costa Rica,coffee,,,
+ID_1710471577657,Costa Rica,coffee,,,
+ID_1710687819156,Honduras,bean,,,
+ID_1710852831454,Panamá,onion,,,
+ID_1710852977792,Panamá,tomato,,,
+ID_1711036950601,Panamá,coffee,,,
+ID_1711038621933,Panamá,coffee,,,
+ID_1711307829665,Nicaragua,cucumber,,,
+ID_1711380186735,Guatemala,pepper,,,
+ID_1711507647293,Panamá,onion,,,
+ID_1711558441531,Honduras,onion,,,
+ID_1712027770452,Honduras,tomato,,,
+ID_1712027770452,Honduras,tomato,,,
+ID_1712028148704,Honduras,tomato,,,
+ID_1712063488870,El Salvador,maize,,,
+ID_1712066808763,Panamá,onion,,,
+ID_1712066939146,Panamá,onion,,,
+ID_1712067022619,Panamá,onion,,,
+ID_1712067595302,Panamá,onion,,,
+ID_1712067737461,Panamá,onion,,,
+ID_1712067841815,Panamá,onion,,,
+ID_1712067955075,Panamá,onion,,,
+ID_1712068001858,Panamá,onion,,,
+ID_1712156019986,Panamá,tomato,,,
+ID_1712174549106,Panamá,tomato,,,
+ID_1712174671917,Panamá,tomato,,,
+ID_1712253261896,Honduras,onion,,,
+ID_1712253718793,Guatemala,pepper,,,
+ID_1712254310782,Honduras,cucumber,,,
+ID_1712341679433,Honduras,tomato,,,
+ID_1712341878680,Honduras,tomato,,,
+ID_1712584470379,Nicaragua,tomato,,,
+ID_1712584470379,Nicaragua,tomato,,,
