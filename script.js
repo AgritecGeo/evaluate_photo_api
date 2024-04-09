@@ -38,8 +38,7 @@ function mostrarImagenes(data) {
         imgDiv.innerHTML = `
             <div>Nombre: imagen_${imagen['id']}.png</div>
             <div>País: ${imagen['pais']}</div>
-            <div>Cultivo: ${imagen['cultivo']}</div>
-            <a href="${imageURL}" target="_blank"><img src="${imageURL}" alt="${imagen['cultivo']}" class="image"></a>
+            <a href="${imageURL}" target="_blank"><img src="${imageURL}" alt="Imagen" class="image"></a>
             <textarea placeholder="Añade un comentario..."></textarea>
         `;
         imgContainer.appendChild(imgDiv);
@@ -53,23 +52,30 @@ function filtrarPorPais() {
 }
 
 function guardarComentarios() {
-    const comentarios = [];
+    let datosCSV = 'Nombre Imagen,País,Fecha,Comentario\n'; // Encabezados del CSV
     document.querySelectorAll('.img-box').forEach(box => {
         const nombreImagen = box.children[0].textContent.replace('Nombre: ', '');
         const comentario = box.querySelector('textarea').value;
         const pais = box.children[1].textContent.replace('País: ', '');
         const fecha = new Date().toISOString();
-        
+
         if (comentario) {
-            comentarios.push({nombreImagen, pais, fecha, comentario});
+            datosCSV += `"${nombreImagen}","${pais}","${fecha}","${comentario}"\n`;
         }
     });
 
-    console.log("Comentarios para guardar:", comentarios);
-    // Aquí deberías implementar la lógica para enviar estos datos a un servidor o guardarlos en algún lugar.
-    // Mostrar el banner de "Evaluación guardada".
+    const blob = new Blob([datosCSV], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'evaluaciones.csv';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+
     document.getElementById('banner').style.display = 'block';
     setTimeout(() => {
         document.getElementById('banner').style.display = 'none';
-    }, 3000); // El banner se ocultará después de 3 segundos.
+    }, 3000);
 }
