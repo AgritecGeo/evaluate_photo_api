@@ -1,13 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
     cargarImagenesDesdeCSV();
+    document.getElementById('accion').addEventListener('click', filtrarPorPais);
+    document.getElementById('guardar').addEventListener('click', guardarComentarios);
 });
 
 function cargarImagenesDesdeCSV() {
     fetch('tabla_documentacion.csv')
         .then(response => response.text())
         .then(csvText => {
-            const imagenes = parseCSV(csvText);
-            mostrarImagenes(imagenes);
+            window.imagenes = parseCSV(csvText);
+            mostrarImagenes(window.imagenes);
         })
         .catch(err => console.error('Error al cargar y parsear el CSV:', err));
 }
@@ -27,20 +29,47 @@ function parseCSV(csvText) {
 
 function mostrarImagenes(data) {
     const imgContainer = document.getElementById('img-container');
-    imgContainer.innerHTML = ''; // Limpia el contenedor antes de añadir nuevas imágenes
+    imgContainer.innerHTML = '';
 
     data.forEach(imagen => {
         const imgDiv = document.createElement('div');
         imgDiv.classList.add('img-box');
-        // Asegúrate de ajustar la URL de la imagen según la ubicación y el nombre real de tus archivos de imagen
-        const imageURL = `https://filedn.com/lRAMUKU4tN3HUnQqI5npg4H/Plantix/Imagenes/imagen_${imagen.id}.png`;
+        const imageURL = `https://filedn.com/lRAMUKU4tN3HUnQqI5npg4H/Plantix/Imagenes/imagen_${imagen['id']}.png`;
         imgDiv.innerHTML = `
-            <div><strong>Nombre:</strong> ${imagen.id}</div>
-            <div><strong>País:</strong> ${imagen.pais}</div>
-            <div><strong>Cultivo:</strong> ${imagen.cultivo}</div>
-            <a href="${imageURL}" target="_blank"><img src="${imageURL}" alt="Imagen de ${imagen.cultivo}" class="image"></a>
+            <div>Nombre: imagen_${imagen['id']}.png</div>
+            <div>País: ${imagen['pais']}</div>
+            <div>Cultivo: ${imagen['cultivo']}</div>
+            <a href="${imageURL}" target="_blank"><img src="${imageURL}" alt="${imagen['cultivo']}" class="image"></a>
             <textarea placeholder="Añade un comentario..."></textarea>
         `;
         imgContainer.appendChild(imgDiv);
     });
+}
+
+function filtrarPorPais() {
+    const paisSeleccionado = document.getElementById('pais').value;
+    const imagenesFiltradas = window.imagenes.filter(imagen => imagen.pais === paisSeleccionado || paisSeleccionado === 'default');
+    mostrarImagenes(imagenesFiltradas);
+}
+
+function guardarComentarios() {
+    const comentarios = [];
+    document.querySelectorAll('.img-box').forEach(box => {
+        const nombreImagen = box.children[0].textContent.replace('Nombre: ', '');
+        const comentario = box.querySelector('textarea').value;
+        const pais = box.children[1].textContent.replace('País: ', '');
+        const fecha = new Date().toISOString();
+        
+        if (comentario) {
+            comentarios.push({nombreImagen, pais, fecha, comentario});
+        }
+    });
+
+    console.log("Comentarios para guardar:", comentarios);
+    // Aquí deberías implementar la lógica para enviar estos datos a un servidor o guardarlos en algún lugar.
+    // Mostrar el banner de "Evaluación guardada".
+    document.getElementById('banner').style.display = 'block';
+    setTimeout(() => {
+        document.getElementById('banner').style.display = 'none';
+    }, 3000); // El banner se ocultará después de 3 segundos.
 }
