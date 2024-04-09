@@ -2,8 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
     cargarImagenesDesdeCSV();
 });
 
+// Función para cargar y mostrar imágenes desde datos CSV
 function cargarImagenesDesdeCSV() {
-    fetch('https://raw.githubusercontent.com/agritecgeo/evaluate_photo_api/main/tabla_documentacion.csv')
+    fetch('tabla_documentacion.csv')
         .then(response => response.text())
         .then(csvText => {
             const imagenes = parseCSV(csvText);
@@ -12,34 +13,32 @@ function cargarImagenesDesdeCSV() {
         .catch(err => console.error('Error al cargar y parsear el CSV:', err));
 }
 
+// Función para parsear texto CSV y convertirlo a objetos de JavaScript
 function parseCSV(csvText) {
     const lines = csvText.trim().split('\n');
-    const headers = lines.shift().split(',').map(header => header.trim());
+    const headers = lines.shift().split(',');
+
     return lines.map(line => {
-        const data = line.split(',').map(cell => cell.trim());
-        return headers.reduce((obj, header, index) => {
-            obj[header] = data[index] || ''; // Asigna una cadena vacía si el dato es undefined
+        const data = line.split(',');
+        return headers.reduce((obj, nextKey, index) => {
+            obj[nextKey] = data[index];
             return obj;
         }, {});
     });
 }
 
+// Función para mostrar imágenes en la página
 function mostrarImagenes(data) {
     const imgContainer = document.getElementById('img-container');
-    imgContainer.innerHTML = ''; // Limpia el contenedor antes de añadir nuevos elementos
+    imgContainer.innerHTML = ''; // Limpia el contenedor antes de añadir nuevas imágenes
 
     data.forEach(imagen => {
-        if (imagen.nombre) { // Verifica que haya un nombre de imagen para mostrar
-            const imgDiv = document.createElement('div');
-            imgDiv.classList.add('img-box');
-
-            const imageURL = `https://filedn.com/lRAMUKU4tN3HUnQqI5npg4H/Plantix/Imagenes/${encodeURIComponent(imagen.nombre)}`;
-            imgDiv.innerHTML = `
-                <div>Nombre: ${imagen.nombre}</div>
-                <a href="${imageURL}" target="_blank">Ver imagen</a>
-                <textarea placeholder="Añade un comentario..."></textarea>
-            `;
-            imgContainer.appendChild(imgDiv);
-        }
+        const imgDiv = document.createElement('div');
+        imgDiv.classList.add('img-box');
+        imgDiv.innerHTML = `
+            <img src="https://filedn.com/lRAMUKU4tN3HUnQqI5npg4H/Plantix/Imagenes/imagen_${imagen['ID_1707337378022']}.png" alt="${imagen['cultivo']}" class="image">
+            <textarea placeholder="Añade un comentario..."></textarea>
+        `;
+        imgContainer.appendChild(imgDiv);
     });
 }
