@@ -52,7 +52,8 @@ function filtrarPorPais() {
 }
 
 function guardarComentarios() {
-    let datosCSV = 'Nombre Imagen,País,Fecha,Comentario\n'; // Encabezados del CSV
+    let datosCSV = 'Nombre Imagen,País,Fecha,Comentario,Evaluador\n'; // Agrega el encabezado para el evaluador
+    const evaluadorSeleccionado = document.getElementById('evaluador').value; // Obtiene el nombre del evaluador seleccionado
     document.querySelectorAll('.img-box').forEach(box => {
         const nombreImagen = box.children[0].textContent.replace('Nombre: ', '');
         const comentario = box.querySelector('textarea').value;
@@ -60,7 +61,7 @@ function guardarComentarios() {
         const fecha = new Date().toISOString();
 
         if (comentario) {
-            datosCSV += `"${nombreImagen}","${pais}","${fecha}","${comentario}"\n`;
+            datosCSV += `"${nombreImagen}","${pais}","${fecha}","${comentario}","${evaluadorSeleccionado}"\n`;
         }
     });
 
@@ -69,13 +70,13 @@ function guardarComentarios() {
 
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'evaluaciones.csv';
-    document.body.appendChild(a);
+    a.download = 'evaluaciones.csv'; // Nombre del archivo para descargar
+    document.body.appendChild(a); // Se requiere añadir el enlace al documento para que funcione en Firefox
     a.click();
-    document.body.removeChild(a);
+    document.body.removeChild(a); // Limpiar: quitar el enlace del documento
 
     document.getElementById('banner').style.display = 'block';
     setTimeout(() => {
         document.getElementById('banner').style.display = 'none';
-    }, 3000);
+    }, 3000); // El banner se ocultará después de 3 segundos.
 }
