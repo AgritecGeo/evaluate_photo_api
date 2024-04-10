@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     cargarImagenesDesdeCSV();
     document.getElementById('accion').addEventListener('click', filtrarPorPais);
-    document.getElementById('guardar').addEventListener('click', guardarComentarios);
 });
 
 function cargarImagenesDesdeCSV() {
@@ -31,7 +30,7 @@ function mostrarImagenes(data) {
     const imgContainer = document.getElementById('img-container');
     imgContainer.innerHTML = '';
 
-    data.forEach(imagen => {
+    data.forEach((imagen, index) => {
         const imgDiv = document.createElement('div');
         imgDiv.classList.add('img-box');
         const imageURL = `https://filedn.com/lRAMUKU4tN3HUnQqI5npg4H/Plantix/Imagenes/imagen_${imagen['id']}.png`;
@@ -40,6 +39,7 @@ function mostrarImagenes(data) {
             <div>País: ${imagen['pais']}</div>
             <a href="${imageURL}" target="_blank"><img src="${imageURL}" alt="Imagen" class="image"></a>
             <textarea placeholder="Añade un comentario..."></textarea>
+            <button onclick="guardarComentario(${index})">Guardar</button>
         `;
         imgContainer.appendChild(imgDiv);
     });
@@ -51,32 +51,22 @@ function filtrarPorPais() {
     mostrarImagenes(imagenesFiltradas);
 }
 
-function guardarComentarios() {
-    let datosCSV = 'Nombre Imagen,País,Fecha,Comentario,Evaluador\n'; // Agrega el encabezado para el evaluador
-    const evaluadorSeleccionado = document.getElementById('evaluador').value; // Obtiene el nombre del evaluador seleccionado
-    document.querySelectorAll('.img-box').forEach(box => {
-        const nombreImagen = box.children[0].textContent.replace('Nombre: ', '');
-        const comentario = box.querySelector('textarea').value;
-        const pais = box.children[1].textContent.replace('País: ', '');
-        const fecha = new Date().toISOString();
+function guardarComentario(index) {
+    const imagen = window.imagenes[index];
+    const imgBox = document.querySelectorAll('.img-box')[index];
+    const comentario = imgBox.querySelector('textarea').value;
+    const evaluador = document.getElementById('evaluador').value;
+    const fecha = new Date().toISOString();
 
-        if (comentario) {
-            datosCSV += `"${nombreImagen}","${pais}","${fecha}","${comentario}","${evaluadorSeleccionado}"\n`;
-        }
-    });
+    const datosCSV = `Nombre Imagen,País,Fecha,Comentario,Evaluador\n"${imagen.id}","${imagen.pais}","${fecha}","${comentario}","${evaluador}"`;
 
     const blob = new Blob([datosCSV], { type: 'text/csv' });
     const url = URL.createObjectURL(blob);
-
+    
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'evaluaciones.csv'; // Nombre del archivo para descargar
-    document.body.appendChild(a); // Se requiere añadir el enlace al documento para que funcione en Firefox
+    a.download = `evaluacion_${imagen.id}.csv`;
+    document.body.appendChild(a);
     a.click();
-    document.body.removeChild(a); // Limpiar: quitar el enlace del documento
-
-    document.getElementById('banner').style.display = 'block';
-    setTimeout(() => {
-        document.getElementById('banner').style.display = 'none';
-    }, 3000); // El banner se ocultará después de 3 segundos.
+    document.body.removeChild(a);
 }
