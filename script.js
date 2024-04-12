@@ -1,72 +1,109 @@
 document.addEventListener('DOMContentLoaded', function() {
-    cargarImagenesDesdeCSV();
+    cargarImagenesDesdeGCP();
     document.getElementById('accion').addEventListener('click', filtrarPorPais);
 });
 
-function cargarImagenesDesdeCSV() {
-    fetch('tabla_documentacion.csv')
-        .then(response => response.text())
-        .then(csvText => {
-            window.imagenes = parseCSV(csvText);
-            mostrarImagenes(window.imagenes);
+
+/*
+
+// Función para cargar las imágenes desde la API en GCP
+function cargarImagenesDesdeGCP() {
+    fetch('https://us-central1-agritecgeo-analytics.cloudfunctions.net/plantix-evaluate-photo')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
         })
-        .catch(err => console.error('Error al cargar y parsear el CSV:', err));
+        .then(data => {
+            // Asegúrate de que data es un array y utiliza esos datos para mostrar imágenes
+            console.log(data);
+            const imagenes = Array.isArray(data) ? data : [];
+            window.imagenes = imagenes;  // Almacenar globalmente para uso en filtrado
+            mostrarImagenes(imagenes);
+        })
+        .catch(err => console.error('Error al cargar las imágenes desde GCP:', err));
+}
+*/
+
+
+function cargarImagenesDesdeGCP() {
+    fetch('https://us-central1-agritecgeo-analytics.cloudfunctions.net/plantix-evaluate-photo')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log(data);
+            const imagenes = JSON.parse(data);
+            window.imagenes = imagenes;
+            mostrarImagenes(imagenes);
+        })
+        .catch(err => console.error('Error al cargar las imágenes desde GCP:', err));
 }
 
-function parseCSV(csvText) {
-    const lines = csvText.trim().split('\n');
-    const headers = lines.shift().split(',');
 
-    return lines.map(line => {
-        const data = line.split(',');
-        return headers.reduce((obj, nextKey, index) => {
-            obj[nextKey] = data[index];
-            return obj;
-        }, {});
-    });
-}
-
-function mostrarImagenes(data) {
+// Función para mostrar las imágenes en la página
+function mostrarImagenes(imagenes) {
     const imgContainer = document.getElementById('img-container');
     imgContainer.innerHTML = '';
-    window.imagenesFiltradas = data; // Almacenar las imágenes filtradas para su uso en guardarComentario.
 
-    data.forEach((imagen, index) => {
+    imagenes.forEach(imagen => {
         const imgDiv = document.createElement('div');
         imgDiv.classList.add('img-box');
-        const imageURL = `https://filedn.com/lRAMUKU4tN3HUnQqI5npg4H/Plantix/Imagenes/imagen_${imagen['id']}.png`;
+        const imageURL = imagen.url_imagen || 'https://via.placeholder.com/150'; // Proporcionar una imagen por defecto
         imgDiv.innerHTML = `
-            <div>Nombre: imagen_${imagen['id']}.png</div>
-            <div>País: ${imagen['pais']}</div>
-            <a href="${imageURL}" target="_blank"><img src="${imageURL}" alt="Imagen" class="image"></a>
+            <div>Nombre: ${imagen.id || 'Desconocido'}</div>
+            <div>País: ${imagen.pais || 'Desconocido'}</div>
+            <a href="${imageURL}" target="_blank"><img src="${imageURL}" alt="Imagen de ${imagen.cultivo || 'Cultivo Desconocido'}" class="image"></a>
             <textarea placeholder="Añade un comentario..."></textarea>
-            <button onclick="guardarComentario(${index})">Guardar</button>
+            <button onclick="guardarComentario('${imagen.id}')">Guardar</button>
         `;
         imgContainer.appendChild(imgDiv);
     });
 }
 
+// Función para filtrar imágenes por país seleccionado en un dropdown
 function filtrarPorPais() {
     const paisSeleccionado = document.getElementById('pais').value;
     const imagenesFiltradas = window.imagenes.filter(imagen => imagen.pais === paisSeleccionado || paisSeleccionado === 'default');
     mostrarImagenes(imagenesFiltradas);
 }
 
-function guardarComentario(index) {
-    const imagen = window.imagenesFiltradas ? window.imagenesFiltradas[index] : window.imagenes[index];
-    const comentario = document.querySelectorAll('.img-box')[index].querySelector('textarea').value;
+// Función para guardar el comentario de una imagen específica
+function guardarComentario(imageId) {
+    const imgBox = document.querySelector(`button[onclick="guardarComentario('${imageId}')"]`).parentNode;
+    const comentario = imgBox.querySelector('textarea').value;
     const evaluador = document.getElementById('evaluador').value;
     const fecha = new Date().toISOString();
 
-    const datosCSV = `Nombre Imagen,País,Fecha,Comentario,Evaluador\n"${imagen['id']}","${imagen['pais']}","${fecha}","${comentario}","${evaluador}"`;
+    const datosParaEnviar = {
+        image_id: imageId,
+        pais: imgBox.querySelector('div:nth-child(2)').textContent.replace('País: ', ''),
+        fecha: fecha,
+        comment: comentario,
+        evaluador: evaluador
+    };
 
-    const blob = new Blob([datosCSV], { type: 'text/csv' });
-    const url = URL.createObjectURL(blob);
-
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `evaluacion_${imagen['id']}.csv`; // Asegura que el nombre del archivo sea único
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
+    fetch('https://us-central1-agritecgeo-analytics.cloudfunctions.net/upload-comments-plantix', {
+        method: 'POST',
+        body: JSON.stringify(datosParaEnviar),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => {
+        if (response.ok) {
+            console.log('Comentario guardado correctamente.');
+            document.getElementById('banner').style.display = 'block';
+            //setTimeout(() => document.getElementById('banner').style.display = 'none', 3000);
+        } else {
+            throw new Error('Error al guardar el comentario.');
+        }
+    })
+    .catch(err => {
+        console.error('Error al guardar el comentario:', err);
+    });
 }
